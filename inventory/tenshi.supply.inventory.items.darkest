@@ -1,0 +1,3 @@
+inventory_item: .type "supply"		.id "tenshi_bomb"			.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
+inventory_item: .type "supply"		.id "tenshi_bomb_camp"		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects tenshi_camp_0 tenshi_camp_1 tenshi_camp_3 .wait_for_item_use_to_finish true
+

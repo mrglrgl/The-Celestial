@@ -1,0 +1,128 @@
+{
+   "entries":
+   [
+      {
+         "id" : "tenshi_trinket_pebble",
+         "buffs" : 
+         [
+            "tenshi_pebble_prot"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_coin",
+         "buffs" : 
+         [
+            "tenshi_coin_dmg_min",
+			"tenshi_coin_dmg_max",
+			"tenshi_coin_prot",
+			"tenshi_coin_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "uncommon",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_spooky",
+         "buffs" : 
+         [
+            "tenshi_spooky_eldritch_min",
+			"tenshi_spooky_eldritch_max",
+			"tenshi_spooky_unholy_min",
+			"tenshi_spooky_unholy_max",
+			"tenshi_spooky_acc"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_catfish",
+         "buffs" : 
+         [
+            "tenshi_catfish_stunr",
+			"tenshi_catfish_debuffr"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "tenshi_catfish_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_scarf",
+         "buffs" : 
+         [
+            "tenshi_scarf_spd",
+			"tenshi_scarf_dmg_min",
+			"tenshi_scarf_dmg_max"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "tenshi_catfish_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_sake",
+         "buffs" : 
+         [
+            "tenshi_sake_acc",
+			"tenshi_sake_stress_healing",
+			"tenshi_sake_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "tenshi_gift_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_shion",
+         "buffs" : 
+         [
+            "tenshi_shion_prot",
+			"tenshi_shion_critr",
+			"tenshi_shion_crit"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "tenshi_gift_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      }
+	]
+}

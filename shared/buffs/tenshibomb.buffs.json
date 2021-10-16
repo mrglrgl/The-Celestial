@@ -1,0 +1,86 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "tenshi_bomb_use",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_rule_mode"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "tenshi_bomb_count_skill",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_count_used",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_bomb_large",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_rule_mode"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "tenshi_bomb_count_large",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_count_limit",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_rule_mode"
+         }
+      },
+	  {
+         "id" : "tenshi_bomb_small",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_rule_mode"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "tenshi_bomb_count_small",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_count_limit",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_rule_mode"
+         }
+      }
+   ]
+}

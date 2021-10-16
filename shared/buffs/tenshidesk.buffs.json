@@ -1,0 +1,408 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "tenshi_hisou_shred_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_hisou_shred_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hisou_shred_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_hisou_shred_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hisou_shred_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_hisou_shred_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hisou_shred_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_hisou_shred_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hisou_shred_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_hisou_shred_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_heaven_shred_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_heaven_shred_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_heaven_shred_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_heaven_shred_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_heaven_shred_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_heaven_shred_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_heaven_shred_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_heaven_shred_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_heaven_shred_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_heaven_shred_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_guard_rules_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_guard_rules_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_grace_riposte_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_grace_riposte_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_grace_riposte_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_grace_riposte_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_grace_riposte_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_grace_riposte_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_grace_riposte_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_grace_riposte_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_grace_riposte_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_grace_riposte_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_is_bomb_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_is_bomb_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_A",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_B1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_B2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_B3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_B4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_B5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_pillars_Desk_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_pillars_desk_C",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_A",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_B1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_B2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_B3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_B4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_earthquake_Desk_B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_earthquake_desk_B5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_strip_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_strip_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}
