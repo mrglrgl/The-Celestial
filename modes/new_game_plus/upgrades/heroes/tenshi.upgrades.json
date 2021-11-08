@@ -262,7 +262,7 @@
          ]
       },
       {
-         "id" : "tenshi.t_taunt",
+         "id" : "tenshi.t_eruption",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -286,7 +286,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "tenshi.t_taunt", "requirement_code" : "0" },
+                  { "tree_id" : "tenshi.t_eruption", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -299,7 +299,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "tenshi.t_taunt", "requirement_code" : "1" },
+                  { "tree_id" : "tenshi.t_eruption", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -312,7 +312,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "tenshi.t_taunt", "requirement_code" : "2" },
+                  { "tree_id" : "tenshi.t_eruption", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -325,7 +325,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "tenshi.t_taunt", "requirement_code" : "3" },
+                  { "tree_id" : "tenshi.t_eruption", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5

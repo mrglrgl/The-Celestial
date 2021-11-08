@@ -77,6 +77,12 @@ heroes/tenshi/fx/tenshi.sprite.smite.skel
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.atlas
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.png
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.skel
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.png
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.png
+heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.skel
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.atlas
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.png
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.skel
@@ -125,9 +131,9 @@ heroes/tenshi/tenshi_guild_header.png
 raid/camping/tenshi.camping_skills.json
 shared/buffs/tenshi.buffs.json
 shared/buffs/tenshibomb.buffs.json
+shared/buffs/tenshicamp.buffs.json
 shared/buffs/tenshidesk.buffs.json
 shared/buffs/tenshisets.buffs.json
-shared/buffs/tenshitaunt.buffs.json
 shared/buffs/tenshitrinket.buffs.json
 shared/trait/tenshi.trait_library.json
 upgrades/heroes/tenshi.upgrades.json

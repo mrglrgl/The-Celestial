@@ -132,9 +132,61 @@
          }
       },
 	  {
-         "id" : "tenshi_guard_rules_Desk",
+         "id" : "tenshi_split_Desk_1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_guard_rules_desk",
+         "stat_sub_type" : "tenshi_split_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_split_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_split_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_split_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_split_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_split_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_split_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_split_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_split_desk_5",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -210,6 +262,19 @@
          }
       },
 	  {
+         "id" : "tenshi_BasicRiposte_Limit_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_basicriposte_limit_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "tenshi_is_bomb_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "tenshi_is_bomb_desk",
@@ -223,9 +288,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_A",
+         "id" : "tenshi_ult_start_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_A",
+         "stat_sub_type" : "tenshi_ult_start_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -236,9 +301,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_B1",
+         "id" : "tenshi_ult_guardrip_1_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_B1",
+         "stat_sub_type" : "tenshi_ult_guardrip_1_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -249,9 +314,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_B2",
+         "id" : "tenshi_ult_guardrip_2_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_B2",
+         "stat_sub_type" : "tenshi_ult_guardrip_2_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -262,9 +327,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_B3",
+         "id" : "tenshi_ult_guardrip_3_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_B3",
+         "stat_sub_type" : "tenshi_ult_guardrip_3_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -275,9 +340,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_B4",
+         "id" : "tenshi_ult_guardrip_4_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_B4",
+         "stat_sub_type" : "tenshi_ult_guardrip_4_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -288,9 +353,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_B5",
+         "id" : "tenshi_ult_guardrip_5_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_B5",
+         "stat_sub_type" : "tenshi_ult_guardrip_5_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -301,9 +366,9 @@
          }
       },
 	  {
-         "id" : "tenshi_pillars_Desk_C",
+         "id" : "tenshi_ult_limit_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_pillars_desk_C",
+         "stat_sub_type" : "tenshi_ult_limit_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -382,19 +447,6 @@
          "id" : "tenshi_earthquake_Desk_B5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "tenshi_earthquake_desk_B5",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_strip_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_strip_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

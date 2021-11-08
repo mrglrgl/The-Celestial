@@ -268,7 +268,7 @@
 		{ 
 			"id" : "t_slack",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 6,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -276,6 +276,14 @@
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
 					"amount" :  30
@@ -283,26 +291,34 @@
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-                    "type": "health_heal_max_health_percent",
-                    "sub_type" : "",
-					"amount" :  0.3
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_bleed",
+					"amount" :  -0.33
 				},
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "remove_deaths_door_recovery_buffs",
-                    "sub_type" : "",
-					"amount" :  0
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_blight",
+					"amount" :  -0.33
 				},
 				{ 
-					"selection" : "party_other",
-					"requirements" : ["religious"],
-					"chance" : { "code" : "d", "amount": 1.0 },
-                    "type": "stress_damage_amount",
-                    "sub_type" : "",
-					"amount" :  10
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_stress",
+					"amount" :  0.33
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "f", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_heal",
+					"amount" :  0.33
 				}
 			],
 			"hero_classes" : ["tenshi"],

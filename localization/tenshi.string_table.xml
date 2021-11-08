@@ -14,7 +14,7 @@
     <entry id="camping_skill_name_t_wisdom"><![CDATA[CELESTIAL "WISDOM"]]></entry>
     <entry id="camping_skill_name_t_eye"><![CDATA[EYE OF HISOU]]></entry>
     <entry id="camping_skill_name_t_wander"><![CDATA[WANDER]]></entry>
-    <entry id="camping_skill_name_t_slack"><![CDATA[SLACK]]></entry>
+    <entry id="camping_skill_name_t_slack"><![CDATA["ENLIGHTENED" TRANCE]]></entry>
     <entry id="camping_skill_name_t_song"><![CDATA[CELESTIAL SONG]]></entry>
 
     <entry id="tenshi+str_bark_t_assurance"><![CDATA[Don't worry, this is nothing compared to the time that...]]></entry>
@@ -29,25 +29,25 @@
     <entry id="tenshi+str_bark_t_wander"><![CDATA[Hmmm, what's over there...?]]></entry>
     <entry id="tenshi+str_bark_t_wander"><![CDATA[Be back in a bit, I want to check something out.]]></entry>
     <entry id="tenshi+str_bark_t_wander"><![CDATA[Hey, look what I found!]]></entry>
-    <entry id="tenshi+str_bark_t_slack"><![CDATA[Just 5 more minutes... *snore*]]></entry>
+    <entry id="tenshi+str_bark_t_slack"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
     <entry id="tenshi+str_bark_t_song"><![CDATA[Lalala~]]></entry>
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Sword of Hisou]]></entry>
 	<entry id="combat_skill_name_tenshi_t_heavenblade"><![CDATA[Heavensplitter]]></entry>
-    <entry id="combat_skill_name_tenshi_t_taunt"><![CDATA[Playful Lure]]></entry>
+    <entry id="combat_skill_name_tenshi_t_eruption"><![CDATA[Violent Land]]></entry>
     <entry id="combat_skill_name_tenshi_t_grace"><![CDATA[Eyes On Me!]]></entry>
 	<entry id="combat_skill_name_tenshi_t_meteor"><![CDATA[Judgement Keystone]]></entry>
-    <entry id="combat_skill_name_tenshi_t_ward"><![CDATA[Earth & Spirit - Four Pillars]]></entry>
-	<entry id="combat_skill_name_tenshi_t_earthquake"><![CDATA[Earth Sign - Violent Motherland]]></entry>
+    <entry id="combat_skill_name_tenshi_t_ward"><![CDATA[Calamitous Ultimatum]]></entry>
+	<entry id="combat_skill_name_tenshi_t_earthquake"><![CDATA[Sword of Unletting Soil]]></entry>
     <entry id="combat_skill_name_tenshi_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_tenshi.t_hisou"><![CDATA[Sword of Hisou]]></entry>
 	<entry id="upgrade_tree_name_tenshi.t_heavenblade"><![CDATA[Heavensplitter]]></entry>
-    <entry id="upgrade_tree_name_tenshi.t_taunt"><![CDATA[Playful Lure]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_eruption"><![CDATA[Violent Land]]></entry>
     <entry id="upgrade_tree_name_tenshi.t_grace"><![CDATA[Eyes On Me!]]></entry>
 	<entry id="upgrade_tree_name_tenshi.t_meteor"><![CDATA[Judgement Keystone]]></entry>
-	<entry id="upgrade_tree_name_tenshi.t_ward"><![CDATA[Earth & Spirit - Four Pillars]]></entry>
-    <entry id="upgrade_tree_name_tenshi.t_earthquake"><![CDATA[Earth Sign - Violent Motherland]]></entry>
+	<entry id="upgrade_tree_name_tenshi.t_ward"><![CDATA[Calamitous Ultimatum]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_earthquake"><![CDATA[Sword of Unletting Soil]]></entry>
 	
 		<!-- Upgrades -->
     <entry id="tenshi_weapon_0"><![CDATA[Cracked Keystone]]></entry>
@@ -118,59 +118,69 @@
 	{colour_start|debuff}Debuff Target:{colour_end}
 	-35%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 
-				<!-- Taunt -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_strip_desk"><![CDATA[Breaks {colour_start|guard}Guard{colour_end} / {colour_start|stealth}Stealth{colour_end} / {colour_start|riposte}Riposte{colour_end}]]></entry>
+				<!-- Violent Land -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+
+
 	
 				<!-- Celestial Grace -->
-					<!-- Guard Rules -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_guard_rules_desk"><![CDATA[{colour_start|skill_unselectable}(Maintains{colour_end} {colour_start|guard}Guard{colour_end} {colour_start|skill_unselectable}on multiple allies){colour_end}]]></entry>
-	
 					<!-- Riposte -->					
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_1_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|skill_unselectable}(ACC 100 / DMG -50%% / CRIT 5%%){colour_end}]]></entry>
+	{colour_start|skill_unselectable}(ACC 95 / DMG -15%% / CRIT 4%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_2_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|skill_unselectable}(ACC 105 / DMG -50%% / CRIT 5.5%%){colour_end}]]></entry>
+	{colour_start|skill_unselectable}(ACC 100 / DMG -15%% / CRIT 6%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_3_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|skill_unselectable}(ACC 110 / DMG -50%% / CRIT 6%%){colour_end}]]></entry>
+	{colour_start|skill_unselectable}(ACC 105 / DMG -15%% / CRIT 8%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_4_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|skill_unselectable}(ACC 115 / DMG -50%% / CRIT 6.5%%){colour_end}]]></entry>
+	{colour_start|skill_unselectable}(ACC 110 / DMG -15%% / CRIT 10%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_5_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|skill_unselectable}(ACC 120 / DMG -50%% / CRIT 7%%){colour_end}]]></entry>
+	{colour_start|skill_unselectable}(ACC 115 / DMG -15%% / CRIT 12%%){colour_end}]]></entry>
 	
-				<!-- Earth Sign - Violent Motherland -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[{colour_start|riposte}Riposte Trigger Limit:{colour_end} 2]]></entry>
+	
+				<!-- Calamitous Ultimatum -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_start_desk"><![CDATA[{colour_start|guard}Guard{colour_end} Party (2 rds)
+	Self:
+	1 Blocks]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_1_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+	{colour_start|skill_unselectable}(ACC 105 / DMG -15%% / CRIT 16%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_2_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+	{colour_start|skill_unselectable}(ACC 110 / DMG -15%% / CRIT 17%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_3_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+	{colour_start|skill_unselectable}(ACC 115 / DMG -15%% / CRIT 18%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_4_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+	{colour_start|skill_unselectable}(ACC 120 / DMG -15%% / CRIT 19%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_5_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
+	{colour_start|skill_unselectable}(ACC 125 / DMG -15%% / CRIT 20%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[{colour_start|riposte}Riposte Trigger Limit:{colour_end} 3
+	{colour_start|guard}Guard{colour_end} ends if {colour_start|riposte}Limit{colour_end} is reached]]></entry>
+
+				<!-- Sword of Unletting Soil -->
     <entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_A"><![CDATA[{colour_start|harmful}Cannot CRIT{colour_end} / Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B1"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(120%%){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 120%%){colour_end}]]></entry>
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(120%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 120%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B2"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(130%%){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 130%%){colour_end}]]></entry>
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(130%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 130%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B3"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(140%%){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 140%%){colour_end}]]></entry>
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(140%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 140%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(150%%){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 150%%){colour_end}]]></entry>
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(150%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 150%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(160%%){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 160%%){colour_end}]]></entry>
-
-				<!-- Earth & Spirit - Four Pillars -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_A"><![CDATA[Self:
-	Acts last next turn / 1 Block
-	Until next turn:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_B1"><![CDATA[{colour_start|harmful}DMG Received +50%%{colour_end}
-	{colour_start|buff}Immune{colour_end} to everything except DMG and {colour_start|stress}Stress{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_B2"><![CDATA[{colour_start|harmful}DMG Received +45%%{colour_end}
-	{colour_start|buff}Immune{colour_end} to everything except DMG and {colour_start|stress}Stress{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_B3"><![CDATA[{colour_start|harmful}DMG Received +40%%{colour_end}
-	{colour_start|buff}Immune{colour_end} to everything except DMG and {colour_start|stress}Stress{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_B4"><![CDATA[{colour_start|harmful}DMG Received +35%%{colour_end}
-	{colour_start|buff}Immune{colour_end} to everything except DMG and {colour_start|stress}Stress{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_B5"><![CDATA[{colour_start|harmful}DMG Received +30%%{colour_end}
-	{colour_start|buff}Immune{colour_end} to everything except DMG and {colour_start|stress}Stress{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_pillars_desk_C"><![CDATA[{colour_start|buff}Set{colour_end} {colour_start|deathblow}Deathblow{colour_end} {colour_start|buff}resist to 87%%{colour_end}
-	{colour_start|guard}Guard{colour_end} All Allies]]></entry>
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(160%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rnd, 160%% base){colour_end}]]></entry>
 
 	
 		<!-- Bomb Stuff -->
@@ -572,15 +582,16 @@
     <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[The afterlife is harsh. Be safe.]]></entry>
     <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[Such a pity.]]></entry>
 	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Don't cry, I'm sending you next.]]></entry>
-	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[If you wanted pity, you picked the wrong person.]]></entry>
-	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[You sure are noisy for a rock!]]></entry>
+	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Just doing my job. Trust me, I don't like it either.]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[How dare you talk back to me!]]></entry>
 	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[Shut it, before I ram a Keystone into your backside!]]></entry>
 	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[SILENCE!]]></entry>
 	
 		<!-- Skill Barks -->
-	<entry id="str_tenshi_pillars_spellcard_bark"><![CDATA[Spirit Sign - Freedom from Worldly Thoughts!]]></entry>
-	<entry id="str_tenshi_pillars_spellcard_bark"><![CDATA[(That's right, focus on me. Heheh...)]]></entry>
-	<entry id="str_tenshi_pillars_spellcard_bark"><![CDATA[(Empty the mind...)]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Face me, or be crushed!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[I WILL NOT BE IGNORED!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Ignore me, and I will strike you down!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[FIGHT ME, COWARDS!]]></entry>
 	
 	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Tremble and Quake!]]></entry>
 	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Be honored, I used a spellcard on you!]]></entry>
@@ -589,6 +600,7 @@
 	
 		<!-- Crossmod Skill Reactions -->
 				<!-- Tenshi - intentionally left blank for other mods to use -->
+	<entry id="str_tenshi_ult_spellcard_react"><![CDATA[]]></entry>
 	<entry id="str_tenshi_earthquake_spellcard_react"><![CDATA[]]></entry>
 	
 				<!-- Miko by The Necromancer -->

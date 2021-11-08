@@ -42,24 +42,10 @@
          }
       },
 	  {
-         "id" : "FUMO STUN",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 5.0,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO MOVE",
+         "id" : "tenshi_split_r2_check",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
-         "amount" : 5.0,
+         "amount" : 50.0,
          "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -70,10 +56,10 @@
          }
       },
 	  {
-         "id" : "FUMO DEBUFF",
+         "id" : "tenshi_split_cleanup",
          "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 5.0,
+         "stat_sub_type" : "move",
+         "amount" : -50.0,
          "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -84,144 +70,89 @@
          }
       },
 	  {
-         "id" : "FUMO BLEED",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "bleed",
-         "amount" : 5.0,
-         "duration" : 2,
+         "id" : "tenshi_basicriposte_first_fx",
+         "stat_type":"riposte",
+         "stat_sub_type":"Tenshi Riposte Fx Fake",
+         "amount":1,
+		 "duration_type" : "combat_end",
+         "duration":1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : false,
+         "fx" : "tenshibasicripostefirstfx"
       },
 	  {
-         "id" : "FUMO BLIGHT",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : 5.0,
-         "duration" : 2,
+         "id" : "tenshi_basicriposte_second_fx",
+         "stat_type":"riposte",
+         "stat_sub_type":"Tenshi Riposte Fx Fake",
+         "amount":1,
+		 "duration_type" : "combat_end",
+         "duration":1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : false,
+         "fx" : "tenshibasicripostesecondfx"
       },
 	  {
-         "id" : "FUMO DISEASE",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "disease",
-         "amount" : 5.0,
-         "duration" : 2,
+         "id" : "tenshi_scr_threeleft_fx",
+         "stat_type":"riposte",
+         "stat_sub_type":"Tenshi Riposte Fx Fake",
+         "amount":1,
+		 "duration_type" : "combat_end",
+         "duration":1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : false,
+         "fx" : "tenshibasicripostesecondfx"
       },
 	  {
-         "id" : "FUMO DMG 50",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.5,
-         "duration" : 2,
+         "id" : "tenshi_scr_twoleft_fx",
+         "stat_type":"riposte",
+         "stat_sub_type":"Tenshi Riposte Fx Fake",
+         "amount":1,
+		 "duration_type" : "combat_end",
+         "duration":1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : false,
+         "fx" : "tenshibasicripostefirstfx"
       },
 	  {
-         "id" : "FUMO DMG 45",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.45,
-         "duration" : 2,
+         "id" : "tenshi_scr_oneleft_fx",
+         "stat_type":"riposte",
+         "stat_sub_type":"Tenshi Riposte Fx Fake",
+         "amount":1,
+		 "duration_type" : "combat_end",
+         "duration":1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO DMG 40",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.4,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO DMG 35",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.35,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO DMG 30",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.3,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO SPD",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : -99,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "FUMO DEATHBLOW",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "death_blow",
-         "amount" : 5.0,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         },
+		 "has_description" : false,
+         "fx" : "tenshibasicripostesecondfx"
       }
    ]
 }

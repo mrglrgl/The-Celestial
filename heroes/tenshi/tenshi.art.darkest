@@ -14,10 +14,10 @@ armour: .name "tenshi_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "t_hisou" .icon "one" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter"
 combat_skill: .id "t_heavenblade" .icon "two" .anim "attack_sword" .fx "smite" .targchestfx "blood_splatter"
-combat_skill: .id "t_taunt" .icon "three" .anim "attack_scroll" .fx "zealous_accusation" .targheadfx "stunning_blow_target"
+combat_skill: .id "t_eruption" .icon "three" .anim "attack_scroll" .fx "zealous_accusation" .targheadfx "stunning_blow_target"
 combat_skill: .id "t_grace" .icon "four" .anim "attack_scroll" .fx "bulwark_of_faith" .can_display_performer_selection_after_turn false
 combat_skill: .id "t_meteor" .icon "five" .anim "attack_banner" .fx "zealous_accusation" .targfx "debris" .misstargfx "debris" .target_area_pos_offset 150 0
-combat_skill: .id "t_ward" .icon "six" .anim "attack_heal" .fx "bulwark_of_faith" .targfx "battle_heal_target" .can_display_performer_selection_after_turn false
+combat_skill: .id "t_ward" .icon "six" .anim "attack_scroll" .fx "bulwark_of_faith" .can_display_performer_selection_after_turn false
 combat_skill: .id "t_earthquake" .icon "seven" .anim "attack_scroll" .fx "zealous_accusation" .targfx "debris" .misstargfx "debris" .target_area_pos_offset 150 0
 				
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
