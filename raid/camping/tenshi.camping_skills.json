@@ -8,7 +8,7 @@
 	[
 		{
 
-			"id" : "t_assurance",
+			"id" : "t_catharsis",
 			"level" : 0,
 			"cost" : 2,
 			"use_limit" : 1,
@@ -16,19 +16,19 @@
 			[
 				{ 
 					"selection" : "individual",
-					"requirements" : ["not_religious"],
+					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
 					"amount" :  10
 				},
 				{ 
-					"selection" : "individual",
-					"requirements" : ["religious"],
+					"selection" : "self",
+					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  20
+					"amount" :  10
 				}							
 			],
 			"hero_classes" : ["tenshi"],
@@ -56,50 +56,26 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
                     "sub_type" : "",
-					"amount" :  0.15
+					"amount" :  0.25
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
-                    "type": "remove_bleeding",
-                    "sub_type" : "",
-					"amount" :  0
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_heal",
+					"amount" :  0.33
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "remove_poison",
-                    "sub_type" : "",
-					"amount" :  0
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 1.0 },
-                    "type": "health_heal_max_health_percent",
-                    "sub_type" : "",
-					"amount" :  0.15
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 1.0 },
-                    "type": "remove_bleeding",
-                    "sub_type" : "",
-					"amount" :  0
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "f", "amount": 1.0 },
-                    "type": "remove_poison",
+                    "type": "remove_deaths_door_recovery_buffs",
                     "sub_type" : "",
 					"amount" :  0
 				}
@@ -120,11 +96,10 @@
 				}
 			]
 		},
-
 		{
-			"id" : "t_wisdom",
+			"id" : "pep_talk",
 			"level" : 0,
-			"cost" : 1,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" : 
 			[
@@ -134,15 +109,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingStressResistBuff",
-					"amount" :  -0.2
-				},
-				{ 
-					"selection" : "individual",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 }, 
-					"type" : "buff",
-					"sub_type" : "campingACCBuff",					
-					"amount" :  -0.05
+					"amount" :  -0.15
 				}
 			],
 			"hero_classes" : ["tenshi"],
@@ -164,7 +131,7 @@
 		{ 
 			"id" : "t_eye",
 			"level" : 0,
-			"cost" : 4,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -173,48 +140,16 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
-					"sub_type" : "campingScoutingBuff",
-					"amount" :  0.20
+					"sub_type" : "tenshi_camp_macc",
+					"amount" :  0.10
 				},
 				{ 
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
-                    "sub_type" : "campingPartySurprise",
-					"amount" :  -0.20
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 0.7 }, 
-					"type" : "buff",
-					"sub_type" : "campingMonstersSurprise",
-					"amount" :  0.20
-				},
-				{ 
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 0.4 }, 
-					"type" : "buff",
-					"sub_type" : "campingDebuffResistBuff",
-					"amount" :  0.20
-				},
-				{ 
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 0.4 }, 
-					"type" : "buff",
-					"sub_type" : "campingMoveResistBuff",
-					"amount" :  0.20
-				},
-				{ 
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "f", "amount": 0.4 }, 
-					"type" : "buff",
-					"sub_type" : "campingSPDBuff",
-					"amount" :  2
+                    "sub_type" : "tenshi_camp_mcrit",
+					"amount" :  0.08
 				}
 			],
 			"hero_classes" : ["tenshi"],
@@ -234,7 +169,7 @@
 			] 
 		},
 		{ 
-			"id" : "t_wander",
+			"id" : "t_makesomebombs",
 			"level" : 0,
 			"cost" : 3,
 			"use_limit" : 1,
@@ -268,7 +203,7 @@
 		{ 
 			"id" : "t_slack",
 			"level" : 0,
-			"cost" : 6,
+			"cost" : 4,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -276,22 +211,14 @@
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-                    "type": "remove_deaths_door_recovery_buffs",
+                    "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  0
+					"amount" :  20
 				},
 				{ 
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
-                    "type": "stress_heal_amount",
-                    "sub_type" : "",
-					"amount" :  30
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "tenshi_camp_bleed",
 					"amount" :  -0.33
@@ -299,7 +226,7 @@
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 1.0 },
+					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "tenshi_camp_blight",
 					"amount" :  -0.33
@@ -307,17 +234,9 @@
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 1.0 },
+					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "tenshi_camp_stress",
-					"amount" :  0.33
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "f", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "tenshi_camp_heal",
 					"amount" :  0.33
 				}
 			],
@@ -338,27 +257,35 @@
 			] 
 		}, 
 		{ 
-			"id" : "t_song",
+			"id" : "t_protectingstones",
 			"level" : 0,
-			"cost" : 5,
+			"cost" : 4,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
 					"selection" : "party_other",
-					"requirements" : ["not_religious"],
+					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-                    "type": "stress_heal_amount",
-                    "sub_type" : "",
-					"amount" :  20
+                    "type": "buff",
+                    "sub_type" : "campingPROTBuff",
+					"amount" :  0.1
 				},
 				{ 
 					"selection" : "party_other",
-					"requirements" : ["religious"],
+					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
-                    "type": "stress_heal_amount",
-                    "sub_type" : "",
-					"amount" :  40
+                    "type": "buff",
+                    "sub_type" : "campingMoveResistBuff",
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "tenshi_camp_stunr",
+					"amount" :  0.2
 				}
 			],
 			"hero_classes" : ["tenshi"],

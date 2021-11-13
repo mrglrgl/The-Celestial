@@ -59,7 +59,7 @@ effect: .name "Tenshi Split Desk 5" .target "performer" .skill_instant true .buf
 effect: .name "Tenshi Guard" .target "target" .curio_result_type "positive" .guard 1 .duration 3 .queue true .on_hit true .on_miss true 
 effect: .name "Tenshi Clear Guard Target" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "Tenshi Clear Guard Self" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .queue true .has_description false
-effect: .name "Tenshi Riposte Reset" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi Riposte Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false .queue true
 effect: .name "Tenshi BasicRiposte Clear" .target "performer" .chance 100% .steal_buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false .queue true
 
 effect: .name "Tenshi FirstRiposte Fx" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_basicriposte_first_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true

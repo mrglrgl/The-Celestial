@@ -106,13 +106,12 @@ panels/icons_equip/trinket/inv_trinket+tenshi_trinket_sake.png
 panels/icons_equip/trinket/inv_trinket+tenshi_trinket_scarf.png
 panels/icons_equip/trinket/inv_trinket+tenshi_trinket_shion.png
 panels/icons_equip/trinket/inv_trinket+tenshi_trinket_spooky.png
-raid/camping/skill_icons/camp_skill_t_assurance.png
+raid/camping/skill_icons/camp_skill_t_catharsis.png
 raid/camping/skill_icons/camp_skill_t_eye.png
+raid/camping/skill_icons/camp_skill_t_makesomebombs.png
 raid/camping/skill_icons/camp_skill_t_peach.png
+raid/camping/skill_icons/camp_skill_t_protectingstones.png
 raid/camping/skill_icons/camp_skill_t_slack.png
-raid/camping/skill_icons/camp_skill_t_song.png
-raid/camping/skill_icons/camp_skill_t_wander.png
-raid/camping/skill_icons/camp_skill_t_wisdom.png
 campaign/provision/tenshi.provision.json
 campaign/town_events/tenshi.town_events.events.json
 fx/tenshi_snack/tenshi_snack.sprite.atlas
