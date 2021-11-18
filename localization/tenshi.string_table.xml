@@ -93,38 +93,19 @@
 	-13 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_5_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 	-15 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-	
-				<!-- Heavensplitter -->
-					<!-- Shred -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_heaven_shred_1_desk"><![CDATA[Break {colour_start|guard}Guarding{colour_end}
-	{colour_start|debuff}Debuff Target:{colour_end}
-	-20%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_heaven_shred_2_desk"><![CDATA[Break {colour_start|guard}Guarding{colour_end}
-	{colour_start|debuff}Debuff Target:{colour_end}
-	-23%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_heaven_shred_3_desk"><![CDATA[Break {colour_start|guard}Guarding{colour_end}
-	{colour_start|debuff}Debuff Target:{colour_end}
-	-27%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_heaven_shred_4_desk"><![CDATA[Break {colour_start|guard}Guarding{colour_end}
-	{colour_start|debuff}Debuff Target:{colour_end}
-	-31%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_heaven_shred_5_desk"><![CDATA[Break {colour_start|guard}Guarding{colour_end}
-	{colour_start|debuff}Debuff Target:{colour_end}
-	-35%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 
+	
 				<!-- Violent Land -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Push{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
-
-
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 	
 				<!-- Celestial Grace -->
 					<!-- Riposte -->					
@@ -140,6 +121,9 @@
 	{colour_start|skill_unselectable}(ACC 115 / DMG -15%% / CRIT +10%%){colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[{colour_start|riposte}Riposte Trigger Limit:{colour_end} 2]]></entry>
+	
+				<!-- Judgement Keystone -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_meteor_desk"><![CDATA[Target: 1 Blocks]]></entry>
 	
 				<!-- Calamitous Ultimatum -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_start_desk"><![CDATA[{colour_start|guard}Guard{colour_end} Party (2 rds)
@@ -609,6 +593,11 @@
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Fine, just leave some for me.)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(If they can't fight back, where's the fun?)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Don't kill ALL of them, okay?)]]></entry>
+	
+		<!-- Buff shit -->
+		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry> 
 	
 
   </language>

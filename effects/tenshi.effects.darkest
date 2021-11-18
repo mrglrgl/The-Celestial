@@ -15,22 +15,16 @@ effect: .name "Hisou Shred 5 Desk" .target "performer" .skill_instant true .buff
 
 
 //// Heavensplitter \\\\
-effect: .name "Heaven Guardbreak" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false .has_description false
-
-effect: .name "Heaven Shred 1" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -20%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Heaven Shred 2" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -23%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Heaven Shred 3" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -27%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Heaven Shred 4" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -31%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Heaven Shred 5" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -35%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-
-effect: .name "Heaven 1 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_heaven_shred_1_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Heaven 2 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_heaven_shred_2_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Heaven 3 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_heaven_shred_3_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Heaven 4 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_heaven_shred_4_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Heaven 5 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_heaven_shred_5_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Heaven MSPD 1" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 2" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 3" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 4" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 5" .target "target" .chance 150% .combat_stat_buff 1 .speed_rating_add -7	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
 
 
 //// Violent Land \\\\
+effect: .name "Tenshi Split Guardbreak" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
+
 effect: .name "Tenshi Split Forward 1"  .target "target" .chance 110%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
 effect: .name "Tenshi Split Forward 2"  .target "target" .chance 120%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
 effect: .name "Tenshi Split Forward 3"  .target "target" .chance 130%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
@@ -94,6 +88,10 @@ effect: .name "Grace 5 Desk" .target "performer" .skill_instant true .buff_ids "
 
 
 //// Judgement Keystone \\\\
+effect: .name "Tenshi Meteor Desk" .target "performer" .skill_instant true .buff_ids "tenshi_meteor_Desk" .apply_once true .on_hit true .on_miss true
+
+effect: .name "Tenshi Meteor Aegis" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+
 effect: .name "Tenshi Meteor Stun 1" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Tenshi Meteor Stun 2" .target "target" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Tenshi Meteor Stun 3" .target "target" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
@@ -199,7 +197,7 @@ effect: .name "Tenshi Other Aegis" .target "target" .chance 100% .health_damage_
 
 // CRIT effect \\
 //-------------\\
-effect: .name "on_crit_tdebuff"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_tdebuff" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "on_crit_tenshi"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_tenshi" .duration 3	.on_hit true .on_miss false .apply_once true
 
 // Excited Buff \\
 effect: .name "TenshiHype 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true

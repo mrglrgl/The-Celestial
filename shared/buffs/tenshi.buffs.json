@@ -2,11 +2,11 @@
    "buffs":
    [
 	  {
-         "id" : "on_crit_tdebuff",
-         "stat_type" : "debuff_chance",
+         "id" : "on_crit_tenshi",
+         "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.3,
-         "duration" : 2,
+         "amount" : -0.09,
+         "duration" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

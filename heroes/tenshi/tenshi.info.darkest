@@ -1,5 +1,5 @@
 resistances: .stun 60% .poison 0% .bleed 0% .disease 30% .move 90% .debuff 30% .death_blow 67% .trap 10%
-crit: .effects "on_crit_tdebuff"
+crit: .effects "on_crit_tenshi"
 
 //Weapon
 weapon: .name "tenshi_weapon_0" .atk 0% .dmg 5 10 .crit 4% .spd 0
@@ -23,13 +23,19 @@ combat_skill: .id "t_hisou" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .l
 combat_skill: .id "t_hisou" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 5" "Hisou Shred 5 Desk"
 
 //Heavensplitter
-combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 80% .dmg -20% .crit -4% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Heaven Shred 1" "Heaven 1 Desk" "Push 3B" "Heaven Guardbreak"
-combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 85% .dmg -20% .crit -3% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Heaven Shred 2" "Heaven 2 Desk" "Push 3C" "Heaven Guardbreak"
-combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 90% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Heaven Shred 3" "Heaven 3 Desk" "Push 3D" "Heaven Guardbreak"
-combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 95% .dmg -20% .crit -1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Heaven Shred 4" "Heaven 4 Desk" "Push 3E" "Heaven Guardbreak"
-combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 100% .dmg -20% .crit 0% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Heaven Shred 5" "Heaven 5 Desk" "Push 3F" "Heaven Guardbreak"
+combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 85% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3B" "Heaven MSPD 1"
+combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 90% .dmg -20% .crit -1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3C" "Heaven MSPD 2"
+combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3D" "Heaven MSPD 3"
+combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 100% .dmg -20% .crit 1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3E" "Heaven MSPD 4"
+combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 105% .dmg -20% .crit 2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3F" "Heaven MSPD 5"
 
 //Violent Land
+combat_skill: .id "t_eruption" .level 0 .type "ranged" .atk 90% .dmg -45% .crit 0% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
+combat_skill: .id "t_eruption" .level 1 .type "ranged" .atk 95% .dmg -45% .crit 1% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
+combat_skill: .id "t_eruption" .level 2 .type "ranged" .atk 100% .dmg -45% .crit 2% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
+combat_skill: .id "t_eruption" .level 3 .type "ranged" .atk 105% .dmg -45% .crit 3% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
+combat_skill: .id "t_eruption" .level 4 .type "ranged" .atk 110% .dmg -45% .crit 4% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
+
 combat_skill: .id "t_eruption" .level 0 .type "ranged" .atk 90% .dmg -45% .crit 0% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Forward 1" "Tenshi Split R2 Check" "Tenshi Split Back 1" "Tenshi Split Cleanup" "Tenshi Split Desk 1"
 combat_skill: .id "t_eruption" .level 1 .type "ranged" .atk 95% .dmg -45% .crit 1% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Forward 2" "Tenshi Split R2 Check" "Tenshi Split Back 2" "Tenshi Split Cleanup" "Tenshi Split Desk 2"
 combat_skill: .id "t_eruption" .level 2 .type "ranged" .atk 100% .dmg -45% .crit 2% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Forward 3" "Tenshi Split R2 Check" "Tenshi Split Back 3" "Tenshi Split Cleanup" "Tenshi Split Desk 3"
@@ -50,11 +56,11 @@ combat_skill: .id "t_grace" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .sel
 combat_skill: .id "t_grace" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 5" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 5" .is_stall_invalidating false
 
 //Judgement Keystone
-combat_skill: .id "t_meteor" .level 0 .type "ranged" .atk 90% .dmg 30% .crit 2% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Other Aegis" "Tenshi Meteor Stun 1"
-combat_skill: .id "t_meteor" .level 1 .type "ranged" .atk 95% .dmg 30% .crit 3% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Other Aegis" "Tenshi Meteor Stun 2"
-combat_skill: .id "t_meteor" .level 2 .type "ranged" .atk 100% .dmg 30% .crit 4% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Other Aegis" "Tenshi Meteor Stun 3"
-combat_skill: .id "t_meteor" .level 3 .type "ranged" .atk 105% .dmg 30% .crit 5% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Other Aegis" "Tenshi Meteor Stun 4"
-combat_skill: .id "t_meteor" .level 4 .type "ranged" .atk 110% .dmg 30% .crit 6% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Other Aegis" "Tenshi Meteor Stun 5"
+combat_skill: .id "t_meteor" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 2% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 1"
+combat_skill: .id "t_meteor" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 3% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 2"
+combat_skill: .id "t_meteor" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 4% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 3"
+combat_skill: .id "t_meteor" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 5% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 4"
+combat_skill: .id "t_meteor" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 6% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 5"
 
 //// Spell Cards
 
