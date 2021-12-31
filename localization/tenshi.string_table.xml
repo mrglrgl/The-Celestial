@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">
-    <entry id="str_outsiders_bonfire_buff_camp_buff0"><![CDATA[%d additional Respite Points if you have at least one Abomination, Tenshi, Hellion, or Leper in your party.]]></entry>
+    <entry id="str_outsiders_bonfire_buff_camp_buff0"><![CDATA[%d additional Respite Points if you have at least one Abomination, Celestial, Hellion, or Leper in your party.]]></entry>
 	
 
 
-    <entry id="hero_class_name_tenshi"><![CDATA[Tenshi]]></entry>
+    <entry id="hero_class_name_tenshi"><![CDATA[Celestial]]></entry>
 	
 
 		<!--Camp Skills-->
-	<entry id="camping_skill_name_t_catharsis"><![CDATA["FRIENDLY" SPARRING]]></entry>
-    <entry id="camping_skill_name_t_peach"><![CDATA[BHAVAAGRAN PEACH]]></entry>
-    <entry id="camping_skill_name_t_eye"><![CDATA[EYE OF HISOU]]></entry>
-    <entry id="camping_skill_name_t_makesomebombs"><![CDATA[NAWI RITUAL]]></entry>
-    <entry id="camping_skill_name_t_slack"><![CDATA["ENLIGHTENED" TRANCE]]></entry>
-    <entry id="camping_skill_name_t_protectingstones"><![CDATA[WARDING KEYSTONES]]></entry>
+	<entry id="camping_skill_name_t_protectingstones"><![CDATA[WARDING KEYSTONE]]></entry>
+	<entry id="camping_skill_name_t_hisoueye"><![CDATA[HISOUTEN]]></entry>
+    <entry id="camping_skill_name_t_nompeach"><![CDATA[DIVINE FRUIT]]></entry>
+	<entry id="camping_skill_name_t_makesomebombs"><![CDATA[RESERVED BOMB]]></entry>
+	<entry id="camping_skill_name_t_slacktrance"><![CDATA[ENDURING TRANCE]]></entry>
+	<entry id="camping_skill_name_t_nawitrance"><![CDATA[NAWI TRANCE]]></entry>
 
-    <entry id="tenshi+str_bark_t_catharsis"><![CDATA[Let's play a game! Three strikes, and you're out!]]></entry>
-    <entry id="tenshi+str_bark_t_peach"><![CDATA[Much better than those dull rations.]]></entry>
-    <entry id="tenshi+str_bark_pep_talk"><![CDATA[This is nothing. I remember the time I...]]></entry>
-    <entry id="tenshi+str_bark_pep_talk"><![CDATA[If there's one thing I've learned, there's always tomorrow!]]></entry>
-    <entry id="tenshi+str_bark_pep_talk"><![CDATA[The afterlife? I've been there, it's not bad. A bit dull though.]]></entry>
-    <entry id="tenshi+str_bark_t_eye"><![CDATA[Everything has a weakness, and this blade shall find it.]]></entry>
-    <entry id="tenshi+str_bark_t_makesomebombs"><![CDATA[This stone shall absorb power from the earth.]]></entry>
-    <entry id="tenshi+str_bark_t_slack"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
-    <entry id="tenshi+str_bark_t_protectingstones"><![CDATA[Fine, I'll lend you these. Accept them with gratitude!]]></entry>
+    <entry id="tenshi+str_bark_t_protectingstones"><![CDATA[I suppose I can lend you this.]]></entry>
+	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[Everything has a weakness, and this blade shall find it.]]></entry>
+    <entry id="tenshi+str_bark_t_nompeach"><![CDATA[Much better than those dull rations.]]></entry>
+	<entry id="tenshi+str_bark_t_makesomebombs"><![CDATA[Where'd I stash this? Not telling ~]]></entry>
+    <entry id="tenshi+str_bark_t_slacktrance"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
+	<entry id="tenshi+str_bark_t_slacktrance"><![CDATA[<Pain is merely a suggestion. And I chose to ignore it.>]]></entry>
+	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<I never appreciated such lessons. But in these circumstances...>]]></entry>
+	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<How did that go again? It's been so long...>]]></entry>
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Sword of Hisou]]></entry>
@@ -56,8 +55,21 @@
     <entry id="tenshi_armour_3"><![CDATA[Pristine Dress]]></entry>
     <entry id="tenshi_armour_4"><![CDATA["Cloth of Heaven"]]></entry>
     <entry id="upgrade_tree_name_tenshi.armour"><![CDATA[Dress]]></entry>
-    <entry id="action_verbose_body_guild_tenshi"><![CDATA[Tenshi Guild]]></entry>
-    <entry id="action_verbose_body_blacksmith_tenshi"><![CDATA[Tenshi Blacksmith]]></entry>
+    <entry id="action_verbose_body_guild_tenshi"><![CDATA[Tenshi Guild
+	
+	{colour_start|stress}Passive: Exhilaration{colour_end}
+	On losing HP, gain {colour_start|stress}Exhilaration{colour_end}:
+	{colour_start|debuff}-30% PROT{colour_end}
+	{colour_start|buff}+15% DMG
+	+15% Status Chance
+	+5% CRIT
+	+5 SPD{colour_end}
+	{colour_start|stress}Exhilaration{colour_end} is lost after one round or when {colour_start|healhp}Healing{colour_end} is received.]]></entry>
+    <entry id="action_verbose_body_blacksmith_tenshi"><![CDATA[Tenshi Blacksmith
+	
+	{colour_start|healhp}Passive: Vigor{colour_end}
+	30% innate PROT
+	If HP below 34% after being {colour_start|healhp}Healed{colour_end}: {colour_start|healhp}Heal{colour_end} 5% max HP (limit once per round)]]></entry>
     <entry id="action_verbose_body_camping_trainer_tenshi"><![CDATA[Tenshi Camp]]></entry>
 	
 		<!-- Event -->
@@ -65,47 +77,49 @@
     <entry id="town_event_description_first_tenshi"><![CDATA[This time, the delinquent Celestial isn't the culprit.  But that doesn't mean she can't join in the fun.]]></entry>
 
 		<!-- Trinkets and Bobbles -->
-	<entry id="str_inventory_title_trinkettenshi_trinket_pebble"><![CDATA[Mountain Charm]]></entry>
-    <entry id="str_inventory_title_trinkettenshi_trinket_coin"><![CDATA[Sanzu Coins]]></entry>	
-    <entry id="str_inventory_title_trinkettenshi_trinket_spooky"><![CDATA[Spirit Tassel]]></entry>	
-    <entry id="str_inventory_title_trinkettenshi_trinket_catfish"><![CDATA["Legendary" Catfish]]></entry>	
-    <entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Lightning Scarf]]></entry>	
-    <entry id="str_inventory_title_trinkettenshi_trinket_sake"><![CDATA[Oni's Sake]]></entry>	
-    <entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Shion's Blessing]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Nawi Provisions]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_token"><![CDATA[Mountain Token]]></entry>
+    <entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Giantslayer's Mallet]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Misfortune's Favor]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Land-Calming Stone]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Dragonfish Veil]]></entry>
 	
-    <entry id="str_inventory_set_title_tenshi_catfish_set"><![CDATA["Invincible catfish, approaching fast!"]]></entry>
-    <entry id="str_inventory_set_title_tenshi_gift_set"><![CDATA["Gifts between friends."]]></entry>	
 
 		<!-- Random Tooltips Desk -->
-				<!-- Sanzu Coins -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_coin_desk"><![CDATA[DMG +20%% while not {colour_start|guard}Guarding{colour_end}
-	PROT +10%% while not {colour_start|guard}Guarding{colour_end}
-	Sells for more than usual]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_fumo_heal_cooldown_desk"><![CDATA[Vigor Cooldown]]></entry>
 	
+				<!-- Trinkets -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[After {colour_start|riposte}Riposte{colour_end}: Lose {colour_start|stress}Exhilaration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills gain {colour_start|move}Forward{colour_end} 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarfheal_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|healhp}Heal{colour_end} 2
+	+1 HP {colour_start|healhp}Healed{colour_end} for each Enemy]]></entry>
+	
+				<!-- Camp Skills -->
+	<entry id="camping_skill_effect_loot_tenshi_camp_mark_desc"><![CDATA[ {colour_start|mark}Mark{colour_end} (4 Battles)]]></entry>
+				
 				<!-- Sword of Hisou -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_1_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-7 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
+	-7 DODGE / -15%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_2_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-9 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
+	-9 DODGE / -15%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_3_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-11 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
+	-11 DODGE / -15%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_4_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-13 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
+	-13 DODGE / -15%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_5_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-15 DODGE / -10%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
-
+	-15 DODGE / -15%% PROT {colour_start|skill_unselectable}(Always){colour_end}]]></entry>
 	
 				<!-- Violent Land -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(100%% base){colour_end}
+	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}
 	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}
 	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}
 	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}
 	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}
-	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 	
 				<!-- Celestial Grace -->
 					<!-- Riposte -->					
@@ -127,8 +141,7 @@
 	
 				<!-- Calamitous Ultimatum -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_start_desk"><![CDATA[{colour_start|guard}Guard{colour_end} Party (2 rds)
-	Self:
-	1 Blocks]]></entry>
+	Self:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_1_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|skill_unselectable}(ACC 105 / DMG -15%% / CRIT +16%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_2_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
@@ -145,36 +158,36 @@
 				<!-- Sword of Unletting Soil -->
     <entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_A"><![CDATA[{colour_start|harmful}Cannot CRIT{colour_end} / Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B1"><![CDATA[Target:
+	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(110%% base){colour_end}
+	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B2"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(120%% base){colour_end}
 	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B2"><![CDATA[Target:
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B3"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(130%% base){colour_end}
 	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B3"><![CDATA[Target:
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(140%% base){colour_end}
 	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[Target:
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(150%% base){colour_end}
 	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 150%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[Target:
-	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(160%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 160%% base){colour_end}]]></entry>
 
 	
 		<!-- Bomb Stuff -->
 	<entry id="str_skill_mode_info_tenshi_rule_mode"><![CDATA[]]></entry>
-	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[Tenshi]]></entry>
+	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[The Celestial]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Cards{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_is_bomb_desk"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 	<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 				
 				<!-- Provisions -->
-	<entry id="str_inventory_title_supplytenshi_bomb"><![CDATA[Celestial Bomb Brew]]></entry>
-	<entry id="str_inventory_description_supplytenshi_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but Tenshi.{colour_end}]]></entry>
-	<entry id="str_inventory_title_supplytenshi_bomb_camp"><![CDATA[Mysterious Bomb Brew]]></entry>
-	<entry id="str_inventory_description_supplytenshi_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but Tenshi.{colour_end}]]></entry>
-	<entry id="camping_skill_effect_loot_tenshi_camp_bomb_find"><![CDATA["Find" 1 Mysterious Bomb Brew]]></entry>
+	<entry id="str_inventory_title_supplytenshi_bomb"><![CDATA[Celestial Bomb Elixer]]></entry>
+	<entry id="str_inventory_description_supplytenshi_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Celestial.{colour_end}]]></entry>
+	<entry id="str_inventory_title_supplytenshi_bomb_camp"><![CDATA[Celestial Bomb Tincture]]></entry>
+	<entry id="str_inventory_description_supplytenshi_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Celestial.{colour_end}]]></entry>
+	<entry id="camping_skill_effect_loot_tenshi_camp_bomb_find"><![CDATA[Produce 1 Celestial Bomb Tincture]]></entry>
 	
 	
 		<!-- Crit -->
@@ -213,9 +226,8 @@
 	
 	<entry id="tenshi+str_bark_bigwound_ally"><![CDATA[Get behind me!]]></entry>
 	
-	<entry id="tenshi+str_combat_knockback"><![CDATA[Impressive!]]></entry>
-    <entry id="tenshi+str_combat_knockback"><![CDATA[Ahaha, excellent!]]></entry>
-    <entry id="tenshi+str_combat_knockback"><![CDATA[Such powerful force! Delightful!]]></entry>
+		<!-- On being moved. Leave this blank, or her Rare trinket will make her annoying. Not like she's going anywhere with base 90% Move Res anyways. -->
+	<entry id="tenshi+str_combat_knockback"><![CDATA[]]></entry>
 	
 	<entry id="tenshi+str_combat_wastingtime"><![CDATA[This is boring. Finish them already!]]></entry>
     <entry id="tenshi+str_combat_wastingtime"><![CDATA[If you don't hurry up, more will arrive.  Not that I mind.]]></entry>
@@ -595,9 +607,11 @@
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Don't kill ALL of them, okay?)]]></entry>
 	
 		<!-- Buff shit -->
+	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry> 
 		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
 	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
-    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry> 
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
 	
 
   </language>

@@ -1,19 +1,19 @@
-resistances: .stun 60% .poison 0% .bleed 0% .disease 30% .move 90% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 60% .poison 15% .bleed 15% .disease 40% .move 70% .debuff 50% .death_blow 67% .trap 0%
 crit: .effects "on_crit_tenshi"
 
 //Weapon
-weapon: .name "tenshi_weapon_0" .atk 0% .dmg 5 10 .crit 4% .spd 0
-weapon: .name "tenshi_weapon_1" .atk 0% .dmg 6 11 .crit 5% .spd 0 .upgradeRequirementCode 0
-weapon: .name "tenshi_weapon_2" .atk 0% .dmg 7 13 .crit 6% .spd 1 .upgradeRequirementCode 1
-weapon: .name "tenshi_weapon_3" .atk 0% .dmg 8 14 .crit 7% .spd 1 .upgradeRequirementCode 2
-weapon: .name "tenshi_weapon_4" .atk 0% .dmg 9 15 .crit 8% .spd 2 .upgradeRequirementCode 3
+weapon: .name "tenshi_weapon_0" .atk 0% .dmg 5 9 .crit 2% .spd 0
+weapon: .name "tenshi_weapon_1" .atk 0% .dmg 6 10 .crit 3% .spd 0 .upgradeRequirementCode 0
+weapon: .name "tenshi_weapon_2" .atk 0% .dmg 7 12 .crit 4% .spd 1 .upgradeRequirementCode 1
+weapon: .name "tenshi_weapon_3" .atk 0% .dmg 8 13 .crit 5% .spd 1 .upgradeRequirementCode 2
+weapon: .name "tenshi_weapon_4" .atk 0% .dmg 9 14 .crit 6% .spd 2 .upgradeRequirementCode 3
 
 //Armor
-armour: .name "tenshi_armour_0" .def 0% .prot 20% .hp 38 .spd 0
-armour: .name "tenshi_armour_1" .def 2.5% .prot 22% .hp 46 .spd 0 .upgradeRequirementCode 0
-armour: .name "tenshi_armour_2" .def 5% .prot 25% .hp 54 .spd 0 .upgradeRequirementCode 1
-armour: .name "tenshi_armour_3" .def 7.5% .prot 27% .hp 62 .spd 0 .upgradeRequirementCode 2
-armour: .name "tenshi_armour_4" .def 10% .prot 30% .hp 70 .spd 0 .upgradeRequirementCode 3
+armour: .name "tenshi_armour_0" .def -5% .prot 30% .hp 38 .spd 0
+armour: .name "tenshi_armour_1" .def 0% .prot 30% .hp 46 .spd 0 .upgradeRequirementCode 0
+armour: .name "tenshi_armour_2" .def 5% .prot 30% .hp 54 .spd 0 .upgradeRequirementCode 1
+armour: .name "tenshi_armour_3" .def 10% .prot 30% .hp 62 .spd 0 .upgradeRequirementCode 2
+armour: .name "tenshi_armour_4" .def 15% .prot 30% .hp 70 .spd 0 .upgradeRequirementCode 3
 
 //Sword of Hisou
 combat_skill: .id "t_hisou" .level 0 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 1" "Hisou Shred 1 Desk" .generation_guaranteed true
@@ -23,11 +23,11 @@ combat_skill: .id "t_hisou" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .l
 combat_skill: .id "t_hisou" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 5" "Hisou Shred 5 Desk"
 
 //Heavensplitter
-combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 85% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3B" "Heaven MSPD 1"
-combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 90% .dmg -20% .crit -1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3C" "Heaven MSPD 2"
-combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3D" "Heaven MSPD 3"
-combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 100% .dmg -20% .crit 1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3E" "Heaven MSPD 4"
-combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 105% .dmg -20% .crit 2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3F" "Heaven MSPD 5"
+combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 85% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3A" "Heaven MSPD 1"
+combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 90% .dmg -20% .crit -1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3B" "Heaven MSPD 2"
+combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3C" "Heaven MSPD 3"
+combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 100% .dmg -20% .crit 1% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3D" "Heaven MSPD 4"
+combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 105% .dmg -20% .crit 2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3E" "Heaven MSPD 5"
 
 //Violent Land
 combat_skill: .id "t_eruption" .level 0 .type "ranged" .atk 90% .dmg -45% .crit 0% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Guardbreak"
@@ -43,17 +43,17 @@ combat_skill: .id "t_eruption" .level 3 .type "ranged" .atk 105% .dmg -45% .crit
 combat_skill: .id "t_eruption" .level 4 .type "ranged" .atk 110% .dmg -45% .crit 4% .launch 21 .target ~23 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Split Forward 5" "Tenshi Split R2 Check" "Tenshi Split Back 5" "Tenshi Split Cleanup" "Tenshi Split Desk 5"
 
 //Eyes on Me!
-combat_skill: .id "t_grace" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 1 Desk" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 2 Desk" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 3 Desk" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 4 Desk" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 5 Desk" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 1 Desk" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 2 Desk" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 3 Desk" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 4 Desk" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Clear Guard Self" "Tenshi Clear Guard Target" "Tenshi Guard" "Tenshi Riposte Reset" "Grace 5 Desk" .is_stall_invalidating false
 
-combat_skill: .id "t_grace" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 1" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 1" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 2" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 2" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 3" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 3" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 4" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 4" .is_stall_invalidating false
-combat_skill: .id "t_grace" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 5" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 5" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 1" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 1" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 2" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 2" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 3" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 3" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 4" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 4" .is_stall_invalidating false
+combat_skill: .id "t_grace" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 321 .target @1234 .is_crit_valid False  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi FirstRiposte Fx" "Tenshi BasicRiposte First 5" "Tenshi SecondRiposte Fx Setup" "Tenshi BasicRiposte Second Setup 5" .is_stall_invalidating false
 
 //Judgement Keystone
 combat_skill: .id "t_meteor" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 2% .launch 32 .target 234 .is_crit_valid True  .condensed_tooltip_stats true .effect "Tenshi Meteor Desk" "Tenshi Meteor Aegis" "Tenshi Meteor Stun 1"
@@ -65,11 +65,11 @@ combat_skill: .id "t_meteor" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 6
 //// Spell Cards
 
 //Calamitous Ultimatum
-combat_skill: .id "t_ward" .level 0 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi SpellCard Aegis" "Tenshi Cooldown" "Tenshi Ult Desk 1" "Tenshi Fake Daze"
-combat_skill: .id "t_ward" .level 1 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi SpellCard Aegis" "Tenshi Cooldown" "Tenshi Ult Desk 2" "Tenshi Fake Daze"
-combat_skill: .id "t_ward" .level 2 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi SpellCard Aegis" "Tenshi Cooldown" "Tenshi Ult Desk 3" "Tenshi Fake Daze"
-combat_skill: .id "t_ward" .level 3 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi SpellCard Aegis" "Tenshi Cooldown" "Tenshi Ult Desk 4" "Tenshi Fake Daze"
-combat_skill: .id "t_ward" .level 4 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi SpellCard Aegis" "Tenshi Cooldown" "Tenshi Ult Desk 5" "Tenshi Fake Daze"
+combat_skill: .id "t_ward" .level 0 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi Cooldown" "Tenshi Ult Desk 1" "Tenshi Fake Daze"
+combat_skill: .id "t_ward" .level 1 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi Cooldown" "Tenshi Ult Desk 2" "Tenshi Fake Daze"
+combat_skill: .id "t_ward" .level 2 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi Cooldown" "Tenshi Ult Desk 3" "Tenshi Fake Daze"
+combat_skill: .id "t_ward" .level 3 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi Cooldown" "Tenshi Ult Desk 4" "Tenshi Fake Daze"
+combat_skill: .id "t_ward" .level 4 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "TenshiSpellCard" "Tenshi Cooldown" "Tenshi Ult Desk 5" "Tenshi Fake Daze"
 
 combat_skill: .id "t_ward" .level 0 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Ult Guardclear" "Tenshi Ult Guard"
 combat_skill: .id "t_ward" .level 1 .type "spellcard" .atk 0% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid True  .refresh_after_each_wave true .valid_modes tenshi_rule_mode .effect "Tenshi Ult Guardclear" "Tenshi Ult Guard"
@@ -128,3 +128,207 @@ activity_modifier: .override_valid_activity_ids bar gambling brothel treatment d
 quirk_modifier: .incompatible_class_ids meditator fragile soft enlightened god_fearing flagellant unquiet_mind witness faithless disease_vampire_passive disease_vampire_crave disease_vampire_wasting disease_vampire_blood_lust
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
 incompatible_party_member: .id tenshi_limit .hero_tag tenshi
+
+//Exhilaration
+hp_reaction: .hp_ratio 1.00 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.99 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.98 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.97 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.96 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.95 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.94 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.93 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.92 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.91 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.9  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.89 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.88 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.87 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.86 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.85 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.84 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.83 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.82 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.81 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.8  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.79 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.78 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.77 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.76 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.75 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.74 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.73 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.72 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.71 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.7  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.69 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.68 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.67 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.66 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.65 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.64 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.63 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.62 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.61 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.6  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.59 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.58 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.57 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.56 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.55 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.54 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.53 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.52 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.51 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.5  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.49 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.48 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.47 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.46 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.45 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.44 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.43 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.42 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.41 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.4  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.39 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.38 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.37 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.36 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.35 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.34 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.33 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.32 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.31 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.3  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.29 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.28 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.27 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.26 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.25 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.24 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.23 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.22 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.21 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.2  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.19 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.18 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.17 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.16 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.15 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.14 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.13 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.12 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.11 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.1  .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.09 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.08 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.07 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.06 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.05 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.04 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.03 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.02 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+hp_reaction: .hp_ratio 0.01 .is_under true .effects "FUMO BREAK" "FUMO HYPE 1" "FUMO HYPE 2"
+
+//Second Wind
+hp_reaction: .hp_ratio 0.99	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.98	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.97	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.96	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.95	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.94	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.93	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.92	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.91	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.9	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.89	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.88	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.87	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.86	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.85	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.84	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.83	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.82	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.81	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.80	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.79	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.78	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.77	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.76	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.75	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.74	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.73	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.72	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.71	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.7	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.69	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.68	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.67	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.66	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.65	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.64	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.63	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.62	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.61	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.6	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.59	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.58	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.57	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.56	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.55	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.54	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.53	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.52	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.51	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.5	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.49	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.48	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.47	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.46	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.45	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.44	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.43	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.42	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.41	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.4	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.39	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.38	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.37	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.36	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.35	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.34	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.33	.is_under false .effects "FUMO BREAK"
+hp_reaction: .hp_ratio 0.32 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.31 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.3	.is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.29 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.28 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.27 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.26 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.25 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.24 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.23 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.22 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.21 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.2	.is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.19 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.18 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.17 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.16 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.15 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.14 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.13 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.12 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.11 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.1	.is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.09 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.08 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.07 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.06 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.05 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.04 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.03 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.02 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.01 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"
+hp_reaction: .hp_ratio 0.00 .is_under false .effects "FUMO HEAL" "FUMO HEAL COOLDOWN" "FUMO BREAK"

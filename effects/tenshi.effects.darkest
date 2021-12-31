@@ -1,11 +1,24 @@
-//Skills
+////HP Reactions
+//Exhilaration
+effect: .name "FUMO BREAK"	.target "performer" .chance 100% .steal_buff_source_type bsrc_vampire .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "FUMO HYPE 1"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_prot" "tenshi_hype_DMGL" "tenshi_hype_DMGH" "tenshi_hype_spd" "tenshi_hype_crit" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "FUMO HYPE 2"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_move" "tenshi_hype_debuff" "tenshi_hype_stun" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
+
+//Vigor
+effect: .name "FUMO HEAL" .target "performer" .chance 100% .heal_percent 0.05	.source_heal_type hero_skill_multi_target .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "FUMO HEAL COOLDOWN" .target "performer" .chance 100%  .buff_ids "fumo_heal_cooldown" "fumo_heal_cooldown_Desk" .duration 1	.on_hit true .on_miss true .queue true
+
+
+
+
+//// Skills \\\\
 
 //// Sword of Hisou \\\\
-effect: .name "Hisou Shred 1" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -10% .defense_rating_add -7%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 2" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -10% .defense_rating_add -9%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 3" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -10% .defense_rating_add -11%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 4" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -10% .defense_rating_add -13%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 5" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -10% .defense_rating_add -15%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 1" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -7%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 2" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -9%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 3" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -11%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 4" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -13%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 5" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -15%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
 effect: .name "Hisou Shred 1 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_1_Desk" .apply_once true .on_hit true .on_miss true
 effect: .name "Hisou Shred 2 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_2_Desk" .apply_once true .on_hit true .on_miss true
@@ -15,29 +28,29 @@ effect: .name "Hisou Shred 5 Desk" .target "performer" .skill_instant true .buff
 
 
 //// Heavensplitter \\\\
-effect: .name "Heaven MSPD 1" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 2" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 3" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 4" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 5" .target "target" .chance 150% .combat_stat_buff 1 .speed_rating_add -7	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 3" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 4" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 5" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -7	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
 
 
 //// Violent Land \\\\
 effect: .name "Tenshi Split Guardbreak" .target "target" .chance 100% .clearguarding 1 .on_hit true .on_miss false
 
-effect: .name "Tenshi Split Forward 1"  .target "target" .chance 110%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
-effect: .name "Tenshi Split Forward 2"  .target "target" .chance 120%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
-effect: .name "Tenshi Split Forward 3"  .target "target" .chance 130%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
-effect: .name "Tenshi Split Forward 4"  .target "target" .chance 140%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
-effect: .name "Tenshi Split Forward 5"  .target "target" .chance 150%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
+effect: .name "Tenshi Split Forward 1"  .target "target" .chance 100%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
+effect: .name "Tenshi Split Forward 2"  .target "target" .chance 110%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
+effect: .name "Tenshi Split Forward 3"  .target "target" .chance 120%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
+effect: .name "Tenshi Split Forward 4"  .target "target" .chance 130%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
+effect: .name "Tenshi Split Forward 5"  .target "target" .chance 140%  .pull 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
 
 effect: .name "Tenshi Split R2 Check"  .target "target" .chance 1000%  .duration 1 .buff_source_type "bsrc_notspecified" .buff_ids "tenshi_split_r2_check"	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
 
-effect: .name "Tenshi Split Back 1"  .target "target" .chance 110%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Split Back 2"  .target "target" .chance 120%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Split Back 3"  .target "target" .chance 130%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Split Back 4"  .target "target" .chance 140%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Split Back 5"  .target "target" .chance 150%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Split Back 1"  .target "target" .chance 100%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Split Back 2"  .target "target" .chance 110%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Split Back 3"  .target "target" .chance 120%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Split Back 4"  .target "target" .chance 130%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Split Back 5"  .target "target" .chance 140%  .push 1 	.queue true .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 effect: .name "Tenshi Split Cleanup"  .target "target" .chance 1000%  .duration 1 .buff_source_type "bsrc_notspecified" .buff_ids "tenshi_split_cleanup"	.queue true .on_hit true .on_miss false .can_apply_on_death true .apply_once true .has_description false
 
@@ -56,8 +69,8 @@ effect: .name "Tenshi Clear Guard Self" .target "performer" .chance 100% .clearg
 effect: .name "Tenshi Riposte Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false .queue true
 effect: .name "Tenshi BasicRiposte Clear" .target "performer" .chance 100% .steal_buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false .queue true
 
-effect: .name "Tenshi FirstRiposte Fx" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_basicriposte_first_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
-effect: .name "Tenshi SecondRiposte Fx" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_basicriposte_second_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi FirstRiposte Fx" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_rpip_1" "tenshi_rpip_2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi SecondRiposte Fx" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_rpip_1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
 effect: .name "Tenshi Riposte Fx Fake" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "Tenshi BasicRiposte First 1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi BasicRiposte Clear"
@@ -92,11 +105,11 @@ effect: .name "Tenshi Meteor Desk" .target "performer" .skill_instant true .buff
 
 effect: .name "Tenshi Meteor Aegis" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
-effect: .name "Tenshi Meteor Stun 1" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Tenshi Meteor Stun 2" .target "target" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Tenshi Meteor Stun 3" .target "target" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Tenshi Meteor Stun 4" .target "target" .chance 170% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Tenshi Meteor Stun 5" .target "target" .chance 180% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi Meteor Stun 1" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi Meteor Stun 2" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi Meteor Stun 3" .target "target" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi Meteor Stun 4" .target "target" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi Meteor Stun 5" .target "target" .chance 170% .stun 1	.on_hit true .on_miss false .queue true
 
 
 //// Calamitous Ultimatum \\\\
@@ -111,19 +124,19 @@ effect: .name "Tenshi Ult Desk 5" .target "performer" .skill_instant true .buff_
 effect: .name "Tenshi Ult Guardclear"	.target "performer_group" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
 effect: .name "Tenshi Ult Guard"	.target "performer_group_other" .chance 100% .duration 2 .guard 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
-effect: .name "Tenshi SCRFx 3Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scr_threeleft_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi SCRFx 3Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scrpip_1" "tenshi_scrpip_2" "tenshi_scrpip_3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
 
 effect: .name "Tenshi First SCR Reset Chain" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi BasicRiposte Clear"
 
 effect: .name "Tenshi SCRFx 2Left Chain" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi SCRFx 2Left"
-effect: .name "Tenshi SCRFx 2Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scr_twoleft_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi SCRFx 2Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scrpip_1" "tenshi_scrpip_2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
 
 effect: .name "Tenshi Second SCR Reset Chain A" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi Second SCR Reset Chain B"
 effect: .name "Tenshi Second SCR Reset Chain B" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi BasicRiposte Clear"
 
 effect: .name "Tenshi SCRFx 1Left Chain A" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi SCRFx 1Left Chain B"
 effect: .name "Tenshi SCRFx 1Left Chain B" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi SCRFx 1Left"
-effect: .name "Tenshi SCRFx 1Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scr_oneleft_fx" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Tenshi SCRFx 1Left" .target "performer" .chance 100% .buff_source_type bsrc_riposte .buff_ids "tenshi_scrpip_1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .has_description false .queue true
 
 effect: .name "Tenshi SCR Stats Chain A1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .attack_rating_add 10% .crit_chance_add 16% .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi SCR Stats Chain B1"
 effect: .name "Tenshi SCR Stats Chain B1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1 .buff_duration_type combat_end  .attack_rating_add 10% .crit_chance_add 16% .on_hit true .on_miss true .queue true .has_description false .riposte_effect "Tenshi SCR Stats Chain C1"
@@ -151,17 +164,17 @@ effect: .name "Tenshi Earthquake Desk 3" .target "performer" .skill_instant true
 effect: .name "Tenshi Earthquake Desk 4" .target "performer" .skill_instant true .buff_ids "tenshi_earthquake_Desk_A" "tenshi_earthquake_Desk_B4" .apply_once true .on_hit true .on_miss true
 effect: .name "Tenshi Earthquake Desk 5" .target "performer" .skill_instant true .buff_ids "tenshi_earthquake_Desk_A" "tenshi_earthquake_Desk_B5" .apply_once true .on_hit true .on_miss true
 
-effect: .name "Tenshi Earthquake Slow 1"  .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
-effect: .name "Tenshi Earthquake Slow 2"  .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
-effect: .name "Tenshi Earthquake Slow 3"  .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
-effect: .name "Tenshi Earthquake Slow 4"  .target "target" .curio_result_type "negative" .chance 150% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
-effect: .name "Tenshi Earthquake Slow 5"  .target "target" .curio_result_type "negative" .chance 160% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Tenshi Earthquake Slow 1"  .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Tenshi Earthquake Slow 2"  .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Tenshi Earthquake Slow 3"  .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Tenshi Earthquake Slow 4"  .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Tenshi Earthquake Slow 5"  .target "target" .curio_result_type "negative" .chance 150% .combat_stat_buff 1 .speed_rating_add -99	.duration 1 .on_hit true .on_miss false .has_description false
 
-effect: .name "Tenshi Earthquake Pull 1"  .target "target" .chance 120%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Earthquake Pull 2"  .target "target" .chance 130%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Earthquake Pull 3"  .target "target" .chance 140%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Earthquake Pull 4"  .target "target" .chance 150%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
-effect: .name "Tenshi Earthquake Pull 5"  .target "target" .chance 160%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Earthquake Pull 1"  .target "target" .chance 110%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Earthquake Pull 2"  .target "target" .chance 120%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Earthquake Pull 3"  .target "target" .chance 130%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Earthquake Pull 4"  .target "target" .chance 140%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Tenshi Earthquake Pull 5"  .target "target" .chance 150%  .pull 3 	.on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 
 //// Bark Banter \\\\
@@ -194,7 +207,7 @@ effect: .name "tenshi_camp_2"  .target "target" .chance 100% .duration -1 .buff_
 effect: .name "Tenshi Self Aegis" .target "performer" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true
 effect: .name "Tenshi Other Aegis" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true
 
-
+//// Misc \\\\
 // CRIT effect \\
 //-------------\\
 effect: .name "on_crit_tenshi"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_tenshi" .duration 3	.on_hit true .on_miss false .apply_once true
@@ -203,3 +216,8 @@ effect: .name "on_crit_tenshi"    .target "performer" .curio_result_type "positi
 effect: .name "TenshiHype 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true
 effect: .name "TenshiHype 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true
 
+// Trinkets and Bobbles \\
+//IKUUUUSAAAAN
+effect: .name "Fumo Swagger" .target "performer"	.chance 900% .pull 1 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Fumos Perfect Math Class" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .buff_ids "fumos_perfect_math_class" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "Fumoless Healing" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .queue true .source_heal_type hero_skill .has_description false

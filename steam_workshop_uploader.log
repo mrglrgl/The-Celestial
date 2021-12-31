@@ -19,6 +19,12 @@ Searching for preview icon file c:/Users/danaw167/Desktop/Tenshi mod/preview_ico
 
 
 -------------------------------------------------------------------------------
+Detected 2 unchanged files
+The following files are unchanged...
+c:/Users/danaw167/Desktop/Tenshi mod/overlays/poptext_hp_heal_dot.png
+c:/Users/danaw167/Desktop/Tenshi mod/overlays/tray_dot_hp_heal.png
+
+-------------------------------------------------------------------------------
 Modded files...
 
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.afflicted.png
@@ -71,18 +77,33 @@ heroes/tenshi/fx/tenshi.sprite.bulwark_of_faith.skel
 heroes/tenshi/fx/tenshi.sprite.debris.atlas
 heroes/tenshi/fx/tenshi.sprite.debris.png
 heroes/tenshi/fx/tenshi.sprite.debris.skel
+heroes/tenshi/fx/tenshi.sprite.hypefx.atlas
+heroes/tenshi/fx/tenshi.sprite.hypefx.png
+heroes/tenshi/fx/tenshi.sprite.hypefx.skel
 heroes/tenshi/fx/tenshi.sprite.smite.atlas
 heroes/tenshi/fx/tenshi.sprite.smite.png
 heroes/tenshi/fx/tenshi.sprite.smite.skel
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.atlas
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.png
 heroes/tenshi/fx/tenshi.sprite.stunning_blow_target.skel
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.atlas
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.png
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostefirstfx.skel
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.atlas
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.png
-heroes/tenshi/fx/tenshi.sprite.tenshibasicripostesecondfx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshirpip1fx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshirpip1fx.png
+heroes/tenshi/fx/tenshi.sprite.tenshirpip1fx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshirpip2fx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshirpip2fx.png
+heroes/tenshi/fx/tenshi.sprite.tenshirpip2fx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip1fx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip1fx.png
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip1fx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip2fx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip2fx.png
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip2fx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip3fx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip3fx.png
+heroes/tenshi/fx/tenshi.sprite.tenshiscrpip3fx.skel
+heroes/tenshi/fx/tenshi.sprite.tenshitrancecdfx.atlas
+heroes/tenshi/fx/tenshi.sprite.tenshitrancecdfx.png
+heroes/tenshi/fx/tenshi.sprite.tenshitrancecdfx.skel
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.atlas
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.png
 heroes/tenshi/fx/tenshi.sprite.zealous_accusation.skel
@@ -97,33 +118,29 @@ heroes/tenshi/icons_equip/eqp_weapon_2.png
 heroes/tenshi/icons_equip/eqp_weapon_3.png
 heroes/tenshi/icons_equip/eqp_weapon_4.png
 heroes/tenshi/tenshi_A/tenshi_portrait_roster.png
-panels/icons_equip/supply/inv_supply+tenshi_bomb.png
-panels/icons_equip/supply/inv_supply+tenshi_bomb_camp.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_catfish.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_coin.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_pebble.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_sake.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_scarf.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_shion.png
-panels/icons_equip/trinket/inv_trinket+tenshi_trinket_spooky.png
-raid/camping/skill_icons/camp_skill_t_catharsis.png
-raid/camping/skill_icons/camp_skill_t_eye.png
+panels/icons_equip/supply/inv_supply+tenshi_bomb.PNG
+panels/icons_equip/supply/inv_supply+tenshi_bomb_camp.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_hakureikeystone.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_mallet.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_peachbox.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_scarf.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_shion.PNG
+panels/icons_equip/trinket/inv_trinket+tenshi_trinket_token.PNG
+raid/camping/skill_icons/camp_skill_t_hisoueye.PNG
 raid/camping/skill_icons/camp_skill_t_makesomebombs.png
-raid/camping/skill_icons/camp_skill_t_peach.png
-raid/camping/skill_icons/camp_skill_t_protectingstones.png
-raid/camping/skill_icons/camp_skill_t_slack.png
+raid/camping/skill_icons/camp_skill_t_nawitrance.png
+raid/camping/skill_icons/camp_skill_t_nompeach.PNG
+raid/camping/skill_icons/camp_skill_t_protectingstones.PNG
+raid/camping/skill_icons/camp_skill_t_slacktrance.png
 campaign/provision/tenshi.provision.json
 campaign/town_events/tenshi.town_events.events.json
-fx/tenshi_snack/tenshi_snack.sprite.atlas
-fx/tenshi_snack/tenshi_snack.sprite.png
-fx/tenshi_snack/tenshi_snack.sprite.skel
-heroes/tenshi/tenshi.ability.five.png
-heroes/tenshi/tenshi.ability.four.png
-heroes/tenshi/tenshi.ability.one.png
-heroes/tenshi/tenshi.ability.seven.png
+heroes/tenshi/tenshi.ability.five.PNG
+heroes/tenshi/tenshi.ability.four.PNG
+heroes/tenshi/tenshi.ability.one.PNG
+heroes/tenshi/tenshi.ability.seven.PNG
 heroes/tenshi/tenshi.ability.six.png
-heroes/tenshi/tenshi.ability.three.png
-heroes/tenshi/tenshi.ability.two.png
+heroes/tenshi/tenshi.ability.three.PNG
+heroes/tenshi/tenshi.ability.two.PNG
 heroes/tenshi/tenshi.art.darkest
 heroes/tenshi/tenshi.info.darkest
 heroes/tenshi/tenshi_guild_header.png
@@ -132,6 +149,7 @@ shared/buffs/tenshi.buffs.json
 shared/buffs/tenshibomb.buffs.json
 shared/buffs/tenshicamp.buffs.json
 shared/buffs/tenshidesk.buffs.json
+shared/buffs/tenshiomc.buffs.json
 shared/buffs/tenshisets.buffs.json
 shared/buffs/tenshitrinket.buffs.json
 shared/trait/tenshi.trait_library.json
@@ -141,6 +159,21 @@ inventory/tenshi.supply.inventory.items.darkest
 localization/0_english.loc2
 localization/tenshi.string_table.xml
 loot/tenshi.loot.json
+overlays/poptext_damage_reflect.png
+overlays/poptext_health_damage_block.png
+overlays/poptext_health_damage_block_onset.png
+overlays/poptext_shuffle_dot.png
+overlays/poptext_shuffle_dot_resist.png
+overlays/poptext_vampire_resist.png
+overlays/tray_dot_shuffle.png
+overlays/tray_health_damage_block.png
+overlays/tray_quirk.disease_vampire_blood_lust.png
+overlays/tray_quirk.disease_vampire_crave.png
+overlays/tray_quirk.disease_vampire_passive.png
+overlays/tray_quirk.disease_vampire_wasting.png
+trinkets/com.rarities.trinkets.json
+trinkets/crimson_court.rarities.trinkets.json
+trinkets/east_town.rarities.trinkets.json
 trinkets/tenshi.entries.trinkets.json
 trinkets/tenshi.sets.trinkets.json
 preview_icon.png

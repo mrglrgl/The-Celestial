@@ -2,10 +2,11 @@
    "entries":
    [
       {
-         "id" : "tenshi_trinket_pebble",
+         "id" : "tenshi_trinket_peachbox",
          "buffs" : 
          [
-            "tenshi_pebble_prot"
+            "tenshi_peachbox_stresshealr",
+			"tenshi_peachbox_healr"
          ],
          "hero_class_requirements":
          [
@@ -17,32 +18,13 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "tenshi_trinket_coin",
+         "id" : "tenshi_trinket_token",
          "buffs" : 
          [
-            "tenshi_coin_dmg_min",
-			"tenshi_coin_dmg_max",
-			"tenshi_coin_prot",
-			"tenshi_coin_Desk"
-         ],
-         "hero_class_requirements":
-         [
-            "tenshi"
-         ],
-         "rarity" : "uncommon",
-         "price" : 15000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "tenshi_trinket_spooky",
-         "buffs" : 
-         [
-            "tenshi_spooky_eldritch_min",
-			"tenshi_spooky_eldritch_max",
-			"tenshi_spooky_unholy_min",
-			"tenshi_spooky_unholy_max",
-			"tenshi_spooky_acc"
+            "tenshi_token_prot",
+			"tenshi_token_move",
+			"tenshi_token_debuff",
+			"tenshi_token_dodge"
          ],
          "hero_class_requirements":
          [
@@ -54,55 +36,19 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "tenshi_trinket_catfish",
+         "id" : "tenshi_trinket_mallet",
          "buffs" : 
          [
-            "tenshi_catfish_stunr",
-			"tenshi_catfish_debuffr"
+            "tenshi_mallet_dodge",
+			"tenshi_mallet_crit",
+			"tenshi_mallet_mhp"
          ],
          "hero_class_requirements":
          [
             "tenshi"
          ],
-         "set_id" : "tenshi_catfish_set",
          "rarity" : "rare",
          "price" : 15000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "tenshi_trinket_scarf",
-         "buffs" : 
-         [
-            "tenshi_scarf_spd",
-			"tenshi_scarf_dmg_min",
-			"tenshi_scarf_dmg_max"
-         ],
-         "hero_class_requirements":
-         [
-            "tenshi"
-         ],
-         "set_id" : "tenshi_catfish_set",
-         "rarity" : "rare",
-         "price" : 15000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "tenshi_trinket_sake",
-         "buffs" : 
-         [
-            "tenshi_sake_acc",
-			"tenshi_sake_stress_healing",
-			"tenshi_sake_stress"
-         ],
-         "hero_class_requirements":
-         [
-            "tenshi"
-         ],
-         "set_id" : "tenshi_gift_set",
-         "rarity" : "very_rare",
-         "price" : 25000,
          "limit" : 0,
          "origin_dungeon" : ""
       },
@@ -110,19 +56,67 @@
          "id" : "tenshi_trinket_shion",
          "buffs" : 
          [
-            "tenshi_shion_prot",
 			"tenshi_shion_critr",
-			"tenshi_shion_crit"
+			"tenshi_shion_crit",
+			"tenshi_shion_acc",
+			"tenshi_shion_prot",
+			"tenshi_shion_stress"
          ],
          "hero_class_requirements":
          [
             "tenshi"
          ],
-         "set_id" : "tenshi_gift_set",
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
+      },
+	  {
+         "id" : "tenshi_trinket_hakureikeystone",
+         "buffs" : 
+         [
+			"tenshi_hakurei_mhp",
+			"tenshi_harurei_Desk",
+			"tenshi_hakurei_bleed",
+			"tenshi_hakurei_blight"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "riposte_skill_additional_effects":
+         [
+			 "FUMO BREAK"
+         ]
+		 
+      },
+	  {
+         "id" : "tenshi_trinket_scarf",
+         "buffs" : 
+         [
+			"tenshi_scarf_Desk",
+			"tenshi_scarfheal_Desk",
+			"tenshi_scarf_DMGL-15",
+			"tenshi_scarf_DMGH-15"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+			 "Fumo Swagger",
+			 "Fumos Perfect Math Class",
+			 "Fumoless Healing"
+         ] 
       }
 	]
 }

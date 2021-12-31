@@ -1,0 +1,13 @@
+
+tenshi.sprite.tenshiscrpip3fx.png
+size: 30,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte tracker3
+  rotate: false
+  xy: 2, 2
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1

@@ -1,10 +1,7 @@
 {
    "loot_tables" :
    [
-
-   
-	
-   {
+	{
          "id" : "tenshi_camp_bomb_find",
          "difficulty" : 0,
          "dungeon" : "",
@@ -14,7 +11,16 @@
 			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "tenshi_bomb_camp", "amount" : 1 }}
            
          ]
-      }
+	},
+	{
+         "id" : "tenshi_camp_mark_desc",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }}
+         ]
+	}
 	  
      
 	  

@@ -1,0 +1,13 @@
+
+tenshi.sprite.tenshirpip2fx.png
+size: 28,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte tracker2
+  rotate: false
+  xy: 2, 2
+  size: 24, 66
+  orig: 24, 66
+  offset: 0, 0
+  index: -1

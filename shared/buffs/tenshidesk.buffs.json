@@ -67,6 +67,19 @@
          }
       },
 	  {
+         "id" : "fumo_heal_cooldown_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "fumo_heal_cooldown_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "tenshi_split_Desk_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "tenshi_split_desk_1",

@@ -2,234 +2,10 @@
    "buffs":
    [
 	  {
-         "id" : "tenshi_pebble_prot",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_coin_dmg_min",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_guarding",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-	  {
-         "id" : "tenshi_coin_dmg_max",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_guarding",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-	  {
-         "id" : "tenshi_coin_prot",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_guarding",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-	  {
-         "id" : "tenshi_coin_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_coin_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_spooky_eldritch_min",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "eldritch"
-         }
-      },
-	  {
-         "id" : "tenshi_spooky_eldritch_max",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "eldritch"
-         }
-      },
-	  {
-         "id" : "tenshi_spooky_unholy_min",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "unholy"
-         }
-      },
-	  {
-         "id" : "tenshi_spooky_unholy_max",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "unholy"
-         }
-      },
-	  {
-         "id" : "tenshi_spooky_acc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_catfish_stunr",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_catfish_debuffr",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_scarf_spd",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 7,
-         "remove_if_not_active" : false,
-         "rule_type" : "firstroundonly",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_scarf_dmg_min",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : -0.80,
-         "remove_if_not_active" : false,
-         "rule_type" : "firstroundonly",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_scarf_dmg_max",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : -0.80,
-         "remove_if_not_active" : false,
-         "rule_type" : "firstroundonly",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_sake_acc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "tenshi_sake_stress_healing",
+         "id" : "tenshi_peachbox_stresshealr",
          "stat_type" : "stress_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "tenshi_sake_stress",
-         "stat_type" : "stress_dmg_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.10,
+         "amount" : 0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -239,10 +15,101 @@
          }
       },
 	  {
-         "id" : "tenshi_shion_prot",
+         "id" : "tenshi_peachbox_healr",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_token_prot",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_token_move",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
          "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_token_debuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_token_dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mallet_dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mallet_crit",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mallet_mhp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -255,7 +122,7 @@
          "id" : "tenshi_shion_critr",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : -0.12,
+         "amount" : -0.07,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -268,7 +135,7 @@
          "id" : "tenshi_shion_crit",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : -0.06,
+         "amount" : 0.07,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -276,6 +143,163 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "tenshi_shion_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_shion_prot",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_shion_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hakurei_mhp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_harurei_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_harurei_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hakurei_bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_hakurei_blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarfheal_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarfheal_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_DMGL-15",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_DMGH-15",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "fumos_perfect_math_class",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "hero_skill",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
       }
    ]
 }
