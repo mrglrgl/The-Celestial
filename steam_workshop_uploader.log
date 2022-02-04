@@ -39,6 +39,18 @@ heroes/tenshi/tenshi_A/anim/tenshi.sprite.heroic.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.idle.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.investigate.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.walk.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.afflicted.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.attack_banner.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.attack_scroll.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.attack_stun.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.attack_sword.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.camp.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.combat.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.defend.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.heroic.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.idle.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.investigate.png
+heroes/tenshi/tenshi_B/anim/tenshi.sprite.walk.png
 modes/new_game_plus/upgrades/heroes/tenshi.upgrades.json
 modes/radiant/upgrades/heroes/tenshi.upgrades.json
 campaign/town/town_event/town_event.image_first_tenshi.png
@@ -118,6 +130,7 @@ heroes/tenshi/icons_equip/eqp_weapon_2.png
 heroes/tenshi/icons_equip/eqp_weapon_3.png
 heroes/tenshi/icons_equip/eqp_weapon_4.png
 heroes/tenshi/tenshi_A/tenshi_portrait_roster.png
+heroes/tenshi/tenshi_B/tenshi_portrait_roster.png
 panels/icons_equip/supply/inv_supply+tenshi_bomb.PNG
 panels/icons_equip/supply/inv_supply+tenshi_bomb_camp.PNG
 panels/icons_equip/trinket/inv_trinket+tenshi_trinket_hakureikeystone.PNG
@@ -146,6 +159,7 @@ heroes/tenshi/tenshi.info.darkest
 heroes/tenshi/tenshi_guild_header.png
 raid/camping/tenshi.camping_skills.json
 shared/buffs/tenshi.buffs.json
+shared/buffs/tenshiaffliction.buffs.json
 shared/buffs/tenshibomb.buffs.json
 shared/buffs/tenshicamp.buffs.json
 shared/buffs/tenshidesk.buffs.json

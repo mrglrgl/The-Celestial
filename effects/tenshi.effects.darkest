@@ -4,6 +4,7 @@ effect: .name "FUMO BREAK"	.target "performer" .chance 100% .steal_buff_source_t
 effect: .name "FUMO HYPE 1"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_prot" "tenshi_hype_DMGL" "tenshi_hype_DMGH" "tenshi_hype_spd" "tenshi_hype_crit" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
 effect: .name "FUMO HYPE 2"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_move" "tenshi_hype_debuff" "tenshi_hype_stun" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
 
+
 //Vigor
 effect: .name "FUMO HEAL" .target "performer" .chance 100% .heal_percent 0.05	.source_heal_type hero_skill_multi_target .can_crit_heal false .on_hit true .on_miss true .queue true
 effect: .name "FUMO HEAL COOLDOWN" .target "performer" .chance 100%  .buff_ids "fumo_heal_cooldown" "fumo_heal_cooldown_Desk" .duration 1	.on_hit true .on_miss true .queue true
@@ -215,6 +216,15 @@ effect: .name "on_crit_tenshi"    .target "performer" .curio_result_type "positi
 // Excited Buff \\
 effect: .name "TenshiHype 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true
 effect: .name "TenshiHype 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true
+
+// Virtue \\
+effect: .name "Tenshi ST BarkStress" .target "target" .curio_result_type "negative" .chance 100% .stress 10	.buff_ids "Tenshi_Corruption" .on_hit true .on_miss false	.queue true
+effect: .name "Tenshi BarkStress" .target "target" .curio_result_type "negative" .chance 100% .stress 7	.on_hit true .on_miss false	.queue true
+effect: .name "Tenshi Random Target" .target "performer" .curio_result_type "negative" .chance 100% .duration 1 .buff_ids "tenshiRandAtk" "tenshiRandFriend" .on_hit true .on_miss false .apply_once true	.queue true
+effect: .name "Tenshi FFire" .target "target" .curio_result_type "negative" .chance 120% .stun 1 .health_damage_blocks 1	.on_hit true .on_miss false .queue true
+effect: .name "Tenshi VTaunt" .target "performer" .curio_result_type "negative" .chance 100% .duration 2 .tag 1 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false	.queue true
+
+
 
 // Trinkets and Bobbles \\
 //IKUUUUSAAAAN

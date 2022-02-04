@@ -136,32 +136,6 @@
             "string" : ""
          }
       },
-      {
-         "id" : "DMGL-15",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : -0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "DMGH-15",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : -0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
 	  {
          "id" : "fumo_heal_cooldown",
          "stat_type" : "hp_heal_percent",
@@ -177,6 +151,45 @@
          "is_clear_debuff_valid": false,
 		 "remove_on_battle_complete": true,
 		 "has_description" : false
+      },
+	  {
+         "id" : "Tenshi_Corruption",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshiRandAtk",
+         "stat_type":"random_target_attack_chance",
+         "stat_sub_type":"",
+         "amount": 0.34,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshiRandFriend",
+         "stat_type":"random_target_friendly_chance",
+         "stat_sub_type":"",
+         "amount": 0.34,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       },
 	  {
          "id" : "tenshi_split_r2_check",
