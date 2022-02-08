@@ -54,22 +54,13 @@
     <entry id="tenshi_armour_3"><![CDATA[Pristine Dress]]></entry>
     <entry id="tenshi_armour_4"><![CDATA["Flawless Celestial Cloth"]]></entry>
     <entry id="upgrade_tree_name_tenshi.armour"><![CDATA[Dress]]></entry>
-    <entry id="action_verbose_body_guild_tenshi"><![CDATA[A crash of stone, sizzle of energy, and roar of challenge herald this eccentric thrillseeker's arrival. The Celestial's divine blade lands unerringly, sundering body and spirit in equal measure, while her command of the earth itself leaves formations dazed and shattered. Her immense power is tempered only by equal recklessness, and care must be taken that she does not go too far...]]></entry>
-    <entry id="action_verbose_body_blacksmith_tenshi"><![CDATA[Tenshi Blacksmith
-	
-	{colour_start|stress}Passive: Exhilaration{colour_end}
-	On losing HP, gain {colour_start|stress}Exhilaration{colour_end}:
-	{colour_start|debuff}-30% PROT{colour_end}
-	{colour_start|buff}+15% DMG
-	+15% Status Chance
-	+5% CRIT
-	+5 SPD{colour_end}
-	{colour_start|stress}Exhilaration{colour_end} is lost after one round or when {colour_start|healhp}Healing{colour_end} is received.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_tenshi"><![CDATA[Tenshi Camp]]></entry>
+    <entry id="action_verbose_body_guild_tenshi"><![CDATA[A thrill-seeking "delinquent", the Celestial has utmost confidence in her abilities. Her divine blade strikes unerringly to sunder body and spirit, while her command of the earth itself leaves formations dazed and shattered. Her roars of challenge are impossible to ignore - and any who anwser will be crushed by devastating counterattacks.]]></entry>
+    <entry id="action_verbose_body_blacksmith_tenshi"><![CDATA[The Celestial's elegant dress, auspicious hat, and complacent gait conceal her true strength: a heaven-forged body more durable than any armor. Should a blow manage to harm her, complacency gives way to Exhilaration - demonstrating greater force and agility, but leaving herself vulnerable. Thankfully such elation fades swiftly, especially if her wounds are mended.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_tenshi"><![CDATA[Every storm has its moments of calm. At camp the Celestial prepares to let loose again at dawn, calling upon ancient rituals to stabilize mind and body. She has a strong selfish streak, and will offer no charity to her companions - unless they massage her ego.]]></entry>
 	
 		<!-- Event -->
-    <entry id="town_event_title_first_tenshi"><![CDATA[A New Troublemaker]]></entry>
-    <entry id="town_event_description_first_tenshi"><![CDATA[This time, the delinquent Celestial isn't the culprit.  But that doesn't mean she can't join in the fun.]]></entry>
+    <entry id="town_event_title_first_tenshi"><![CDATA[Walking Catastrophe]]></entry>
+    <entry id="town_event_description_first_tenshi"><![CDATA[She may hail from Heaven, but there is no righteousness in her intent. Tread carefully.]]></entry>
 
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Nawi Provisions]]></entry>
@@ -195,6 +186,15 @@
     <entry id="tenshi+str_critbyhero"><![CDATA[And to think I went easy on you.]]></entry>
 	<entry id="tenshi+str_critbyhero"><![CDATA[You thought you were strong? Fool.]]></entry>
 	<entry id="tenshi+str_critbyhero"><![CDATA[Feel free to praise me ~!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Playing "extermination" never gets old.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Hah, too easy!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Oh, did I forget to hold back?]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Bring me someone tougher!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[I can't tell which is more shattered, your body or spirit.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Another fool, crushed and broken.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[That's what you get for disrespecting me.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[You had guts. Emphasis on had.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Elegance and power combined!]]></entry>
 	
 		<!-- Death's Door -->
     <entry id="tenshi+str_bark_deathsdoor"><![CDATA[Did I... hold back too much?]]></entry>
@@ -226,16 +226,18 @@
 	<entry id="tenshi+str_combat_wastingtime"><![CDATA[This is boring. Finish them already!]]></entry>
 	
 		<!-- Light -->
-	<entry id="tenshi+str_bark_torch_0"><![CDATA[The light dims, but my spirit burns bright.]]></entry>
-	<entry id="tenshi+str_bark_torch_0"><![CDATA[They fight harder in the dark? Excellent!]]></entry>
-    <entry id="tenshi+str_bark_torch_1"><![CDATA[Step lightly. The earth is restless.]]></entry>
-    <entry id="tenshi+str_bark_torch_1"><![CDATA[Stay in my shadow.]]></entry>
-    <entry id="tenshi+str_bark_torch_2"><![CDATA[*shivers with delight*]]></entry>
-	<entry id="tenshi+str_bark_torch_2"><![CDATA[As the torch fades, my spirit ignites!]]></entry>
+	<entry id="tenshi+str_bark_torch_0"><![CDATA[They fight harder in the dark? Good.]]></entry>
+	<entry id="tenshi+str_bark_torch_0"><![CDATA[Stay in my shadow.]]></entry>
+    <entry id="tenshi+str_bark_torch_1"><![CDATA[What horrors stalk beyond the dying flame?]]></entry>
+    <entry id="tenshi+str_bark_torch_1"><![CDATA[Come out, come out, wherever you are...]]></entry>
+    <entry id="tenshi+str_bark_torch_2"><![CDATA[And now the fun begins!]]></entry>
+	<entry id="tenshi+str_bark_torch_2"><![CDATA[Not all that glitters is gold.]]></entry>
 	
 		<!-- Moving -->
-	<entry id="tenshi+str_bark_stopmoving"><![CDATA[...]]></entry>
-	<entry id="tenshi+str_bark_startmoving"><![CDATA[...]]></entry>
+	<entry id="tenshi+str_bark_stopmoving"><![CDATA[What's the holdup?]]></entry>
+	<entry id="tenshi+str_bark_stopmoving"><![CDATA[Make it quick.]]></entry>
+	<entry id="tenshi+str_bark_startmoving"><![CDATA[About time we got moving.]]></entry>
+	<entry id="tenshi+str_bark_startmoving"><![CDATA[Forward, minions!]]></entry>
 	
 		<!-- Stress Increases -->
 	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Another shinigami's trick?]]></entry>
@@ -245,68 +247,68 @@
 	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Could you use your imagination a bit?]]></entry>
 
 		<!-- Camping Barks Misc -->
-	<entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Your spirits are weak.]]></entry>
-    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[I knew you lot were unreliable, and still I'm disappointed.]]></entry>
-    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Chin up! You'll only break if you allow it!]]></entry>
+    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[I knew you rabble were unreliable, and still I'm disappointed.]]></entry>
+    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[You rabble are weak, in body and spirit.]]></entry>
+	<entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Vermin have more courage than you lot.]]></entry>
+	<entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Why are you all so afraid?]]></entry>
 
-    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[With me at your side, was there ever any doubt?]]></entry>
-    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[The earth is calm. This night will be a restful one.]]></entry>
-    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[A bit dull, isn't it?]]></entry>
     <entry id="tenshi+str_bark_stress_partylow"><![CDATA[Why did you bring me along again?]]></entry>
-    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[I found some beer on the last brigands. Want some?]]></entry>
+    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[You know, I could make things more interesting... no?]]></entry>
+	<entry id="tenshi+str_bark_stress_partylow"><![CDATA[Our enemy isn't trying very hard.]]></entry>
+    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[I wish something fun would happen.]]></entry>
 	
-    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[A bit more resistance than I expected.]]></entry>
-    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[You'll need to try harder if you want to keep up.]]></entry>
-    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Make yourself less obvious next time.]]></entry>
-    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[YOU only have one life. I'd suggest you start trying.]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Why are humans so frail? *sigh*]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[If you can't take a hit, I'd recommend dodging.]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Must I really babysit you?]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Can't you fend for yourselves for once?]]></entry>
 	
-    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[I'm glad you can keep up with me.]]></entry>
-    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[The enemy isn't trying very hard.]]></entry>
-    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[Of course. I've favored you, after all.]]></entry>
-    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[The perfection of Heaven could not compare!]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[You can hold your own, at least.]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[You can hold your own, I'll give you that.]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[All thanks to my efforts, of course!]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[You all know who to thank for our fortune!]]></entry>
 
     <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Huh, that one actually got me.]]></entry>
-    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Don't worry. Worst case, I die and come back tomorrow.]]></entry>
-    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[I've been through hellfire and bullets, this is nothing.]]></entry>
-    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Finally, a worthy challenge!]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[It'll take more than this to get rid of me.]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[*winces* Don't worry, I'm fine.]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[I just need a pick-me-up.]]></entry>
 
     <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[Not a scratch, see?]]></entry>
-    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[They thought they could hurt me. Showed them!]]></entry>
-    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[I'm fine, are you?]]></entry>
-    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[A thousand blows, and not a scratch!]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[You know, they could at least TRY to hurt me.]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[Compared to what I've been through, this is nothing.]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[*flexes* Peak condition, as always.]]></entry>
 
-    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[The earth is calm, I can rest easy.]]></entry>
-    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[What wonders await us tomorrow? I can't wait!]]></entry>
-    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[I shall be your beacon.]]></entry>
-    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[This has been fun!]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[*yawns*]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[Wake me if anything interesting happens.]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[*snores*]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[I'm thinking of starting an incident. Anyone want in?]]></entry>
 
-    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[The earth is restless.]]></entry>
-    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[The spirit of this land is warped beyond repair.]]></entry>
-    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[A crow... hopefully not an ill omen.]]></entry>
-    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Tremors and foul spirits. We should not linger.]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[If this continues... hehehe...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Things are heating up...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[So close... I can feel it...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Go on. Push me further... see what happens...]]></entry>
 
-    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Get some rest, the end is in sight.]]></entry>
-    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[You've entertained me well, friends.]]></entry>
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[The end is in sight... pity.]]></entry>
     <entry id="tenshi+str_bark_party_great_condition"><![CDATA[I'm not gonna throw, okay?]]></entry>
     <entry id="tenshi+str_bark_party_great_condition"><![CDATA[This has been almost TOO easy.]]></entry>
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Remind me why I'm here again?]]></entry>
 
-    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Might as well head back. There's little fun to be had here.]]></entry>
-    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[If you're just gonna slow me down, head back.]]></entry>
-    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[I'm starting to miss my home now.]]></entry>
-    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Keep this up, and you're headed to an early grave.]]></entry>
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[If you're just going to burden me, head back now.]]></entry>
+	<entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Keep this up, and you're headed to an early grave.]]></entry>
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[I'm tired of carrying you sods.]]></entry>
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[If you want to die so badly, I could help.]]></entry>
 
     <entry id="tenshi+str_bark_firewood_low"><![CDATA[Out of firewood, but at least that's less to carry.]]></entry>
     <entry id="tenshi+str_bark_firewood_low"><![CDATA[No, my sword does NOT create fire.]]></entry>
 	
-    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Take mine next time. I don't need to eat much.]]></entry>
-    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Who's been snacking?]]></entry>
-    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Be more careful with the food next time.]]></entry>
-    <entry id="tenshi+str_bark_provisions_low"><![CDATA[No, the peaches on my hat aren't actually edible.]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[I hear night sparrows taste excellent when grilled.]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Who ate my share?]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Step away from the hat.]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Was that the last of the tinned catfish? ...good riddance.]]></entry>
 
-    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Food, check!]]></entry>
-    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Still plenty of food, as long as we're careful.]]></entry>
-    <entry id="tenshi+str_bark_provisions_high"><![CDATA[This food is much nicer than back home.]]></entry>
-    <entry id="tenshi+str_bark_provisions_high"><![CDATA[So much food, mind if I save a snack?]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[More interesting fare than back home, at least.]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[I don't even recognize half these provisions!]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Abundant food and mediocre company... acceptable.]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Mediocre food, but at least we have a lot of it.]]></entry>
 	
     <entry id="tenshi+str_bark_firewood_high"><![CDATA[So much wood! What do you say to a bonfire?]]></entry>
     <entry id="tenshi+str_bark_firewood_high"><![CDATA[Stack the logs higher, we have plenty to spare.]]></entry>
@@ -453,7 +455,7 @@
 	
 			<!-- Party Stress -->
 	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Oh, I'm not trapped in here with YOU. Heheh...]]></entry>
-	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Kyuhuhu, watch your step!]]></entry>
+	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Ufufu, watch your step!]]></entry>
 	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Stand clear, or be crushed!]]></entry>
 	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Let's play a game!]]></entry>
 	
@@ -463,6 +465,7 @@
 	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Do you enjoy scurrying about like a rat?]]></entry>
 	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Yes, gaze upon perfection ~]]></entry>
 	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Don't you find mortality burdensome?]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[You call that a weapon? Hah!]]></entry>
 	
 			<!-- FFire -->
 	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Woops, didn't see you there!]]></entry>
@@ -491,6 +494,7 @@
 	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[What a waste of energy.]]></entry>
 	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[*Hmph* Coward.]]></entry>
 	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[Mortals. So afraid for their lives.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[How gutless.]]></entry>
 	
 			<!-- Self Missed -->
 	<entry id="tenshi+str_comment_self_missed_tenshivirtue"><![CDATA[What's wrong? Scared?]]></entry>
@@ -512,7 +516,7 @@
 	<entry id="trigger_curio_virtued_tenshivirtue"><![CDATA[I've been looking for a souvenir.]]></entry>
 	<entry id="tenshi+trigger_curio_virtued_tenshivirtue"><![CDATA[I've been looking for a souvenir.]]></entry>
 				<!-- Take -->
-	<entry id="tenshi+str_keep_loot_string"><![CDATA[A perfect memento.]]></entry>
+	<entry id="tenshi+str_keep_loot_string"><![CDATA[A worthy memento.]]></entry>
 	
 	
 		<!-- Roster Barks -->
@@ -558,7 +562,6 @@
 	<entry id="tenshi+str_override_invalid_rejection"><![CDATA[You presume too much.]]></entry>
     <entry id="tenshi+str_override_invalid_rejection"><![CDATA[What would I pray to? Myself?]]></entry>
     <entry id="tenshi+str_override_invalid_rejection"><![CDATA[I'll demolish it, if that's what you're asking.]]></entry>
-	<entry id="tenshi+str_override_invalid_rejection"><![CDATA[Faith is for Mikos, not me.]]></entry>
 	
 				<!-- Bar -->
 	<entry id="tenshi+str_bar_committed"><![CDATA[Bring me your strongest!]]></entry>
@@ -635,7 +638,7 @@
     <entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[...what was that?]]></entry>
 	
 				<!-- Heart of Darkness -->
-	<entry id="tenshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Time to go home? But... very well.]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Very well - let us fall into Hell together!]]></entry>
 	
 				<!-- Sunward Mod -->
 	<entry id="tenshi+str_monster_attack_bozu_nothing"><![CDATA[Well, what are you waiting for?]]></entry>
@@ -673,20 +676,28 @@
 				<!-- Miko by The Necromancer -->
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Pffft. You call that a spellcard?]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[...was that supposed to be impressive?]]></entry>
-	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Wait. That's it?]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Less flashy than I remember.]]></entry>
-	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[You're not trying, right?]]></entry>	
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[You're not trying, right?]]></entry>
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Trying to make them surrender out of pity?]]></entry>
 	
 				<!-- Maid by The Necromancer -->
 	<entry id="tenshi+str_the_world_react"><![CDATA[(They really aren't worth using that...)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Fine, just leave some for me.)]]></entry>
-	<entry id="tenshi+str_the_world_react"><![CDATA[(If they can't fight back, where's the fun?)]]></entry>
-	<entry id="tenshi+str_the_world_react"><![CDATA[(Don't kill ALL of them, okay?)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(You need to slow down and relax.)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Well, at least I won't have to wait.)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Killjoy.)]]></entry>
 	
 				<!-- Magician by Necro -->
 	<entry id="tenshi+str_master_spark_react"><![CDATA[I could do that too. If I felt like it.]]></entry>
 	<entry id="tenshi+str_master_spark_react"><![CDATA[What, you can't spam it?]]></entry>
 	<entry id="tenshi+str_master_spark_react"><![CDATA[Effective, if inelegant.]]></entry>
+	<entry id="tenshi+str_master_spark_react"><![CDATA[You call THAT a laser?]]></entry>
+	
+		<!-- Crimson Court -->
+			<!-- Prisoner -->
+	<entry id="tenshi+str_prisoner_help_me"><![CDATA[This isn't what it looks like, I swear.]]></entry>
+    <entry id="tenshi+str_prisoner_rescue_thanks"><![CDATA[Keep quiet about this, and I'll help you.]]></entry>
+	
 	
 		<!-- Buff shit -->
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry> 

@@ -49,7 +49,7 @@
 		{
 			"id" : "t_nompeach",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" : 
 			[
