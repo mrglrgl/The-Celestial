@@ -1,209 +1,209 @@
 
 tenshi.sprite.combat.png
-size: 645,548
+size: 1960,394
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-belt
-  rotate: false
-  xy: 257, 400
-  size: 133, 81
-  orig: 133, 81
-  offset: 0, 0
-  index: -1
-chest
-  rotate: false
-  xy: 471, 315
-  size: 172, 231
-  orig: 172, 231
-  offset: 0, 0
-  index: -1
-helm
-  rotate: false
-  xy: 112, 326
-  size: 137, 155
-  orig: 137, 155
-  offset: 0, 0
-  index: -1
-left_arm
-  rotate: false
-  xy: 576, 168
-  size: 65, 63
-  orig: 65, 63
-  offset: 0, 0
-  index: -1
-left_beltpouch
+BackHair
   rotate: true
-  xy: 394, 22
-  size: 80, 105
-  orig: 80, 105
+  xy: 898, 87
+  size: 305, 291
+  orig: 305, 291
   offset: 0, 0
   index: -1
-left_boot
-  rotate: false
-  xy: 422, 118
-  size: 79, 80
-  orig: 79, 80
-  offset: 0, 0
-  index: -1
-left_couter
+BackHair2
   rotate: true
-  xy: 576, 233
-  size: 80, 66
-  orig: 80, 66
+  xy: 1081, 5
+  size: 20, 181
+  orig: 20, 181
   offset: 0, 0
   index: -1
-left_foot
+BackHair3
   rotate: false
-  xy: 312, 10
-  size: 80, 83
-  orig: 80, 83
+  xy: 1359, 173
+  size: 40, 219
+  orig: 40, 219
   offset: 0, 0
   index: -1
-left_gauntlet
-  rotate: false
-  xy: 238, 95
-  size: 98, 103
-  orig: 98, 103
-  offset: 0, 0
-  index: -1
-left_glove
-  rotate: false
-  xy: 503, 130
-  size: 70, 73
-  orig: 70, 73
-  offset: 0, 0
-  index: -1
-left_leg
-  rotate: false
-  xy: 172, 5
-  size: 83, 87
-  orig: 83, 87
-  offset: 0, 0
-  index: -1
-left_pauldron
-  rotate: false
-  xy: 467, 205
-  size: 107, 108
-  orig: 107, 108
-  offset: 0, 0
-  index: -1
-left_tasset01
-  rotate: false
-  xy: 392, 413
-  size: 76, 68
-  orig: 76, 68
-  offset: 0, 0
-  index: -1
-left_tasset02
+BackofHat
   rotate: true
-  xy: 575, 31
-  size: 79, 55
-  orig: 79, 55
+  xy: 1305, 112
+  size: 280, 52
+  orig: 280, 52
   offset: 0, 0
   index: -1
-left_tasset03
-  rotate: false
-  xy: 378, 280
-  size: 87, 61
-  orig: 87, 61
-  offset: 0, 0
-  index: -1
-right_beltpouch
-  rotate: false
-  xy: 112, 2
-  size: 58, 90
-  orig: 58, 90
-  offset: 0, 0
-  index: -1
-right_boot
-  rotate: false
-  xy: 392, 343
-  size: 74, 68
-  orig: 74, 68
-  offset: 0, 0
-  index: -1
-right_foot
+Bang1
   rotate: true
-  xy: 376, 200
-  size: 78, 71
-  orig: 78, 71
+  xy: 813, 2
+  size: 72, 59
+  orig: 72, 59
   offset: 0, 0
   index: -1
-right_gauntlet
+Belt
   rotate: false
-  xy: 257, 200
-  size: 117, 99
-  orig: 117, 99
+  xy: 654, 5
+  size: 89, 28
+  orig: 89, 28
   offset: 0, 0
   index: -1
-right_glove
+Face
   rotate: true
-  xy: 28, 11
-  size: 38, 70
-  orig: 38, 70
+  xy: 1838, 153
+  size: 94, 119
+  orig: 94, 119
   offset: 0, 0
   index: -1
-right_leg
-  rotate: false
-  xy: 338, 104
-  size: 82, 94
-  orig: 82, 94
-  offset: 0, 0
-  index: -1
-right_tasset01
-  rotate: false
-  xy: 257, 7
-  size: 53, 86
-  orig: 53, 86
-  offset: 0, 0
-  index: -1
-right_tasset02
+Fromselection
   rotate: true
-  xy: 575, 112
-  size: 54, 64
-  orig: 54, 64
+  xy: 475, 20
+  size: 372, 177
+  orig: 372, 177
   offset: 0, 0
   index: -1
-right_tasset03
+Fromselection1
   rotate: false
-  xy: 501, 37
-  size: 72, 79
-  orig: 72, 79
+  xy: 2, 16
+  size: 471, 376
+  orig: 471, 376
   offset: 0, 0
   index: -1
-right_thumb
+FrontFlap
   rotate: false
-  xy: 2, 9
-  size: 24, 40
-  orig: 24, 40
+  xy: 1838, 249
+  size: 120, 143
+  orig: 120, 143
+  offset: 0, 0
+  index: -1
+FrontofHat
+  rotate: true
+  xy: 719, 76
+  size: 316, 177
+  orig: 316, 177
+  offset: 0, 0
+  index: -1
+Hairbit
+  rotate: false
+  xy: 1191, 108
+  size: 112, 284
+  orig: 112, 284
+  offset: 0, 0
+  index: -1
+HerLeftFoot
+  rotate: false
+  xy: 1401, 211
+  size: 129, 181
+  orig: 129, 181
+  offset: 0, 0
+  index: -1
+HerRightFoot
+  rotate: false
+  xy: 1559, 44
+  size: 127, 166
+  orig: 127, 166
+  offset: 0, 0
+  index: -1
+LeftArm
+  rotate: false
+  xy: 1681, 231
+  size: 155, 161
+  orig: 155, 161
+  offset: 0, 0
+  index: -1
+LeftLeaf1
+  rotate: false
+  xy: 874, 9
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+LeftLeaf2
+  rotate: false
+  xy: 1834, 57
+  size: 114, 94
+  orig: 114, 94
+  offset: 0, 0
+  index: -1
+Ribbon
+  rotate: false
+  xy: 949, 10
+  size: 130, 75
+  orig: 130, 75
+  offset: 0, 0
+  index: -1
+RibbonBottom
+  rotate: false
+  xy: 1744, 14
+  size: 86, 96
+  orig: 86, 96
+  offset: 0, 0
+  index: -1
+RibbonTop
+  rotate: false
+  xy: 1081, 27
+  size: 87, 58
+  orig: 87, 58
+  offset: 0, 0
+  index: -1
+RightArm
+  rotate: false
+  xy: 1532, 212
+  size: 147, 180
+  orig: 147, 180
+  offset: 0, 0
+  index: -1
+Tassel
+  rotate: false
+  xy: 1400, 2
+  size: 157, 169
+  orig: 157, 169
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: true
+  xy: 1688, 112
+  size: 117, 144
+  orig: 117, 144
+  offset: 0, 0
+  index: -1
+bang2
+  rotate: false
+  xy: 1688, 2
+  size: 54, 108
+  orig: 54, 108
+  offset: 0, 0
+  index: -1
+bang3
+  rotate: true
+  xy: 1170, 31
+  size: 54, 116
+  orig: 54, 116
+  offset: 0, 0
+  index: -1
+bang4
+  rotate: false
+  xy: 745, 2
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+rightleaf1
+  rotate: false
+  xy: 1288, 5
+  size: 110, 101
+  orig: 110, 101
+  offset: 0, 0
+  index: -1
+rightleaf2
+  rotate: true
+  xy: 1832, 2
+  size: 53, 92
+  orig: 53, 92
   offset: 0, 0
   index: -1
 shadow
-  rotate: false
-  xy: 112, 483
+  rotate: true
+  xy: 654, 35
   size: 357, 63
   orig: 357, 63
-  offset: 0, 0
-  index: -1
-sword
-  rotate: false
-  xy: 2, 51
-  size: 108, 495
-  orig: 108, 495
-  offset: 0, 0
-  index: -1
-tunic
-  rotate: false
-  xy: 112, 94
-  size: 124, 219
-  orig: 124, 219
-  offset: 0, 0
-  index: -1
-visor
-  rotate: false
-  xy: 257, 301
-  size: 119, 97
-  orig: 119, 97
   offset: 0, 0
   index: -1

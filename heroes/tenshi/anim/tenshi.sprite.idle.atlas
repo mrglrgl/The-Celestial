@@ -1,223 +1,216 @@
 
 tenshi.sprite.idle.png
-size: 679,549
+size: 4040,2512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-back
-  rotate: false
-  xy: 400, 217
-  size: 141, 152
-  orig: 141, 152
-  offset: 0, 0
-  index: -1
-belt
+Idle Animation/Back Of Hat And Hair/Back Hair
   rotate: true
-  xy: 358, 371
-  size: 176, 76
-  orig: 176, 76
+  xy: 361, 2010
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-chest
+Idle Animation/Back Of Hat And Hair/Back Of Hat
   rotate: true
-  xy: 229, 191
-  size: 162, 169
-  orig: 162, 169
+  xy: 1034, 2010
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-helm
-  rotate: false
-  xy: 543, 397
-  size: 134, 150
-  orig: 134, 150
-  offset: 0, 0
-  index: -1
-left_arm
-  rotate: false
-  xy: 395, 4
-  size: 81, 100
-  orig: 81, 100
-  offset: 0, 0
-  index: -1
-left_beltpouch
-  rotate: false
-  xy: 458, 117
-  size: 53, 98
-  orig: 53, 98
-  offset: 0, 0
-  index: -1
-left_boot
-  rotate: false
-  xy: 590, 113
-  size: 77, 77
-  orig: 77, 77
-  offset: 0, 0
-  index: -1
-left_foot
-  rotate: false
-  xy: 590, 324
-  size: 78, 71
-  orig: 78, 71
-  offset: 0, 0
-  index: -1
-left_gauntlet
-  rotate: false
-  xy: 164, 99
-  size: 138, 89
-  orig: 138, 89
-  offset: 0, 0
-  index: -1
-left_leg
+Idle Animation/Back Of Hat And Hair/Hair Bit
   rotate: true
-  xy: 543, 276
-  size: 55, 42
-  orig: 55, 42
+  xy: 1707, 2010
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-left_pauldron
-  rotate: false
-  xy: 323, 2
-  size: 70, 98
-  orig: 70, 98
-  offset: 0, 0
-  index: -1
-left_tasset01
-  rotate: false
-  xy: 490, 373
-  size: 47, 49
-  orig: 47, 49
-  offset: 0, 0
-  index: -1
-left_tasset02
-  rotate: false
-  xy: 436, 371
-  size: 52, 51
-  orig: 52, 51
-  offset: 0, 0
-  index: -1
-left_tasset03
+Idle Animation/From selection #1
   rotate: true
-  xy: 613, 266
-  size: 56, 62
-  orig: 56, 62
+  xy: 2380, 2010
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-neck
-  rotate: false
-  xy: 2, 4
-  size: 118, 91
-  orig: 118, 91
-  offset: 0, 0
-  index: -1
-right_arm
+Idle Animation/From selection #11
   rotate: true
-  xy: 613, 192
-  size: 72, 58
-  orig: 72, 58
+  xy: 2, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_beltpouch
-  rotate: false
-  xy: 478, 21
-  size: 73, 94
-  orig: 73, 94
-  offset: 0, 0
-  index: -1
-right_boot
+Idle Animation/From selection #2
   rotate: true
-  xy: 304, 102
-  size: 87, 79
-  orig: 87, 79
+  xy: 3053, 2010
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_foot
+Idle Animation/Head/From selection #10
   rotate: true
-  xy: 385, 106
-  size: 83, 71
-  orig: 83, 71
+  xy: 1348, 1006
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_gauntlet
-  rotate: false
-  xy: 122, 5
-  size: 89, 90
-  orig: 89, 90
-  offset: 0, 0
-  index: -1
-right_glove
+Idle Animation/Head/From selection #3
   rotate: true
-  xy: 543, 217
-  size: 57, 68
-  orig: 57, 68
+  xy: 675, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_leg
+Idle Animation/Head/From selection #4
   rotate: true
-  xy: 543, 333
-  size: 62, 44
-  orig: 62, 44
+  xy: 1348, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_pauldron
+Idle Animation/Head/From selection #5
   rotate: true
-  xy: 213, 2
-  size: 95, 108
-  orig: 95, 108
+  xy: 2021, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_tasset01
-  rotate: false
-  xy: 513, 135
-  size: 75, 80
-  orig: 75, 80
-  offset: 0, 0
-  index: -1
-right_tasset02
+Idle Animation/Head/From selection #6
   rotate: true
-  xy: 610, 34
-  size: 77, 56
-  orig: 77, 56
+  xy: 2694, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_tasset03
+Idle Animation/Head/From selection #7
   rotate: true
-  xy: 553, 5
-  size: 72, 55
-  orig: 72, 55
+  xy: 3367, 1508
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
-right_thumb
-  rotate: false
-  xy: 553, 79
-  size: 33, 54
-  orig: 33, 54
+Idle Animation/Head/From selection #8
+  rotate: true
+  xy: 2, 1006
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Head/From selection #9
+  rotate: true
+  xy: 675, 1006
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Head/Left Leaf 1
+  rotate: true
+  xy: 2021, 1006
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Head/Left Leaf 2
+  rotate: true
+  xy: 2694, 1006
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Head/Top And Front Of Hat
+  rotate: true
+  xy: 3367, 1006
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Her Left Foot
+  rotate: true
+  xy: 2, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Her Right Foot
+  rotate: true
+  xy: 675, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/New group/Belt
+  rotate: true
+  xy: 1348, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/New group/Front Flap
+  rotate: true
+  xy: 2021, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/New group/Ribbon Bottom
+  rotate: true
+  xy: 2694, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/New group/Ribbon Top
+  rotate: true
+  xy: 3367, 504
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/New group/Tassel
+  rotate: true
+  xy: 2, 2
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Ribbon
+  rotate: true
+  xy: 675, 2
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Ribbon #1/Layer 80
+  rotate: true
+  xy: 1348, 2
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Skirt/From selection
+  rotate: true
+  xy: 2021, 2
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Skirt/Layer 41
+  rotate: true
+  xy: 2694, 2
+  size: 500, 671
+  orig: 500, 671
+  offset: 0, 0
+  index: -1
+Idle Animation/Torso
+  rotate: true
+  xy: 3367, 2
+  size: 500, 671
+  orig: 500, 671
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 164, 190
+  rotate: false
+  xy: 2, 2447
   size: 357, 63
   orig: 357, 63
-  offset: 0, 0
-  index: -1
-sword
-  rotate: false
-  xy: 2, 97
-  size: 160, 450
-  orig: 160, 450
-  offset: 0, 0
-  index: -1
-tunic
-  rotate: false
-  xy: 229, 355
-  size: 127, 192
-  orig: 127, 192
-  offset: 0, 0
-  index: -1
-visor
-  rotate: true
-  xy: 436, 424
-  size: 123, 104
-  orig: 123, 104
   offset: 0, 0
   index: -1
