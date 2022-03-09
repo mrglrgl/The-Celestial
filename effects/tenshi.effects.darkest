@@ -64,6 +64,9 @@ effect: .name "Tenshi Split Desk 5" .target "performer" .skill_instant true .buf
 
 
 //// Celestial Grace \\\\
+effect: .name "Tenshi Weather ST Check" .target "target_group_other" .chance 9999% .buff_source_type bsrc_notspecified .duration 1 .buff_ids "tenshi_weather_ST_res" .on_hit true .on_miss true .apply_once true .queue false .has_description false
+effect: .name "Tenshi Weather ST Check Cleanup" .target "target_group_other" .chance 9999% .buff_source_type bsrc_notspecified .duration 1 .buff_ids "tenshi_weather_ST_unres" .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
 effect: .name "Tenshi Guard" .target "target" .curio_result_type "positive" .guard 1 .duration 3 .queue true .on_hit true .on_miss true 
 effect: .name "Tenshi Clear Guard Target" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .queue true .has_description false
 effect: .name "Tenshi Clear Guard Self" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .queue true .has_description false
@@ -226,8 +229,24 @@ effect: .name "Tenshi VTaunt" .target "performer" .curio_result_type "negative" 
 
 
 
-// Trinkets and Bobbles \\
-//IKUUUUSAAAAN
+//// Trinkets and Bobbles \\\\
+////Hammer Time
 effect: .name "Fumo Swagger" .target "performer"	.chance 900% .pull 1 .on_hit true .on_miss true .apply_once true .has_description false
+//Lay bare the hearts of men
+effect: .name "Scarlet Weather Rhapsody 1" .target "performer" .chance 100%	.summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters tenshi_ikus_revenge_A .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue false
+effect: .name "Scarlet Weather Rhapsody 2" .target "performer" .chance 100%	.summon_count 1 .summon_limits 1 .summon_can_spawn_loot false .summon_monsters tenshi_ikus_revenge_B .summon_chances 1.0 .on_hit true .on_miss true .apply_once true .has_description false .queue false
+
+//Tenshi's Buff
+effect: .name "tenshi_weather_tenshi" .spawn_target_actor_base_class_id tenshi .target "target" .chance 300% .duration 2 .buff_ids "tenshi_weather_tenshi_spd" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+effect: .name "tenshi_weather_magician" .spawn_target_actor_base_class_id magician .target "target" .chance 300% .duration 2 .buff_ids "tenshi_weather_magician_ap" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+effect: .name "tenshi_weather_maid" .spawn_target_actor_base_class_id maid .target "target" .chance 300% .duration 2 .buff_ids "tenshi_weather_maid_crit" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+effect: .name "tenshi_weather_miko" .spawn_target_actor_base_class_id miko .target "target" .chance 300% .duration 2 .buff_ids "tenshi_weather_miko_destress" .on_hit true .on_miss false .apply_once false .queue true .has_description true
+
+//Kill Summon
+effect: .name "tenshi_weather_deth1" .target "performer" .chance 1000% .kill_enemy_types tenshi_ikus_revenge_1 .on_hit true .on_miss true .queue true
+effect: .name "tenshi_weather_deth2" .target "performer" .chance 1000% .kill_enemy_types tenshi_ikus_revenge_2 .on_hit true .on_miss true .queue true
+
+////CoM
 effect: .name "Fumos Perfect Math Class" .target "target_enemy_group" .chance 100% .swap_source_and_target true  .buff_ids "fumos_perfect_math_class" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
-effect: .name "Fumoless Healing" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss false .apply_once true .queue true .source_heal_type hero_skill .has_description false
+effect: .name "Fumoless Healing" .target "performer" .chance 100% .heal 1 .on_hit true .on_miss false .apply_once true .queue true .source_heal_type hero_skill .has_description false
+effect: .name "Fumo Blight" .target "target_enemy_group" .chance 900% .swap_source_and_target true  .dotPoison 1 .duration 3 .on_hit true .on_miss false .apply_once true .queue true .has_description false

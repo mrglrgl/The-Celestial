@@ -1,0 +1,30 @@
+{
+   "entries":
+   [
+      {
+         "id" : "com_tenshi_dualedge",
+         "buffs" : 
+         [
+			"tenshi_dualedge_heal_1_remove",
+			"tenshi_dualedge_reflect",
+			"tenshi_dualedge_heal_Desk",
+			"tenshi_dualedge_blight_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "tenshi_com_fluff_set",
+		 "rarity" : "comet",
+         "shard" : 25,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+			 "Fumos Perfect Math Class",
+			 "Fumoless Healing",
+			 "Fumo Blight"
+         ]
+      }
+   ]
+}

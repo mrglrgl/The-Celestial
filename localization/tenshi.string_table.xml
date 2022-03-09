@@ -18,7 +18,7 @@
 
     <entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Just watch, this is nothing to me!]]></entry>
 	<entry id="tenshi+str_bark_t_nompeach"><![CDATA[Bhavaagra's food is dull, but extremely potent.]]></entry>
-	<entry id="tenshi+str_bark_t_protectingstones"><![CDATA[The earth will shift to our aid! Feel free to praise my efforts.]]></entry>
+	<entry id="tenshi+str_bark_t_protectingstones"><![CDATA[Feel free to praise my efforts!]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<Pain is merely a suggestion. And I chose to ignore it.>]]></entry>
 	<entry id="tenshi+str_bark_t_makesomebombs"><![CDATA[Where'd I stash this? Not telling ~]]></entry>
@@ -26,7 +26,7 @@
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Sword of Hisou]]></entry>
-	<entry id="combat_skill_name_tenshi_t_heavenblade"><![CDATA[Heavensplitter]]></entry>
+	<entry id="combat_skill_name_tenshi_t_heavenblade"><![CDATA[Banish]]></entry>
     <entry id="combat_skill_name_tenshi_t_eruption"><![CDATA[Violent Land]]></entry>
     <entry id="combat_skill_name_tenshi_t_grace"><![CDATA[Eyes On Me!]]></entry>
 	<entry id="combat_skill_name_tenshi_t_meteor"><![CDATA[Judgement Keystone]]></entry>
@@ -34,7 +34,7 @@
 	<entry id="combat_skill_name_tenshi_t_earthquake"><![CDATA[Sword of Unletting Soil]]></entry>
     <entry id="combat_skill_name_tenshi_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_tenshi.t_hisou"><![CDATA[Sword of Hisou]]></entry>
-	<entry id="upgrade_tree_name_tenshi.t_heavenblade"><![CDATA[Heavensplitter]]></entry>
+	<entry id="upgrade_tree_name_tenshi.t_heavenblade"><![CDATA[Banish]]></entry>
     <entry id="upgrade_tree_name_tenshi.t_eruption"><![CDATA[Violent Land]]></entry>
     <entry id="upgrade_tree_name_tenshi.t_grace"><![CDATA[Eyes On Me!]]></entry>
 	<entry id="upgrade_tree_name_tenshi.t_meteor"><![CDATA[Judgement Keystone]]></entry>
@@ -64,24 +64,52 @@
 
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Nawi Provisions]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_token"><![CDATA[Mountain Token]]></entry>
-    <entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Giantslayer's Mallet]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Misfortune's Favor]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_token"><![CDATA[Landslide Talisman]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Empowering Mallet]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Shion's Blessing]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Land-Calming Stone]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Dragonfish Veil]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Dragonfish's Veil]]></entry>
+	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Paradoxical Duality]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Imagine I]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Was Good]]></entry>
+	
+	<entry id="str_inventory_set_title_tenshi_sunward_fluff_set"><![CDATA["They warn of disaster, powerless to stop it."]]></entry>
+	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Two disparate Heavens over one Earth."]]></entry>
+	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA[At Writing]]></entry>
+
 	
 
 		<!-- Random Tooltips Desk -->
-	<entry id="buff_stat_tooltip_upgrade_discount_fumo_heal_cooldown_desk"><![CDATA[Vigor Cooldown]]></entry>
 	
 				<!-- Trinkets -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[After {colour_start|riposte}Riposte{colour_end}: Lose {colour_start|stress}Exhilaration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills gain {colour_start|move}Forward{colour_end} 1]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarfheal_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|healhp}Heal{colour_end} 2
-	+1 HP {colour_start|healhp}Healed{colour_end} for each Enemy]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mallet_fuckyourtruncation_desk"><![CDATA[+5.5%% CRT
+	-5.5%% Crits received]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[After {colour_start|riposte}Riposte{colour_end}: Clear {colour_start|stress}Exhilaration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_move_desk"><![CDATA[{colour_start|attacktype}Ranged{colour_end} Skills gain {colour_start|move}Forward{colour_end} 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_friendly_desk"><![CDATA[{colour_start|notable}Eyes on Me!{colour_end}: {colour_start|buff}Buff{colour_end} Target based on {colour_start|afflicted}Temperament{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_party_desk"><![CDATA[{colour_start|notable}Calamitous Ultimatum{colour_end}: {colour_start|buff}Buff{colour_end} Party based on {colour_start|afflicted}Temperament{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_tenshi_desk"><![CDATA[{colour_start|afflicted}Celestial Temperament{colour_end}:
+	-]]></entry>
+	<!-- <entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_magician_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_maid_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_miko_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry> -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_magician_desk"><![CDATA[​{colour_start|afflicted}Magician Temperament{colour_end}:
+	-]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_maid_desk"><![CDATA[​{colour_start|afflicted}Maid Temperament{colour_end}:
+	-]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_miko_desk"><![CDATA[​{colour_start|afflicted}Miko Temperament{colour_end}:
+	-]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_disclaimer_desk"><![CDATA[​{colour_start|skill_unselectable}Only buffs the following classes:
+	Celestial, Magician, Maid, Miko{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_cleaner_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_heal_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|healhp}Heal{colour_end} 3 for each enemy]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_blight_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|blight}Blight{colour_end} for each enemy {colour_start|skill_unselectable}(900%%){colour_end}
+	1 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_fucking_truncation_desk"><![CDATA[+10.5%% CRT if HP below 72%%]]></entry>
+
 	
 				<!-- Camp Skills -->
-	<entry id="camping_skill_effect_loot_tenshi_camp_mark_desc"><![CDATA[ {colour_start|mark}Mark{colour_end} (4 Battles)]]></entry>
+	<entry id="camping_skill_effect_loot_tenshi_camp_mark_desc"><![CDATA[{colour_start|mark}Mark{colour_end} (4 Battles)]]></entry>
 				
 				<!-- Sword of Hisou -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_1_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
@@ -107,7 +135,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}
 	Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	
-				<!-- Celestial Grace -->
+				<!-- Eyes on Me! -->
 					<!-- Riposte -->					
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_1_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|skill_unselectable}(ACC 95 / DMG -15%% / CRIT +6%%){colour_end}]]></entry>
@@ -700,7 +728,12 @@
 	
 	
 		<!-- Buff shit -->
-	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry> 
+	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
+	
+		<!-- Compatibility -->
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in Inventory]]></entry>
+	<entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if no %s in Inventory]]></entry>
+	
 		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
 	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
     <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry>

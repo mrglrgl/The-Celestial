@@ -1,0 +1,43 @@
+{
+   "entries":
+   [
+      {
+         "id" : "cc_set_tenshi_first",
+         "buffs" : 
+         [	
+			"tenshi_cc_first_mhp",
+			"tenshi_cc_first_healing"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "cc_tenshi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_tenshi_last",
+         "buffs" : 
+         [
+			"tenshi_cc_last_crit",
+			"tenshi_fucking_truncation_Desk",
+			"tenshi_cc_last_move",
+			"tenshi_cc_last_debuff",
+			"tenshi_cc_last_stun"
+         ],
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "set_id" : "cc_tenshi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard" 
+      }
+   ]
+}

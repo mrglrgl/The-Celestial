@@ -28,23 +28,10 @@
          }
       },
 	  {
-         "id" : "tenshi_token_prot",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "tenshi_token_move",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.30,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -54,61 +41,76 @@
          }
       },
 	  {
-         "id" : "tenshi_token_debuff",
-         "stat_type" : "debuff_chance",
+         "id" : "tenshi_token_stunr",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mallet_critr",
+         "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : -0.055,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_token_dodge",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : -0.08,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_mallet_dodge",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.12,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterSize",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         }
+         },
+		 "has_description": false
       },
 	  {
          "id" : "tenshi_mallet_crit",
-         "stat_type" : "combat_stat_multiply",
+         "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.5,
+         "amount" : 0.055,
          "remove_if_not_active" : false,
-         "rule_type" : "monsterSize",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 2,
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "tenshi_mallet_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
             "string" : ""
          }
       },
 	  {
-         "id" : "tenshi_mallet_mhp",
+         "id" : "tenshi_mallet_fuckyourtruncation_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mallet_fuckyourtruncation_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mallet_DMGL-10",
          "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
+         "stat_sub_type" : "damage_low",
          "amount" : -0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -119,51 +121,38 @@
          }
       },
 	  {
-         "id" : "tenshi_shion_critr",
-         "stat_type" : "crit_received_chance",
+         "id" : "tenshi_mallet_DMGH-10",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_shion_eat",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_shion_stressinf",
+         "stat_type" : "stress_dmg_percent",
          "stat_sub_type" : "",
-         "amount" : -0.07,
+         "amount" : -0.33,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_shion_crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.07,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_shion_acc",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.07,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_shion_prot",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.07,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "virtued",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -174,7 +163,7 @@
          "id" : "tenshi_shion_stress",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
-         "amount" : 0.2,
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -236,36 +225,36 @@
          }
       },
 	  {
-         "id" : "tenshi_scarf_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_scarf_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_scarfheal_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_scarfheal_desk",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "tenshi_scarf_DMGL-15",
+         "id" : "tenshi_scarf_riposte_dmgl",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.15,
+         "amount" : -0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "tenshi_scarf_riposte_dmgh",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_move_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_move_desk",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -275,10 +264,154 @@
          }
       },
 	  {
-         "id" : "tenshi_scarf_DMGH-15",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : -0.15,
+         "id" : "tenshi_scarf_swr_friendly_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_friendly_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_party_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_party_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_tenshi_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_tenshi_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_magician_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_magician_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_maid_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_maid_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_miko_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_miko_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_swr_disclaimer_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_swr_disclaimer_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_scarf_cleaner_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_scarf_cleaner_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_dualedge_heal_1_remove",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "hero_skill",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "tenshi_dualedge_reflect",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "reflected_dmg",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_dualedge_heal_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_dualedge_heal_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_dualedge_blight_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_dualedge_blight_desk",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -291,7 +424,7 @@
          "id" : "fumos_perfect_math_class",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "hero_skill",
-         "amount" : 1,
+         "amount" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

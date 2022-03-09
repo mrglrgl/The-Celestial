@@ -2,20 +2,22 @@
    "sets":
    [
 	  {
-         "id" : "tenshi_catfish_set",
+         "id" : "tenshi_com_fluff_set",
          "buffs" : 
          [
-            "SET_tenshi_catfish_move",
-            "SET_tenshi_catfish_debuff",
-			"SET_tenshi_catfish_spd"
          ]
       },
       {
-         "id" : "tenshi_gift_set",
+         "id" : "tenshi_sunward_fluff_set",
          "buffs" : 
          [
-            "SET_tenshi_gift_guarddur",
-            "SET_tenshi_gift_guardcrit"
+         ]
+      },
+	  {
+         "id" : "cc_tenshi",
+         "buffs" : 
+         [
+			"tenshi_cc_set_prot"
          ]
       }
    ]

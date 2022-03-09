@@ -21,10 +21,8 @@
          "id" : "tenshi_trinket_token",
          "buffs" : 
          [
-            "tenshi_token_prot",
 			"tenshi_token_move",
-			"tenshi_token_debuff",
-			"tenshi_token_dodge"
+			"tenshi_token_stunr"
          ],
          "hero_class_requirements":
          [
@@ -39,9 +37,12 @@
          "id" : "tenshi_trinket_mallet",
          "buffs" : 
          [
-            "tenshi_mallet_dodge",
+			"tenshi_mallet_acc",
 			"tenshi_mallet_crit",
-			"tenshi_mallet_mhp"
+			"tenshi_mallet_critr",
+			"tenshi_mallet_fuckyourtruncation_Desk",
+			"tenshi_mallet_DMGL-10",
+			"tenshi_mallet_DMGH-10"
          ],
          "hero_class_requirements":
          [
@@ -56,10 +57,8 @@
          "id" : "tenshi_trinket_shion",
          "buffs" : 
          [
-			"tenshi_shion_critr",
-			"tenshi_shion_crit",
-			"tenshi_shion_acc",
-			"tenshi_shion_prot",
+			"tenshi_shion_eat",
+			"tenshi_shion_stressinf",
 			"tenshi_shion_stress"
          ],
          "hero_class_requirements":
@@ -91,32 +90,42 @@
 		 "riposte_skill_additional_effects":
          [
 			 "FUMO BREAK"
-         ]
-		 
+         ] 
       },
 	  {
          "id" : "tenshi_trinket_scarf",
          "buffs" : 
          [
-			"tenshi_scarf_Desk",
-			"tenshi_scarfheal_Desk",
-			"tenshi_scarf_DMGL-15",
-			"tenshi_scarf_DMGH-15"
+			"tenshi_scarf_riposte_dmgl",
+			"tenshi_scarf_riposte_dmgh",
+			"tenshi_scarf_move_Desk",
+			"tenshi_scarf_swr_friendly_Desk",
+			"tenshi_scarf_swr_party_Desk",
+			"tenshi_scarf_swr_tenshi_Desk",
+			"tenshi_scarf_swr_magician_Desk",
+			"tenshi_scarf_swr_maid_Desk",
+			"tenshi_scarf_swr_miko_Desk",
+			"tenshi_scarf_swr_disclaimer_Desk",
+			"tenshi_scarf_cleaner_Desk"
          ],
          "hero_class_requirements":
          [
             "tenshi"
          ],
+		 "set_id" : "tenshi_sunward_fluff_set",
          "rarity" : "sakura",
          "price" : 30000,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "friendly_skill_additional_effects":
+		 "ranged_attack_skill_additional_effects":
          [
-			 "Fumo Swagger",
-			 "Fumos Perfect Math Class",
-			 "Fumoless Healing"
-         ] 
+			 "Fumo Swagger"
+         ],
+		 "friendly_skill_additional_effects":
+		 [
+			 "Scarlet Weather Rhapsody 1",
+			 "Scarlet Weather Rhapsody 2"
+		 ]
       }
 	]
 }
