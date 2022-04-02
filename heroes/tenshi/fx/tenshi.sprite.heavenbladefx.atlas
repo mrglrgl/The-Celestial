@@ -1,0 +1,48 @@
+
+tenshi.sprite.heavenbladefx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_heavenblade/t_heavenblade/Fx Base
+  rotate: false
+  xy: 2, 198
+  size: 264, 258
+  orig: 264, 258
+  offset: 0, 0
+  index: -1
+t_heavenblade/t_heavenblade/Layer 126
+  rotate: false
+  xy: 268, 198
+  size: 264, 258
+  orig: 264, 258
+  offset: 0, 0
+  index: -1
+t_heavenblade/t_heavenblade/Layer 127
+  rotate: false
+  xy: 800, 429
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+t_heavenblade/t_heavenblade/Layer 128
+  rotate: false
+  xy: 2, 2
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+t_heavenblade/t_heavenblade/Layer 129
+  rotate: false
+  xy: 534, 198
+  size: 264, 258
+  orig: 264, 258
+  offset: 0, 0
+  index: -1
+t_heavenblade/t_heavenblade/Layer 133
+  rotate: false
+  xy: 2, 23
+  size: 154, 173
+  orig: 154, 173
+  offset: 0, 0
+  index: -1

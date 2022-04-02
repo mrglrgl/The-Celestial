@@ -1,0 +1,20 @@
+
+tenshi.sprite.hisoufx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_hisou/t_hisou/Layer 246
+  rotate: false
+  xy: 333, 48
+  size: 168, 299
+  orig: 168, 299
+  offset: 0, 0
+  index: -1
+t_hisou/t_hisou/New group
+  rotate: false
+  xy: 2, 2
+  size: 329, 345
+  orig: 329, 345
+  offset: 0, 0
+  index: -1

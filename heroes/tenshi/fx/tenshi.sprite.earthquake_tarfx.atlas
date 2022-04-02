@@ -1,0 +1,48 @@
+
+tenshi.sprite.earthquake_tarfx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_earthquake/t_earthquake/Rock/From selection #10
+  rotate: false
+  xy: 388, 432
+  size: 212, 215
+  orig: 212, 215
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Rock/From selection #11
+  rotate: false
+  xy: 2, 289
+  size: 384, 358
+  orig: 384, 358
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Rock/From selection #9
+  rotate: false
+  xy: 602, 670
+  size: 174, 285
+  orig: 174, 285
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Rock/Layer 228
+  rotate: false
+  xy: 2, 2
+  size: 566, 69
+  orig: 566, 69
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Rock/Layer 230
+  rotate: false
+  xy: 2, 649
+  size: 598, 306
+  orig: 598, 306
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Rock/Layer 231
+  rotate: false
+  xy: 2, 73
+  size: 519, 214
+  orig: 519, 214
+  offset: 0, 0
+  index: -1

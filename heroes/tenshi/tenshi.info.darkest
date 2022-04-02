@@ -131,7 +131,7 @@ mode: .id tenshi_rule_mode .is_raid_default true
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 overstressed_modifier: .override_trait_type_ids bored excited tenshivirtue .override_trait_type_chances 0.0 0.0 1.0
 activity_modifier: .override_valid_activity_ids bar gambling brothel treatment disease_treatment
-quirk_modifier: .incompatible_class_ids meditator fragile soft enlightened god_fearing flagellant unquiet_mind witness faithless disease_vampire_passive disease_vampire_crave disease_vampire_wasting disease_vampire_blood_lust
+quirk_modifier: .incompatible_class_ids meditator fragile soft enlightened god_fearing flagellant unquiet_mind witness faithless calm mercurial irrepressible disease_vampire_passive disease_vampire_crave disease_vampire_wasting disease_vampire_blood_lust
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 3 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
 incompatible_party_member: .id tenshi_limit .hero_tag tenshi
 

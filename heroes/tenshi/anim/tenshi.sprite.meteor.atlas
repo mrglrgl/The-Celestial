@@ -1,0 +1,20 @@
+
+tenshi.sprite.meteor.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 516, 389
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Rock Sprite
+  rotate: false
+  xy: 2, 2
+  size: 512, 450
+  orig: 512, 450
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+tenshi.sprite.eruptionfx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_eruption/t_eruption/Stomp/Column Fox/Layer 128
+  rotate: false
+  xy: 2, 47
+  size: 305, 580
+  orig: 305, 580
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Column Fox/Layer 129
+  rotate: false
+  xy: 678, 507
+  size: 305, 496
+  orig: 305, 496
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Layer 133
+  rotate: false
+  xy: 555, 488
+  size: 100, 139
+  orig: 100, 139
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Layer 134
+  rotate: false
+  xy: 88, 4
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Layer 135
+  rotate: true
+  xy: 2, 2
+  size: 43, 84
+  orig: 43, 84
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Layer 136
+  rotate: false
+  xy: 555, 434
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Smoke/Dust Pebbles
+  rotate: true
+  xy: 309, 48
+  size: 579, 244
+  orig: 579, 244
+  offset: 0, 0
+  index: -1
+t_eruption/t_eruption/Stomp/Smoke/Layer 130
+  rotate: false
+  xy: 2, 629
+  size: 674, 374
+  orig: 674, 374
+  offset: 0, 0
+  index: -1

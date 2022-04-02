@@ -1,0 +1,55 @@
+
+tenshi.sprite.earthquakefx.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_earthquake/t_earthquake/From selection #8
+  rotate: true
+  xy: 906, 48
+  size: 83, 51
+  orig: 83, 51
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 243
+  rotate: true
+  xy: 784, 133
+  size: 110, 196
+  orig: 110, 196
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 243 #1
+  rotate: true
+  xy: 784, 36
+  size: 95, 120
+  orig: 95, 120
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 245
+  rotate: false
+  xy: 2, 2
+  size: 110, 56
+  orig: 110, 56
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 246
+  rotate: true
+  xy: 2, 60
+  size: 183, 348
+  orig: 183, 348
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 252
+  rotate: true
+  xy: 352, 56
+  size: 187, 217
+  orig: 187, 217
+  offset: 0, 0
+  index: -1
+t_earthquake/t_earthquake/Layer 252 #1
+  rotate: true
+  xy: 571, 72
+  size: 171, 211
+  orig: 171, 211
+  offset: 0, 0
+  index: -1

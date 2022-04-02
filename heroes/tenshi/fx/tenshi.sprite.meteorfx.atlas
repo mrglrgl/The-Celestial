@@ -1,0 +1,20 @@
+
+tenshi.sprite.meteorfx.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_meteor/t_meteor/Layer 189
+  rotate: true
+  xy: 2, 2
+  size: 55, 85
+  orig: 55, 85
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Layer 190
+  rotate: false
+  xy: 89, 12
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1

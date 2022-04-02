@@ -1,0 +1,132 @@
+
+tenshi.sprite.meteortarfx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 148
+  rotate: true
+  xy: 769, 712
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 149
+  rotate: false
+  xy: 260, 92
+  size: 26, 51
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #1
+  rotate: false
+  xy: 816, 900
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #3
+  rotate: false
+  xy: 880, 990
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #4
+  rotate: false
+  xy: 523, 405
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #5
+  rotate: false
+  xy: 337, 196
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #6
+  rotate: false
+  xy: 405, 257
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/FSU Big Rock/Landing/Layer 155 #7
+  rotate: false
+  xy: 574, 658
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Falling Rock/Layer 137 #2
+  rotate: false
+  xy: 2, 508
+  size: 570, 500
+  orig: 570, 500
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Layer 101
+  rotate: false
+  xy: 574, 698
+  size: 193, 39
+  orig: 193, 39
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Layer 137 #1
+  rotate: false
+  xy: 2, 145
+  size: 333, 361
+  orig: 333, 361
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Layer 96
+  rotate: false
+  xy: 2, 86
+  size: 256, 57
+  orig: 256, 57
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Layer 97
+  rotate: false
+  xy: 337, 277
+  size: 184, 229
+  orig: 184, 229
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Layer 98
+  rotate: false
+  xy: 574, 739
+  size: 240, 269
+  orig: 240, 269
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Shade/Layer 102
+  rotate: false
+  xy: 523, 425
+  size: 36, 81
+  orig: 36, 81
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Shade/Layer 102 #1
+  rotate: false
+  xy: 337, 216
+  size: 66, 59
+  orig: 66, 59
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Shade/Layer 102 #2
+  rotate: false
+  xy: 2, 2
+  size: 34, 82
+  orig: 34, 82
+  offset: 0, 0
+  index: -1
+t_meteor/t_meteor/Side Rock/Shade/Layer 102 #3
+  rotate: false
+  xy: 816, 944
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1

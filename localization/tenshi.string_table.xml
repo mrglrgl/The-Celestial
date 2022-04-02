@@ -148,7 +148,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_5_desk"><![CDATA[Self: Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|skill_unselectable}(ACC 115 / DMG -15%% / CRIT +10%%){colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[{colour_start|riposte}Riposte Trigger Limit:{colour_end} 2]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[{colour_start|riposte}Riposte Charges:{colour_end} 2]]></entry>
 	
 				<!-- Judgement Keystone -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_meteor_desk"><![CDATA[Target: 1 Blocks]]></entry>
@@ -166,26 +166,26 @@
 	{colour_start|skill_unselectable}(ACC 120 / DMG -15%% / CRIT +19%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_guardrip_5_desk"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|skill_unselectable}(ACC 125 / DMG -15%% / CRIT +20%%){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[{colour_start|riposte}Riposte Trigger Limit:{colour_end} 3
-	{colour_start|guard}Guard{colour_end} ends if {colour_start|riposte}Limit{colour_end} is reached]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[{colour_start|riposte}Riposte Charges:{colour_end} 3
+	{colour_start|guard}Guard{colour_end} ends if {colour_start|riposte}Charges{colour_end} fully expended]]></entry>
 
 				<!-- Sword of Unletting Soil -->
     <entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_A"><![CDATA[{colour_start|harmful}Cannot CRIT{colour_end} / Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B1"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(110%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 110%% base){colour_end}]]></entry>
+	{colour_start|debuff}Set{colour_end} SPD to -20 for 1 rds {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B2"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(120%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 120%% base){colour_end}]]></entry>
+	{colour_start|debuff}Set{colour_end} SPD to -20 for 1 rds {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B3"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(130%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 130%% base){colour_end}]]></entry>
+	{colour_start|debuff}Set{colour_end} SPD to -20 for 1 rds {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(140%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 140%% base){colour_end}]]></entry>
+	{colour_start|debuff}Set{colour_end} SPD to -20 for 1 rds {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[Target:
 	{colour_start|move}Reverse{colour_end} Party {colour_start|skill_unselectable}(150%% base){colour_end}
-	{colour_start|debuff}Set SPD{colour_end} to -20 {colour_start|skill_unselectable}(1 rd, 150%% base){colour_end}]]></entry>
+	{colour_start|debuff}Set{colour_end} SPD to -20 for 1 rds {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 
 	
 		<!-- Bomb Stuff -->
