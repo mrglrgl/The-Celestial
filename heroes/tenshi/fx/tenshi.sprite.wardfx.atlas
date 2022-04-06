@@ -1,0 +1,118 @@
+
+tenshi.sprite.wardfx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_ward/t_ward/Fx
+  rotate: false
+  xy: 2, 245
+  size: 288, 271
+  orig: 288, 271
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Crack
+  rotate: false
+  xy: 341, 513
+  size: 170, 55
+  orig: 170, 55
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/From selection #1
+  rotate: true
+  xy: 292, 395
+  size: 121, 46
+  orig: 121, 46
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/From selection #2
+  rotate: false
+  xy: 2, 43
+  size: 249, 200
+  orig: 249, 200
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/From selection #3
+  rotate: true
+  xy: 869, 844
+  size: 178, 152
+  orig: 178, 152
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer 95
+  rotate: false
+  xy: 341, 570
+  size: 310, 182
+  orig: 310, 182
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer 98
+  rotate: false
+  xy: 653, 572
+  size: 201, 180
+  orig: 201, 180
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer Group
+  rotate: true
+  xy: 341, 754
+  size: 268, 526
+  orig: 268, 526
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer Group #1/First Shadow Layer
+  rotate: false
+  xy: 2, 518
+  size: 337, 504
+  orig: 337, 504
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 149
+  rotate: true
+  xy: 2, 2
+  size: 39, 78
+  orig: 39, 78
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155
+  rotate: true
+  xy: 869, 793
+  size: 49, 146
+  orig: 49, 146
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155 #1
+  rotate: true
+  xy: 513, 530
+  size: 38, 76
+  orig: 38, 76
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155 #3
+  rotate: false
+  xy: 869, 764
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155 #4
+  rotate: false
+  xy: 82, 14
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155 #5
+  rotate: false
+  xy: 253, 178
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Rock Debri/Layer 155 #6
+  rotate: false
+  xy: 292, 366
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1

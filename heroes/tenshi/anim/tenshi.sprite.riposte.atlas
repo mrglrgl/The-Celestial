@@ -1,0 +1,41 @@
+
+tenshi.sprite.riposte.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte/Attack 1
+  rotate: true
+  xy: 2, 2
+  size: 482, 577
+  orig: 482, 577
+  offset: 0, 0
+  index: -1
+riposte/Layer 234
+  rotate: false
+  xy: 581, 95
+  size: 405, 389
+  orig: 405, 389
+  offset: 0, 0
+  index: -1
+riposte/Layer 26
+  rotate: false
+  xy: 940, 61
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+riposte/Second Half Of Flame
+  rotate: false
+  xy: 2, 486
+  size: 1012, 529
+  orig: 1012, 529
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 581, 30
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

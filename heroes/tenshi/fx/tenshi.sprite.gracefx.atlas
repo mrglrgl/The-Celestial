@@ -1,0 +1,41 @@
+
+tenshi.sprite.gracefx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_grace/t_grace/Eyes On Me!/Blue Lighting
+  rotate: true
+  xy: 2, 2
+  size: 268, 432
+  orig: 268, 432
+  offset: 0, 0
+  index: -1
+t_grace/t_grace/Eyes On Me!/Blue Outline
+  rotate: false
+  xy: 440, 103
+  size: 270, 254
+  orig: 270, 254
+  offset: 0, 0
+  index: -1
+t_grace/t_grace/Eyes On Me!/For/Blue 1
+  rotate: false
+  xy: 2, 272
+  size: 436, 674
+  orig: 436, 674
+  offset: 0, 0
+  index: -1
+t_grace/t_grace/Eyes On Me!/For/Blue Dust
+  rotate: false
+  xy: 862, 805
+  size: 125, 141
+  orig: 125, 141
+  offset: 0, 0
+  index: -1
+t_grace/t_grace/Eyes On Me!/For/Blue W
+  rotate: false
+  xy: 440, 359
+  size: 420, 587
+  orig: 420, 587
+  offset: 0, 0
+  index: -1

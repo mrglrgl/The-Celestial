@@ -1,19 +1,19 @@
 
 tenshi.sprite.camp.png
-size: 1245,1156
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Camping
+camp_fix/camp fix/Camping
   rotate: false
-  xy: 2, 2
-  size: 1176, 1152
-  orig: 1176, 1152
+  xy: 2, 67
+  size: 749, 734
+  orig: 749, 734
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 1180, 797
+  rotate: false
+  xy: 2, 2
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

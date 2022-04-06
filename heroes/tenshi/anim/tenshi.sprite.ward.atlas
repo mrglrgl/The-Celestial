@@ -1,0 +1,27 @@
+
+tenshi.sprite.ward.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer 96
+  rotate: false
+  xy: 514, 243
+  size: 402, 192
+  orig: 402, 192
+  offset: 0, 0
+  index: -1
+t_ward/t_ward/Sprite/Layer Group #2
+  rotate: true
+  xy: 2, 67
+  size: 368, 510
+  orig: 368, 510
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+tenshi.sprite.gracetarfx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_grace/t_grace/Target Fx/Layer 209
+  rotate: false
+  xy: 462, 21
+  size: 423, 421
+  orig: 423, 421
+  offset: 0, 0
+  index: -1
+t_grace/t_grace/Target Fx/New group #1
+  rotate: false
+  xy: 2, 2
+  size: 458, 440
+  orig: 458, 440
+  offset: 0, 0
+  index: -1
