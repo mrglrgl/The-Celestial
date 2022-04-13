@@ -2,7 +2,7 @@
 //Exhilaration
 effect: .name "FUMO BREAK"	.target "performer" .chance 100% .steal_buff_source_type bsrc_vampire .on_hit true .on_miss true .apply_once true .queue true .has_description false
 effect: .name "FUMO HYPE 1"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_prot" "tenshi_hype_DMGL" "tenshi_hype_DMGH" "tenshi_hype_spd" "tenshi_hype_crit" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "FUMO HYPE 2"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_move" "tenshi_hype_debuff" "tenshi_hype_stun" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "FUMO HYPE 2"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "tenshi_hype_move" "tenshi_hype_debuff" "tenshi_hype_stun" "tenshi_hype_hisoudebuff" .duration 1 .on_hit true .on_miss true .apply_once true .queue true
 
 
 //Vigor
@@ -15,17 +15,17 @@ effect: .name "FUMO HEAL COOLDOWN" .target "performer" .chance 100%  .buff_ids "
 //// Skills \\\\
 
 //// Sword of Hisou \\\\
-effect: .name "Hisou Shred 1" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -7%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 2" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -9%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 3" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -11%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 4" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -13%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Hisou Shred 5" .target "target" .chance 400% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -15%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Hisou Shred 1" .target "target" .chance 80% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -7%		.duration 4 .buff_duration_type after_round .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 2" .target "target" .chance 90% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -9%		.duration 4 .buff_duration_type after_round .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 3" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -11%	.duration 4 .buff_duration_type after_round .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 4" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -13%	.duration 4 .buff_duration_type after_round .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 5" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -15% .defense_rating_add -15%	.duration 4 .buff_duration_type after_round .on_hit true .on_miss false .has_description false
 
-effect: .name "Hisou Shred 1 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_1_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Hisou Shred 2 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_2_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Hisou Shred 3 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_3_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Hisou Shred 4 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_4_Desk" .apply_once true .on_hit true .on_miss true
-effect: .name "Hisou Shred 5 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_5_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Hisou Shred 1 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_1_Desk" "tenshi_hisou_shred_nores_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Hisou Shred 2 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_2_Desk" "tenshi_hisou_shred_nores_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Hisou Shred 3 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_3_Desk" "tenshi_hisou_shred_nores_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Hisou Shred 4 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_4_Desk" "tenshi_hisou_shred_nores_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Hisou Shred 5 Desk" .target "performer" .skill_instant true .buff_ids "tenshi_hisou_shred_5_Desk" "tenshi_hisou_shred_nores_Desk" .apply_once true .on_hit true .on_miss true
 
 
 //// Heavensplitter \\\\
@@ -221,7 +221,7 @@ effect: .name "TenshiHype 1" .target "performer" .curio_result_type "positive" .
 effect: .name "TenshiHype 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .combat_stat_buff 1 .attack_rating_add 5% .max_hp_multiply 5% .damage_low_multiply 5% .damage_high_multiply 5% .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true
 
 // Virtue \\
-effect: .name "Tenshi ST BarkStress" .target "target" .curio_result_type "negative" .chance 100% .stress 10	.buff_ids "Tenshi_Corruption" .on_hit true .on_miss false	.queue true
+effect: .name "Tenshi ST BarkStress" .target "target" .curio_result_type "negative" .chance 100% .stress 14	.buff_ids "Tenshi_Corruption" .on_hit true .on_miss false	.queue true
 effect: .name "Tenshi BarkStress" .target "target" .curio_result_type "negative" .chance 100% .stress 7	.on_hit true .on_miss false	.queue true
 effect: .name "Tenshi Random Target" .target "performer" .curio_result_type "negative" .chance 100% .duration 1 .buff_ids "tenshiRandAtk" "tenshiRandFriend" .on_hit true .on_miss false .apply_once true	.queue true
 effect: .name "Tenshi FFire" .target "target" .curio_result_type "negative" .chance 150% .stun 1 .health_damage_blocks 1	.on_hit true .on_miss false .queue true

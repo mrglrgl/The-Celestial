@@ -129,7 +129,8 @@
          "generate_chance_modifier" : 0.0,
          "buff_ids" : 
          [
-            "tenshivirtueSwordDMGL4",
+            "tenshi_virtue_prot",
+			"tenshivirtueSwordDMGL4",
 			"tenshivirtueSwordDMGH4",
 			"tenshivirtueHeavenDMGL3",
 			"tenshivirtueHeavenDMGH3",

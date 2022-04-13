@@ -2,6 +2,20 @@
    "buffs":
    [
 	  {
+         "id" : "tenshi_virtue_prot",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.3,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "tenshivirtueSwordDMGL4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "damage_low",

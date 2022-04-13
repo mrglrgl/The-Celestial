@@ -8,8 +8,8 @@
          "amount" : -0.3,
          "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -104,6 +104,21 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         },
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "tenshi_hype_hisoudebuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.0,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "t_hisou"
          },
 		 "remove_on_battle_complete" : true
       },
