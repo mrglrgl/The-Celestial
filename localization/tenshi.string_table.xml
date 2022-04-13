@@ -118,7 +118,7 @@
 	-9 DODGE / -15%% PROT for 4 full rds {colour_start|skill_unselectable}(90%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_3_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 	-11 DODGE / -15%% PROT for 4 full rds {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_4_desk"><![CDATA[{{colour_start|debuff}Debuff Target:{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_4_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 	-13 DODGE / -15%% PROT for 4 full rds {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_hisou_shred_5_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 	-15 DODGE / -15%% PROT for 4 full rds {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
