@@ -22,7 +22,7 @@
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<Pain is merely a suggestion. And I chose to ignore it.>]]></entry>
 	<entry id="tenshi+str_bark_t_makesomebombs"><![CDATA[Where'd I stash this? Not telling ~]]></entry>
-	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[The crimson malaise shifts and swirls, taking new forms!]]></entry>
+	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[Aren't the gathering stormclouds wonderous?]]></entry>
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Sword of Hisou]]></entry>
@@ -69,12 +69,12 @@
 	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Shion's Blessing]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Land-Calming Stone]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Dragonfish's Veil]]></entry>
-	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Paradoxical Duality]]></entry>
+	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Paradoxical Reflection]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Imagine I]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Was Good]]></entry>
 	
 	<entry id="str_inventory_set_title_tenshi_sunward_fluff_set"><![CDATA["They warn of disaster, powerless to stop it."]]></entry>
-	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Two disparate Heavens over one Earth."]]></entry>
+	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Which truly lies above the clouds?"]]></entry>
 	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA[At Writing]]></entry>
 
 	
