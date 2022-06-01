@@ -16,11 +16,11 @@ armour: .name "tenshi_armour_3" .def 10% .prot 30% .hp 58 .spd 0 .upgradeRequire
 armour: .name "tenshi_armour_4" .def 15% .prot 30% .hp 65 .spd 0 .upgradeRequirementCode 3
 
 //Sword of Hisou
-combat_skill: .id "t_hisou" .level 0 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 1" "Hisou Shred 1 Desk" .generation_guaranteed true
-combat_skill: .id "t_hisou" .level 1 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 2" "Hisou Shred 2 Desk"
-combat_skill: .id "t_hisou" .level 2 .type "melee" .atk 105% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 3" "Hisou Shred 3 Desk"
-combat_skill: .id "t_hisou" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 4" "Hisou Shred 4 Desk"
-combat_skill: .id "t_hisou" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou Shred 5" "Hisou Shred 5 Desk"
+combat_skill: .id "t_hisou" .level 0 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou AP 1" "Hisou Shred 1" .generation_guaranteed true
+combat_skill: .id "t_hisou" .level 1 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou AP 2" "Hisou Shred 2"
+combat_skill: .id "t_hisou" .level 2 .type "melee" .atk 105% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou AP 3" "Hisou Shred 3"
+combat_skill: .id "t_hisou" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou AP 4" "Hisou Shred 4"
+combat_skill: .id "t_hisou" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True  .condensed_tooltip_stats true .effect "Hisou AP 5" "Hisou Shred 5"
 
 //Heavensplitter
 combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 85% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .condensed_tooltip_stats true .effect "Push 3A" "Heaven MSPD 1"

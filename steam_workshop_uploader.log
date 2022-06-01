@@ -27,6 +27,7 @@ c:/Users/danaw167/Desktop/Tenshi mod/overlays/tray_dot_hp_heal.png
 -------------------------------------------------------------------------------
 Modded files...
 
+heroes/tenshi/tenshi_A/anim/tenshi.sprite.afflicted.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.camp.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.combat.png
 heroes/tenshi/tenshi_A/anim/tenshi.sprite.defend.png
@@ -150,7 +151,7 @@ monsters/tenshi_ikus_revenge/tenshi_ikus_revenge_A/tenshi_ikus_revenge_A.info.da
 monsters/tenshi_ikus_revenge/tenshi_ikus_revenge_B/tenshi_ikus_revenge_B.art.darkest
 monsters/tenshi_ikus_revenge/tenshi_ikus_revenge_B/tenshi_ikus_revenge_B.info.darkest
 panels/icons_equip/supply/inv_supply+tenshi_bomb.png
-panels/icons_equip/supply/inv_supply+tenshi_bomb_camp.PNG
+panels/icons_equip/supply/inv_supply+tenshi_bomb_camp.png
 panels/icons_equip/trinket/inv_trinket+cc_set_tenshi_first.png
 panels/icons_equip/trinket/inv_trinket+cc_set_tenshi_last.png
 panels/icons_equip/trinket/inv_trinket+com_tenshi_dualedge.png

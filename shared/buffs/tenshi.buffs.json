@@ -108,21 +108,6 @@
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "tenshi_hype_hisoudebuff",
-         "stat_type" : "debuff_chance",
-         "stat_sub_type" : "",
-         "amount" : 3.0,
-         "duration" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "t_hisou"
-         },
-		 "remove_on_battle_complete" : true
-      },
-	  {
          "id" : "tenshi_hype_stun",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
@@ -150,22 +135,6 @@
             "float" : 0,
             "string" : ""
          }
-      },
-	  {
-         "id" : "fumo_heal_cooldown",
-         "stat_type" : "hp_heal_percent",
-         "stat_sub_type" : "hero_skill_multi_target",
-         "amount" : -2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-         "is_clear_debuff_valid": false,
-		 "remove_on_battle_complete": true,
-		 "has_description" : false
       },
 	  {
          "id" : "Tenshi_Corruption",
@@ -198,6 +167,71 @@
          "stat_type":"random_target_friendly_chance",
          "stat_sub_type":"",
          "amount": 0.34,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hisou_ap_1",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hisou_ap_2",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hisou_ap_3",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hisou_ap_4",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hisou_ap_5",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
