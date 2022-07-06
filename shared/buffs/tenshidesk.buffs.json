@@ -2,6 +2,162 @@
    "buffs":
    [
 	  {
+         "id" : "tenshi_deleter1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_deleter1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_fake_debuff_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_fake_debuff_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mprot_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mprot_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mprot_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mprot_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mprot_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mprot_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mprot_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mprot_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mprot_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mprot_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mspd_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mspd_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mspd_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mspd_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mspd_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mspd_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mspd_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mspd_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_mspd_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_mspd_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "tenshi_split_Desk_1A",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "tenshi_split_desk_1A",

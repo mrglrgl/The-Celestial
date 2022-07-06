@@ -1,0 +1,34 @@
+
+tenshi_bomb_camp.sprite.png
+size: 376,161
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+elixir bomb
+  rotate: true
+  xy: 2, 2
+  size: 157, 170
+  orig: 157, 170
+  offset: 0, 0
+  index: -1
+elixir drops
+  rotate: true
+  xy: 310, 28
+  size: 69, 64
+  orig: 69, 64
+  offset: 0, 0
+  index: -1
+elixir dsplash
+  rotate: false
+  xy: 174, 99
+  size: 148, 60
+  orig: 148, 60
+  offset: 0, 0
+  index: -1
+elixir glow
+  rotate: true
+  xy: 174, 7
+  size: 90, 134
+  orig: 90, 134
+  offset: 0, 0
+  index: -1

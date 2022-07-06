@@ -1,0 +1,4 @@
+colour: .id "loretext"											        .rgba #84182d
+colour: .id "disorient"											        .rgba #ff53c1
+colour: .id "comet"                                    					.rgba #a3ffee
+colour: .id "invisible" 												.rgba 0 0 0 0

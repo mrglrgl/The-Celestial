@@ -230,43 +230,11 @@
 				}
 			]
 		},
-		{ 
-			"id" : "t_makesomebombs",
-			"level" : 0,
-			"cost" : 3,
-			"use_limit" : 1,
-			"effects" :
-			[
-				{
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "tenshi_camp_bomb_find",
-					"amount": 1
-				}
-			],
-			"hero_classes" : ["tenshi"],
-			"upgrade_requirements" :  	
-			[
-				{
-					"code" : "0",
-					"currency_cost" :			
-					[
-						{ "type" : "gold", "amount" : 1750 }
-					],
-					"prerequisite_requirements" :
-					[
-						
-					]
-				}
-			] 
-		},
 		{
 
 			"id" : "t_hisoueye",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" : 
 			[
@@ -277,7 +245,23 @@
 					"type" : "stress_damage_amount",
 					"sub_type" : "",
 					"amount" :  50
-				}							
+				},
+{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuff",					
+					"amount" :  0.15
+				},
+                { 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuff",					
+					"amount" :  0.15
+				}
 			],
 			"hero_classes" : ["tenshi"],
 			"upgrade_requirements" :  	

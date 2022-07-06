@@ -1,0 +1,34 @@
+
+tenshi.sprite.TenshiFXUsed1.png
+size: 110,90
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crack1
+  rotate: false
+  xy: 96, 66
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+crack2
+  rotate: false
+  xy: 96, 79
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+crack3
+  rotate: false
+  xy: 96, 54
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+cross_out
+  rotate: true
+  xy: 2, 2
+  size: 86, 92
+  orig: 86, 92
+  offset: 0, 0
+  index: -1

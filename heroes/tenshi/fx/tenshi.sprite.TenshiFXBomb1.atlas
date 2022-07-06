@@ -1,0 +1,20 @@
+
+tenshi.sprite.TenshiFXBomb1.png
+size: 132,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bomb_Pip
+  rotate: false
+  xy: 2, 2
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+Bomb_Pip_Glow
+  rotate: false
+  xy: 91, 30
+  size: 39, 65
+  orig: 39, 65
+  offset: 0, 0
+  index: -1

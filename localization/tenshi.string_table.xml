@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <language id="english">
-    <entry id="str_outsiders_bonfire_buff_camp_buff0"><![CDATA[%d additional Respite Points if you have at least one Abomination, Celestial, Hellion, or Leper in your party.]]></entry>
-	
+  <language id="english">	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_daze"><![CDATA[%d Daze Skill Disable]]></entry>
 
 
     <entry id="hero_class_name_tenshi"><![CDATA[Celestial]]></entry>
@@ -13,16 +12,14 @@
 	<entry id="camping_skill_name_t_nompeach"><![CDATA[IMMORTAL FRUIT]]></entry>
 	<entry id="camping_skill_name_t_protectingstones"><![CDATA[SHELTERING LAND]]></entry>
 	<entry id="camping_skill_name_t_nawitrance"><![CDATA[STEADFAST TRANCE]]></entry>
-	<entry id="camping_skill_name_t_makesomebombs"><![CDATA[RESERVED BOMB]]></entry>
-	<entry id="camping_skill_name_t_hisoueye"><![CDATA[HISOUTENSOKU]]></entry>
+	<entry id="camping_skill_name_t_hisoueye"><![CDATA[UNCHECKED POWER]]></entry>
 
     <entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Just watch, this is nothing to me!]]></entry>
 	<entry id="tenshi+str_bark_t_nompeach"><![CDATA[Bhavaagra's food is dull, but extremely potent.]]></entry>
 	<entry id="tenshi+str_bark_t_protectingstones"><![CDATA[Feel free to praise my efforts!]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<Pain is merely a suggestion. And I chose to ignore it.>]]></entry>
-	<entry id="tenshi+str_bark_t_makesomebombs"><![CDATA[Where'd I stash this? Not telling ~]]></entry>
-	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[Aren't the gathering stormclouds wonderous?]]></entry>
+	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[Just a taste, hehehe...]]></entry>
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Sword of Hisou]]></entry>
@@ -42,16 +39,16 @@
     <entry id="upgrade_tree_name_tenshi.t_earthquake"><![CDATA[Sword of Unletting Soil]]></entry>
 	
 		<!-- Upgrades -->
-    <entry id="tenshi_weapon_0"><![CDATA[Cracked Keystone]]></entry>
-    <entry id="tenshi_weapon_1"><![CDATA[Chiseled Keystone]]></entry>
-    <entry id="tenshi_weapon_2"><![CDATA[Sacred Keystone]]></entry>
-    <entry id="tenshi_weapon_3"><![CDATA[Imbued Keystone]]></entry>
+    <entry id="tenshi_weapon_0"><![CDATA[Bedraggled Sword]]></entry>
+    <entry id="tenshi_weapon_1"><![CDATA[Battleworn Sword]]></entry>
+    <entry id="tenshi_weapon_2"><![CDATA[Restored Sword]]></entry>
+    <entry id="tenshi_weapon_3"><![CDATA[Divine Sword]]></entry>
     <entry id="tenshi_weapon_4"><![CDATA["Heaven's Catastrophe"]]></entry>
-    <entry id="upgrade_tree_name_tenshi.weapon"><![CDATA[Keystone]]></entry>
-    <entry id="tenshi_armour_0"><![CDATA[Torn Dress]]></entry>
-    <entry id="tenshi_armour_1"><![CDATA[Worn Dress]]></entry>
-    <entry id="tenshi_armour_2"><![CDATA[Respectable Dress]]></entry>
-    <entry id="tenshi_armour_3"><![CDATA[Pristine Dress]]></entry>
+    <entry id="upgrade_tree_name_tenshi.weapon"><![CDATA[Sword]]></entry>
+    <entry id="tenshi_armour_0"><![CDATA[Tattered Dress]]></entry>
+    <entry id="tenshi_armour_1"><![CDATA[Unkempt Dress]]></entry>
+    <entry id="tenshi_armour_2"><![CDATA[Restored Dress]]></entry>
+    <entry id="tenshi_armour_3"><![CDATA[Elegant Dress]]></entry>
     <entry id="tenshi_armour_4"><![CDATA["Flawless Celestial Cloth"]]></entry>
     <entry id="upgrade_tree_name_tenshi.armour"><![CDATA[Dress]]></entry>
     <entry id="action_verbose_body_guild_tenshi"><![CDATA[A thrill-seeking "delinquent", the Celestial has utmost confidence in her abilities. Her divine blade and sacred stones leave defenses shattered and formations reeling, while her roars of challenge can provoke even the most prudent foe.]]></entry>
@@ -108,8 +105,26 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_fucking_truncation_desk"><![CDATA[+10.5%% CRT if HP below 72%%]]></entry>
 
 	
-				<!-- Camp Skills -->
+		<!-- Camp Skills -->
 	<entry id="camping_skill_effect_loot_tenshi_camp_mark_desc"><![CDATA[{colour_start|mark}Mark{colour_end} (4 Battles)]]></entry>
+	
+		<!-- Combat Skills -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_fake_debuff_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
+				<!-- Sword of Hisou -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_1"><![CDATA[ -15%% PROT {colour_start|skill_unselectable}(115%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_2"><![CDATA[ -17%% PROT {colour_start|skill_unselectable}(125%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_3"><![CDATA[ -20%% PROT {colour_start|skill_unselectable}(135%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_4"><![CDATA[ -22%% PROT {colour_start|skill_unselectable}(145%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_5"><![CDATA[ -25%% PROT {colour_start|skill_unselectable}(155%% base) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+				<!-- Banish -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_1"><![CDATA[-5 SPD {colour_start|skill_unselectable}(100%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_2"><![CDATA[-5 SPD {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_3"><![CDATA[-6 SPD {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_4"><![CDATA[ -6 SPD {colour_start|skill_unselectable}(130%% base){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_5"><![CDATA[ -7 SPD {colour_start|skill_unselectable}(140%% base){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+
 	
 				<!-- Violent Land -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1A"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
@@ -117,11 +132,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3A"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4A"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5A"><![CDATA[Vs Rank 2: {colour_start|move}Pull{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(100%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(130%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5B"><![CDATA[Vs Rank 3: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(140%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 				<!-- Eyes on Me! -->
 					<!-- Riposte -->
@@ -131,10 +146,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_3_desk"><![CDATA[ACC base: 105 / DMG mod: -15%% / CRIT mod: +8%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_4_desk"><![CDATA[ACC base: 110 / DMG mod: -15%% / CRIT mod: +9%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_5_desk"><![CDATA[ACC base: 115 / DMG mod: -15%% / CRIT mod: +10%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[{colour_start|riposte}Riposte{colour_end} Charges: 2]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[ {colour_start|riposte}Riposte{colour_end} Charges: 2 {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 				<!-- Judgement Keystone -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_meteor_desk"><![CDATA[Target: 1 Blocks]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_meteor_desk"><![CDATA[ Target: 1 Blocks {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	
 				<!-- Calamitous Ultimatum -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_start_desk"><![CDATA[{colour_start|guard}Guard{colour_end} Party]]></entry>
@@ -144,7 +159,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_4_desk"><![CDATA[ACC base: 120 / DMG mod: -15%% / CRIT mod: +19%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_5_desk"><![CDATA[ACC base: 125 / DMG mod: -15%% / CRIT mod: +20%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_ripbreak_desk"><![CDATA[On Final {colour_start|riposte}Riposte{colour_end}: Self: Break Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[{colour_start|riposte}Riposte{colour_end} Charges: 3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[ {colour_start|riposte}Riposte{colour_end} Charges: 3 {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 				<!-- Sword of Unletting Soil -->
     <entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_A"><![CDATA[{colour_start|harmful}Cannot CRIT{colour_end}
@@ -155,24 +170,30 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[{colour_start|move}Reverse Enemy Party{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[{colour_start|move}Reverse Enemy Party{colour_end} {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_fakedebuff_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C1"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C2"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C3"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C4"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C5"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C1"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(110%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C2"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(120%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C3"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(130%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C4"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(140%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C5"><![CDATA[-99 SPD for 1 rds {colour_start|skill_unselectable}(150%% base){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 	
 		<!-- Bomb Stuff -->
-	<entry id="str_skill_mode_info_tenshi_rule_mode"><![CDATA[]]></entry>
-	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[The Celestial]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Cards{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_deleter1"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_tenshimode0"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_tenshimode1"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_tenshimode2"><![CDATA[]]></entry>
+	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[The Celestial]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_first_cd"><![CDATA[{colour_start|attacktype}Spell Card A{colour_end} Recharging]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_second_cd"><![CDATA[{colour_start|attacktype}Spell Card B{colour_end} Recharging]]></entry>
+
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_is_bomb_desk"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 	<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
 				
 				<!-- Provisions -->
-	<entry id="str_inventory_title_supplytenshi_bomb"><![CDATA[Celestial Bomb Elixer]]></entry>
-	<entry id="str_inventory_description_supplytenshi_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Celestial.{colour_end}]]></entry>
+	<entry id="str_inventory_title_supplytenshi_bomb"><![CDATA[Celestial Bomb Elixir]]></entry>
+	<entry id="str_inventory_description_supplytenshi_bomb"><![CDATA[Drink to enable {colour_start|attacktype}Spell Cards{colour_end} and gain {colour_start|notable}2{colour_end} uses!
+	Each use recharges after 5 battles.
+{colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Celestial.{colour_end}]]></entry>
 	<entry id="str_inventory_title_supplytenshi_bomb_camp"><![CDATA[Celestial Bomb Tincture]]></entry>
 	<entry id="str_inventory_description_supplytenshi_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on anyone but The Celestial.{colour_end}]]></entry>
 	<entry id="camping_skill_effect_loot_tenshi_camp_bomb_find"><![CDATA[Produce 1 Celestial Bomb Tincture]]></entry>
@@ -204,6 +225,8 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[You'll find me tougher than that.]]></entry>
 	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Wanna go again?]]></entry>
 	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Ufufu, surprised?]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[As if I'd lose to the likes of you.]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Just kidding!]]></entry>
 	<entry id="tenshi+str_bark_deathsdoorsurvive_ally"><![CDATA[Pick yourself up!]]></entry>
 	
 		<!-- When being hit -->
@@ -242,12 +265,19 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="tenshi+str_bark_startmoving"><![CDATA[Forward, minions!]]></entry>
 	
 		<!-- Stress Increases -->
-	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Another shinigami's trick?]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Am I supposed to take that seriously?]]></entry>
 	<entry id="tenshi+str_bark_increasingstress"><![CDATA[How cliche.]]></entry>
 	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Oh! That's a new one.]]></entry>
-	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Oh no. I'm sooo scared.]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Well, threaten me with a good time!]]></entry>
 	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Could you use your imagination a bit?]]></entry>
 
+		<!-- Horror Stress -->
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Another shinigami's trick?]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[What wondrous visions!]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[That was underwhelming.]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Chaos and destruction!]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Show me more!]]></entry>
+	
 		<!-- Camping Barks Misc -->
     <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[I knew you rabble were unreliable, and still I'm disappointed.]]></entry>
     <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[You rabble are weak, in body and spirit.]]></entry>
@@ -308,7 +338,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
     <entry id="tenshi+str_bark_provisions_low"><![CDATA[Was that the last of the tinned catfish? ...good riddance.]]></entry>
 
     <entry id="tenshi+str_bark_provisions_high"><![CDATA[More interesting fare than back home, at least.]]></entry>
-    <entry id="tenshi+str_bark_provisions_high"><![CDATA[I don't even recognize half these provisions!]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[You say that's food? Pass it here.]]></entry>
     <entry id="tenshi+str_bark_provisions_high"><![CDATA[Abundant food and mediocre company... acceptable.]]></entry>
     <entry id="tenshi+str_bark_provisions_high"><![CDATA[Mediocre food, but at least we have a lot of it.]]></entry>
 	
@@ -347,8 +377,8 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	
 			<!-- FFire -->
 	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Woops, didn't see you there!]]></entry>
-	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[I though you'd move.]]></entry>
-	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Should've moved.]]></entry>
+	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Catch!]]></entry>
+	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Here, a divine gift!]]></entry>
 	
 			<!-- Random Target -->
 	<entry id="tenshi+str_buff_party_tenshivirtue"><![CDATA[Watch this!]]></entry>
@@ -419,12 +449,6 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
     <entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Fine, coop me up. See what happens.]]></entry>
 	<entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Ufufu...]]></entry>
 	<entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[A good rampage will clear my head.]]></entry>
-	
-	<!--
-	<entry id="str_roster_list_bored_bark"><![CDATA[This place is so dull.]]></entry>
-	<entry id="tenshi+str_roster_list_bored_bark"><![CDATA[I can't start an earthquake for fun?]]></entry>
-	<entry id="tenshi+str_roster_list_bored_bark"><![CDATA[Nobody cared about that statue anyways.]]></entry>
-	<entry id="tenshi+str_roster_list_bored_bark"><![CDATA[Entertain me, or I'll entertain myself. And you won't like it.]]></entry> -->
 		
     <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Of all the horrors, THAT one was awfully ugly.]]></entry>
     <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Finally, a sense of peace.]]></entry>
@@ -494,7 +518,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
     <entry id="tenshi+str_prisoner_damage_drowned_anchored"><![CDATA[Rid me of this infernal anchor!]]></entry>
 	
 				<!-- Wilbur -->
-	<entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Fair enough, I suppose.]]></entry>
+	<entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Fair enough.]]></entry>
     <entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Protecting your little friend, huh?]]></entry>
     <entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Ow! Fine, deal with the small one later!]]></entry>
 	
@@ -502,7 +526,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
     <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Get down, NOW!]]></entry>
     <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Oh dear.]]></entry>
     <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Well, THAT'S gonna hurt.]]></entry>
-    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[...that's not danmaku, is it.]]></entry>
+    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Bring it on!]]></entry>
 	
 				<!-- Prophet -->
     <entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Stay back, incoming!]]></entry>
@@ -511,25 +535,63 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Poser.]]></entry>
 	
 				<!-- Necromancer -->
-    <entry id="tenshi+str_monster_attack_unholy_smite"><![CDATA[Oi, hands off!]]></entry>
-    <entry id="tenshi+str_monster_attack_unholy_judgement"><![CDATA[Now why'd you have to remind me of that?]]></entry>
-    <entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[...what was that?]]></entry>
+    <entry id="tenshi+str_monster_attack_unholy_smite"><![CDATA[Hands off, creep.]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_smite"><![CDATA[Get your filthy hands off me.]]></entry>
+    <entry id="tenshi+str_monster_attack_unholy_judgement"><![CDATA[Spooky.]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_judgement"><![CDATA[Scary.]]></entry>
+    <entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[Adorable effort.]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[Do you need me to instruct you?]]></entry>
 	
 				<!-- Heart of Darkness -->
 	<entry id="tenshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Very well - let us fall into Hell together!]]></entry>
 	
+		<!-- Crimson Court -->
+			<!-- Stumble -->
+	<entry id="tenshi+str_bark_shuffled"><![CDATA[Very well, I'll indulge you.]]></entry>
+	
+			<!-- Fanatic -->
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Sacrilege! Blasphemy!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Realease me, you ignorant simpleton!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[I'll see you burn for this affront!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Get me out, before my hat burns!]]></entry>
+	
+			<!-- Prisoner -->
+	<entry id="tenshi+str_prisoner_help_me"><![CDATA[This isn't what it looks like, I swear.]]></entry>
+    <entry id="tenshi+str_prisoner_rescue_thanks"><![CDATA[Keep quiet about this, and I'll help you.]]></entry>
+	
+		<!-- Colors of Madness -->
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[More husks to bury!]]></entry>
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[Keep 'em coming!]]></entry>
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[Ugh, MORE fodder?]]></entry>
+    <entry id="tenshi+str_wave_curio_room"><![CDATA[All clear... for now.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_weald"><![CDATA[Corruption within corruption... fascinating...]]></entry>
+    <entry id="tenshi+str_wave_dungeon_warrens"><![CDATA[At least it doesn't smell as awful.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_crypts"><![CDATA[More rabble? You deal with them.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_cove"><![CDATA[Whatever you do - don't touch the water!]]></entry>
+    <entry id="tenshi+str_wave_dungeon_farm"><![CDATA[N-no, I'm not lost!]]></entry>
+    <entry id="tenshi+str_wave_dungeon_darkestdungeon"><![CDATA[A hollow imitation, but just as deadly.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_town"><![CDATA[Don't let your guard down!]]></entry>
+	
+			<!-- Miller -->
+	<entry id="str_boss_miller_grind"><![CDATA[If you use that one more time-]]></entry>
+	<entry id="str_boss_miller_grind"><![CDATA[I must refuse.]]></entry>
+	<entry id="str_boss_miller_grind"><![CDATA[You're just as rude as that Higan lot.]]></entry>
+    <entry id="str_boss_miller_harvest"><![CDATA[Need a breather? Haha!]]></entry>
+    <entry id="str_boss_miller_sadness"><![CDATA[Yes, you're sad. Now can we get on with it?]]></entry>
+	<entry id="str_boss_miller_sadness"><![CDATA[Way to kill the mood.]]></entry>
+	
 				<!-- Sunward Mod -->
 	<entry id="tenshi+str_monster_attack_bozu_nothing"><![CDATA[Well, what are you waiting for?]]></entry>
     <entry id="tenshi+str_monster_attack_bozu_nothing"><![CDATA[Come at me, I don't have all day!]]></entry>
-	<entry id="tenshi+str_monster_attack_catfish_wave"><![CDATA[The torch? And why should I care?]]></entry>
+	<entry id="tenshi+str_monster_attack_catfish_wave"><![CDATA[Don't test my patience.]]></entry>
 	<entry id="tenshi+str_monster_attack_catfish_wave"><![CDATA[Stop playing games. Your opponent's right here.]]></entry>
-	<entry id="tenshi+str_monster_attack_catfish_lunge"><![CDATA[Do that again, and you'll see stars instead of torchlight.]]></entry>
-    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[The afterlife is harsh. Be safe.]]></entry>
-    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[Such a pity.]]></entry>
-	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Don't cry, I'm sending you next.]]></entry>
-	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Just doing my job. Trust me, I don't like it either.]]></entry>
+	<entry id="tenshi+str_monster_attack_catfish_lunge"><![CDATA[Offering me a ride?]]></entry>
+    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[A passable duel.]]></entry>
+    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[Perhaps we'll meet again.]]></entry>
+	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Shhh. You'll rest with him soon.]]></entry>
+	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[...of all the days to actually do my job...]]></entry>
 	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[How dare you talk back to me!]]></entry>
-	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[Shut it, before I ram a Keystone into your backside!]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[Shut it, before I ram this into your backside!]]></entry>
 	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[SILENCE!]]></entry>
 	
 		<!-- Skill Barks -->
@@ -547,42 +609,49 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Watch out for aftershocks ~]]></entry>
 	
 		<!-- Crossmod Skill Reactions -->
-				<!-- Tenshi - intentionally left blank for other mods to use -->
+			<!-- Tenshi - intentionally left blank for other mods to use -->
 	<entry id="str_tenshi_ult_spellcard_react"><![CDATA[]]></entry>
 	<entry id="str_tenshi_earthquake_spellcard_react"><![CDATA[]]></entry>
 	
-				<!-- Miko by The Necromancer -->
+			<!-- Miko by The Necromancer -->
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Pffft. You call that a spellcard?]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[...was that supposed to be impressive?]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Less flashy than I remember.]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[You're not trying, right?]]></entry>
 	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Trying to make them surrender out of pity?]]></entry>
 	
-				<!-- Maid by The Necromancer -->
+			<!-- Maid by The Necromancer -->
 	<entry id="tenshi+str_the_world_react"><![CDATA[(They really aren't worth using that...)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Fine, just leave some for me.)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(You need to slow down and relax.)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Well, at least I won't have to wait.)]]></entry>
 	<entry id="tenshi+str_the_world_react"><![CDATA[(Killjoy.)]]></entry>
 	
-				<!-- Magician by Necro -->
+			<!-- Magician by Necro -->
 	<entry id="tenshi+str_master_spark_react"><![CDATA[I could do that too. If I felt like it.]]></entry>
 	<entry id="tenshi+str_master_spark_react"><![CDATA[What, you can't spam it?]]></entry>
 	<entry id="tenshi+str_master_spark_react"><![CDATA[Effective, if inelegant.]]></entry>
 	<entry id="tenshi+str_master_spark_react"><![CDATA[You call THAT a laser?]]></entry>
 	
-		<!-- Crimson Court -->
-			<!-- Prisoner -->
-	<entry id="tenshi+str_prisoner_help_me"><![CDATA[This isn't what it looks like, I swear.]]></entry>
-    <entry id="tenshi+str_prisoner_rescue_thanks"><![CDATA[Keep quiet about this, and I'll help you.]]></entry>
+			<!-- Ringmaster -->
+	
+				<!-- Fan Favourite Barks, said by OTHERS when the fan favourite kills an enemy -->
+	<entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Meh, I've seen better.]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Acceptable.]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Do that again!]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Not bad.]]></entry>
+
+	
+				<!-- Fan Favourite Barks, said by the fan favourite when the ability expires -->
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[*spits* Ingrates.]]></entry>
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[Disrespectful curs!]]></entry>
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[Wait, I wasn't finished!]]></entry>
 	
 	
 		<!-- Buff shit -->
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
 	
 		<!-- Compatibility -->
-	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in Inventory]]></entry>
-	<entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if no %s in Inventory]]></entry>
 	
 		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
 	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 

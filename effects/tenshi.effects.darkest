@@ -14,19 +14,32 @@ effect: .name "Hisou AP 3" .target "performer" .skill_instant true .buff_ids "hi
 effect: .name "Hisou AP 4" .target "performer" .skill_instant true .buff_ids "hisou_ap_4" .on_hit true .on_miss false
 effect: .name "Hisou AP 5" .target "performer" .skill_instant true .buff_ids "hisou_ap_5" .on_hit true .on_miss false
 
-effect: .name "Hisou Shred 1" .target "target" .chance 115% .combat_stat_buff 1 .protection_rating_add -15%	.on_hit true .on_miss false
-effect: .name "Hisou Shred 2" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -17%	.on_hit true .on_miss false
-effect: .name "Hisou Shred 3" .target "target" .chance 135% .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss false
-effect: .name "Hisou Shred 4" .target "target" .chance 145% .combat_stat_buff 1 .protection_rating_add -22% .on_hit true .on_miss false
-effect: .name "Hisou Shred 5" .target "target" .chance 155% .combat_stat_buff 1 .protection_rating_add -25% .on_hit true .on_miss false
+effect: .name "Hisou Shred 1" .target "target" .chance 115% .combat_stat_buff 1 .protection_rating_add -15%	.on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 2" .target "target" .chance 125% .combat_stat_buff 1 .protection_rating_add -17%	.on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 3" .target "target" .chance 135% .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 4" .target "target" .chance 145% .combat_stat_buff 1 .protection_rating_add -22% .on_hit true .on_miss false .has_description false
+effect: .name "Hisou Shred 5" .target "target" .chance 155% .combat_stat_buff 1 .protection_rating_add -25% .on_hit true .on_miss false .has_description false
+
+effect: .name "Tenshi Hisou Desk 1" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mprot_Desk_1" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Hisou Desk 2" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mprot_Desk_2" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Hisou Desk 3" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mprot_Desk_3" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Hisou Desk 4" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mprot_Desk_4" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Hisou Desk 5" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mprot_Desk_5" .apply_once true .on_hit true .on_miss true
+
 
 
 //// Heavensplitter \\\\
-effect: .name "Heaven MSPD 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 3" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 4" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Heaven MSPD 5" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -7	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Heaven MSPD 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "Heaven MSPD 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "Heaven MSPD 3" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "Heaven MSPD 4" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -6	.duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "Heaven MSPD 5" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -7	.duration 3 .on_hit true .on_miss false .has_description false
+
+effect: .name "Tenshi Banish Desk 1" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mspd_Desk_1" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Banish Desk 2" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mspd_Desk_2" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Banish Desk 3" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mspd_Desk_3" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Banish Desk 4" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mspd_Desk_4" .apply_once true .on_hit true .on_miss true
+effect: .name "Tenshi Banish Desk 5" .target "performer" .skill_instant true .buff_ids "tenshi_fake_debuff_Desk" "tenshi_mspd_Desk_5" .apply_once true .on_hit true .on_miss true
 
 
 //// Violent Land \\\\
@@ -184,6 +197,7 @@ effect: .name "Tenshi Earthquake Self Bark" .target "performer" .chance 66% .bar
 effect: .name "Tenshi Earthquake Other Bark" .target "performer_group_other" .chance 25% .bark "str_tenshi_earthquake_spellcard_react" .individual_target_actor_rolls true .on_hit true .on_miss false .apply_once true .has_description false .queue true
 
 
+
 //// Bomb & Spellcard System, thanks to The Necromancer yes I have his permission to use these \\\\
 // Spellcards \\
 effect: .name "TenshiSpellCard" .target "performer" .skill_instant true .buff_ids "tenshi_is_bomb_Desk" .on_hit true .on_miss false
@@ -191,14 +205,33 @@ effect: .name "Tenshi SpellCard Aegis" .target "performer" .chance 100% .health_
 effect: .name "Tenshi Fake Daze" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .queue true .apply_once true .has_description false
 
 // Bombs \\
-effect: .name "Tenshi Cooldown"	.target "performer"  .chance 1000% .duration -1 .buff_ids "tenshi_bomb_use" "tenshi_bomb_count_skill" .buff_is_clear_debuff_valid false .buff_source_type bsrc_item  .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "Tenshi Delete1" .target "performer" .skill_instant true .buff_ids "tenshi_deleter1" .on_hit true .on_miss false
+
+
+effect: .name "Tenshi setmode2"	.target "performer" .set_mode tenshimode2 .chance 100%	.on_hit true .on_miss true .queue true .has_description false .apply_once true
+effect: .name "Tenshi setmode1"	.target "performer" .set_mode tenshimode1 .chance 100%	.on_hit true .on_miss true .queue true .has_description false .apply_once true
+
+effect: .name "Tenshi FirstBomb CD"		.target "performer" .chance 100% .buff_source_type bsrc_item .buff_ids "tenshi_bomb_use_first"	.on_hit true .on_miss true .queue true .has_description false .apply_once true
+effect: .name "Tenshi SecondBomb CD"	.target "performer".chance 100% .buff_source_type bsrc_item .buff_ids "tenshi_bomb_use_second"	.on_hit true .on_miss true .queue true .has_description false .apply_once true
+
+effect: .name "Tenshi FirstBomb CD Tracker"		.target "performer" .chance 100% .buff_source_type bsrc_item .buff_ids "tenshi_bomb_use_first_cd5" "tenshi_bomb_use_first_cd4" "tenshi_bomb_use_first_cd3" "tenshi_bomb_use_first_cd2" "tenshi_bomb_use_first_cd1" 		.on_hit true .on_miss true .queue true .has_description false .apply_once true
+effect: .name "Tenshi SecondBomb CD Tracker"	.target "performer" .chance 100% .buff_source_type bsrc_item .buff_ids "tenshi_bomb_use_second_cd5" "tenshi_bomb_use_second_cd4" "tenshi_bomb_use_second_cd3" "tenshi_bomb_use_second_cd2" "tenshi_bomb_use_second_cd1"	.on_hit true .on_miss true .queue true .has_description false .apply_once true
+
 
 // Items \\
-effect: .name "tenshi_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "tenshi_bomb_large" "tenshi_bomb_count_large" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss false .has_description false
+effect: .name "tenshi_bomb" .target "performer" .set_mode tenshimode1 .chance 100% .buff_source_type bsrc_flashback_start .buff_ids "tenshi_bomb_item_A" "tenshi_bomb_item_B" 	.duration -1 .on_hit true .on_miss true .has_description false
 
+// deprecated, from when she used the same system as Reimu/Marisa
 effect: .name "tenshi_camp_0"  .target "target" .chance 100% .duration -1 .buff_ids "tenshi_bomb_small" "tenshi_bomb_count_small"  .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "tenshi_camp_1"  .target "target" .chance 100%  .duration -1 .buff_ids "tenshi_bomb_small" "tenshi_bomb_count_small" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "tenshi_camp_1"  .target "target" .chance 100% .duration -1 .buff_ids "tenshi_bomb_small" "tenshi_bomb_count_small" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "tenshi_camp_2"  .target "target" .chance 100% .duration -1 .buff_ids "tenshi_bomb_small" "tenshi_bomb_count_small" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss true .apply_once true .has_description false
+
+
+
+
+
+
+
 
 //// Aegis effects \\\\
 effect: .name "Tenshi Self Aegis" .target "performer" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true
@@ -219,6 +252,7 @@ effect: .name "Tenshi BarkStress" .target "target" .curio_result_type "negative"
 effect: .name "Tenshi Random Target" .target "performer" .curio_result_type "negative" .chance 100% .duration 1 .buff_ids "tenshiRandAtk" "tenshiRandFriend" .on_hit true .on_miss false .apply_once true	.queue true
 effect: .name "Tenshi FFire" .target "target" .curio_result_type "negative" .chance 150% .stun 1 .health_damage_blocks 1	.on_hit true .on_miss false .queue true
 effect: .name "Tenshi VTaunt" .target "performer" .curio_result_type "negative" .chance 100% .duration 2 .tag 1 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false	.queue true
+effect: .name "Tenshi SC Refresh"	.target "performer" .chance 100% .steal_buff_source_type bsrc_item .on_hit true .on_miss true .apply_once true
 
 
 

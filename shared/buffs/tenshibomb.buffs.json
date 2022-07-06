@@ -2,61 +2,204 @@
    "buffs":
    [
       {
-         "id" : "tenshi_bomb_use",
+         "id" : "tenshi_bomb_use_first",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "daze",
          "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "tenshi_rule_mode"
-         },
-		 "has_description": false
-      },
-      {
-         "id" : "tenshi_bomb_count_skill",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_bomb_count_used",
-         "amount" : -0.01,
+		 "duration" : 5,
+		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description" : false,
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "TenshiFXUsed1"
       },
 	  {
-         "id" : "tenshi_bomb_large",
+         "id" : "tenshi_bomb_use_first_cd5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_first_cd",
+         "amount" : -0.01,
+		 "duration" : 5,
+		 "duration_type" : "combat_end",
+		 "is_clear_debuff_valid" : false,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_first_cd4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_first_cd",
+         "amount" : -0.01,
+		 "duration" : 4,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_first_cd3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_first_cd",
+         "amount" : -0.01,
+		 "duration" : 3,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_first_cd2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_first_cd",
+         "amount" : -0.01,
+		 "duration" : 2,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_first_cd1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_first_cd",
+         "amount" : -0.01,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_second",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "daze",
-         "amount" : -0.50,
+         "amount" : 0.25,
+		 "duration" : 5,
+		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "tenshi_rule_mode"
+            "string" : ""
          },
-		 "has_description": false
+		 "has_description" : false,
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "TenshiFXUsed2"
       },
 	  {
-         "id" : "tenshi_bomb_count_large",
+         "id" : "tenshi_bomb_use_second_cd5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_bomb_count_limit",
-         "amount" : -0.03,
+         "stat_sub_type" : "tenshi_bomb_use_second_cd",
+         "amount" : -0.01,
+		 "duration" : 5,
+		 "duration_type" : "combat_end",
          "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "tenshi_rule_mode"
-         }
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
       },
 	  {
-         "id" : "tenshi_bomb_small",
+         "id" : "tenshi_bomb_use_second_cd4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_second_cd",
+         "amount" : -0.01,
+		 "duration" : 4,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_second_cd3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_second_cd",
+         "amount" : -0.01,
+		 "duration" : 3,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_second_cd2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_second_cd",
+         "amount" : -0.01,
+		 "duration" : 2,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_use_second_cd1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_bomb_use_second_cd",
+         "amount" : -0.01,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid" : false
+      },
+	  {
+         "id" : "tenshi_bomb_item_A",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "daze",
          "amount" : -0.25,
@@ -65,22 +208,25 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "tenshi_rule_mode"
+            "string" : "tenshimode1"
          },
-		 "has_description": false
+		 "has_description": false,
+		 "fx" : "TenshiFXBomb1"
       },
 	  {
-         "id" : "tenshi_bomb_count_small",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_bomb_count_limit",
-         "amount" : -0.01,
+         "id" : "tenshi_bomb_item_B",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "daze",
+         "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "tenshi_rule_mode"
-         }
+            "string" : "tenshimode2"
+         },
+		 "has_description": false,
+		 "fx" : "TenshiFXBomb2"
       }
    ]
 }
