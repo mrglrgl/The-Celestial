@@ -1,26 +1,33 @@
 
 tenshi.sprite.afflicted.png
-size: 3118,1131
+size: 3835,1808
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Affliction Crown
-  rotate: false
-  xy: 2625, 640
+  rotate: true
+  xy: 2444, 2
   size: 491, 489
   orig: 491, 489
   offset: 0, 0
   index: -1
-affliction figure
+Affliction Edging
+  rotate: true
+  xy: 1131, 417
+  size: 1389, 1311
+  orig: 1389, 1311
+  offset: 0, 0
+  index: -1
+Layer Group
   rotate: false
-  xy: 1756, 219
-  size: 867, 910
-  orig: 867, 910
+  xy: 2444, 495
+  size: 1389, 1311
+  orig: 1389, 1311
   offset: 0, 0
   index: -1
 affliction spine (2)
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 2, 54
   size: 1752, 1127
   orig: 1752, 1127
   offset: 0, 0

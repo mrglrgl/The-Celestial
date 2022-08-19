@@ -1,0 +1,10 @@
+{
+   "rarities":
+   [
+        {
+            "id": "tenshi_secret_rarity",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        }
+   ]
+}

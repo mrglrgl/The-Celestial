@@ -18,11 +18,9 @@
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 1, "data" : { }}
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "tenshi_secret_rarity" }}
          ]
-	}
-	  
-     
-	  
+	}  
    ]
 }

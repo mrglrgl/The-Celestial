@@ -5,8 +5,10 @@
          "id" : "cc_set_tenshi_first",
          "buffs" : 
          [	
-			"tenshi_cc_first_mhp",
-			"tenshi_cc_first_healing"
+			"tenshi_cc_first_prot",
+			"tenshi_cc_first_bleedr",
+			"tenshi_cc_first_blightr",
+			"tenshi_cc_first_dodge"
 			
          ],
          "hero_class_requirements":
@@ -23,11 +25,10 @@
          "id" : "cc_set_tenshi_last",
          "buffs" : 
          [
+			"tenshi_cc_last_acc",
 			"tenshi_cc_last_crit",
-			"tenshi_fucking_truncation_Desk",
 			"tenshi_cc_last_move",
-			"tenshi_cc_last_debuff",
-			"tenshi_cc_last_stun"
+			"tenshi_cc_last_debuff"
          ],
          "hero_class_requirements":
          [

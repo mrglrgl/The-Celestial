@@ -18,11 +18,14 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "tenshi_trinket_token",
+         "id" : "tenshi_trinket_mallet",
          "buffs" : 
          [
-			"tenshi_token_move",
-			"tenshi_token_stunr"
+			"tenshi_mallet_acc_heavenblade",
+			"tenshi_mallet_acc_eruption",
+			"tenshi_mallet_acc_earthquake",
+			"tenshi_mallet_acc_Desk",
+			"tenshi_mallet_move"
          ],
          "hero_class_requirements":
          [
@@ -34,15 +37,13 @@
          "origin_dungeon" : ""
       },
 	  {
-         "id" : "tenshi_trinket_mallet",
+         "id" : "tenshi_trinket_scarf",
          "buffs" : 
          [
-			"tenshi_mallet_acc",
-			"tenshi_mallet_crit",
-			"tenshi_mallet_critr",
-			"tenshi_mallet_fuckyourtruncation_Desk",
-			"tenshi_mallet_DMGL-10",
-			"tenshi_mallet_DMGH-10"
+			"tenshi_scarf_debuff",
+			"tenshi_scarf_stun",
+			"tenshi_scarf_stunr",
+			"tenshi_scarf_spd"
          ],
          "hero_class_requirements":
          [
@@ -59,6 +60,8 @@
          [
 			"tenshi_shion_eat",
 			"tenshi_shion_stressinf",
+			"tenshi_shion_stress_week",
+			"tenshi_shion_idledestressblock",
 			"tenshi_shion_stress"
          ],
          "hero_class_requirements":
@@ -93,39 +96,39 @@
          ] 
       },
 	  {
-         "id" : "tenshi_trinket_scarf",
+         "id" : "tenshi_trinket_komachi",
          "buffs" : 
          [
-			"tenshi_scarf_riposte_dmgl",
-			"tenshi_scarf_riposte_dmgh",
-			"tenshi_scarf_move_Desk",
-			"tenshi_scarf_swr_friendly_Desk",
-			"tenshi_scarf_swr_party_Desk",
-			"tenshi_scarf_swr_tenshi_Desk",
-			"tenshi_scarf_swr_magician_Desk",
-			"tenshi_scarf_swr_maid_Desk",
-			"tenshi_scarf_swr_miko_Desk",
-			"tenshi_scarf_swr_disclaimer_Desk",
-			"tenshi_scarf_cleaner_Desk"
+			"tenshi_komachi_critx",
+			"tenshi_komachi_dmgl",
+			"tenshi_komachi_dmgh"
          ],
          "hero_class_requirements":
          [
             "tenshi"
          ],
-		 "set_id" : "tenshi_sunward_fluff_set",
          "rarity" : "sakura",
          "price" : 30000,
          "limit" : 1,
-         "origin_dungeon" : "",
-		 "ranged_attack_skill_additional_effects":
+         "origin_dungeon" : "ship",
+		 "attack_crit_additional_effects":
          [
 			 "Fumo Swagger"
+         ]
+      },
+	  {
+         "id" : "tenshi_trinket_secret",
+         "buffs" : 
+         [
          ],
-		 "friendly_skill_additional_effects":
-		 [
-			 "Scarlet Weather Rhapsody 1",
-			 "Scarlet Weather Rhapsody 2"
-		 ]
+         "hero_class_requirements":
+         [
+            "tenshi"
+         ],
+         "rarity" : "tenshi_secret_rarity",
+         "price" : 1,
+         "limit" : 1,
+         "origin_dungeon" : "darkestdungeon"
       }
 	]
 }

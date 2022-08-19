@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">	
-	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_daze"><![CDATA[%d Daze Skill Disable]]></entry>
-
 
     <entry id="hero_class_name_tenshi"><![CDATA[Celestial]]></entry>
 	
@@ -15,6 +13,8 @@
 	<entry id="camping_skill_name_t_hisoueye"><![CDATA[UNCHECKED POWER]]></entry>
 
     <entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Just watch, this is nothing to me!]]></entry>
+	<entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Y'aint seen nothing yet!]]></entry>
+	<entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Bring 'em on!]]></entry>
 	<entry id="tenshi+str_bark_t_nompeach"><![CDATA[Bhavaagra's food is dull, but extremely potent.]]></entry>
 	<entry id="tenshi+str_bark_t_protectingstones"><![CDATA[Feel free to praise my efforts!]]></entry>
 	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<A moment of freedom from worldly thoughts...>]]></entry>
@@ -56,53 +56,38 @@
     <entry id="action_verbose_body_camping_trainer_tenshi"><![CDATA[Every storm has its moments of calm. At camp the Celestial prepares to let loose again at dawn, calling upon ancient rituals to stabilize mind and body. However, she has a strong selfish streak, and offers scant charity to her companions.]]></entry>
 	
 		<!-- Event -->
-    <entry id="town_event_title_first_tenshi"><![CDATA[Walking Catastrophe]]></entry>
-    <entry id="town_event_description_first_tenshi"><![CDATA[She may hail from Heaven, but there is no righteousness in her intent. Tread carefully.]]></entry>
+    <entry id="town_event_title_first_tenshi"><![CDATA[Meteor Strike]]></entry>
+    <entry id="town_event_description_first_tenshi"><![CDATA[When the dust settled, the doomsayers dejectedly returned to their holes. But it would not be long before her exploits renewed their zeal.]]></entry>
+	<entry id="town_event_title_bonus_recruit_tenshi"><![CDATA[Perplexing Multiplication]]></entry>
+    <entry id="town_event_description_bonus_recruit_tenshi"><![CDATA[The two clearly know each other, but refuse to elaborate. Pray this does not add to our troubles...]]></entry>
 
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Nawi Provisions]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_token"><![CDATA[Landslide Talisman]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Empowering Mallet]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Stonegrowth Hammer]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Impedimental Shawl]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Shion's Blessing]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Land-Calming Stone]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Dragonfish's Veil]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_komachi"><![CDATA[Hairpin of Grasping Spirit]]></entry>
 	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Paradoxical Reflection]]></entry>
-	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Imagine I]]></entry>
-	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Was Good]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Initiate's Kosode]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Crumbled Facade]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_secret"><![CDATA[Usurpation Keystone]]></entry>
+	<entry id="trinket_rarity_tenshi_secret_rarity"><![CDATA[Incidental]]></entry>
 	
-	<entry id="str_inventory_set_title_tenshi_sunward_fluff_set"><![CDATA["They warn of disaster, powerless to stop it."]]></entry>
 	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Which truly lies above the clouds?"]]></entry>
-	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA[At Writing]]></entry>
+	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA["When you're told not to do something..."]]></entry>
 
 	
 
 		<!-- Random Tooltips Desk -->
 	
 				<!-- Trinkets -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mallet_fuckyourtruncation_desk"><![CDATA[+5.5%% CRT
-	-5.5%% Crits received]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[After {colour_start|riposte}Riposte{colour_end}: Clear {colour_start|stress}Exhilaration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_move_desk"><![CDATA[{colour_start|attacktype}Ranged{colour_end} Skills gain {colour_start|move}Forward{colour_end} 1]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_friendly_desk"><![CDATA[{colour_start|notable}Eyes on Me!{colour_end}: {colour_start|buff}Buff{colour_end} Target based on {colour_start|afflicted}Temperament{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_party_desk"><![CDATA[{colour_start|notable}Calamitous Ultimatum{colour_end}: {colour_start|buff}Buff{colour_end} Party based on {colour_start|afflicted}Temperament{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_tenshi_desk"><![CDATA[{colour_start|afflicted}Celestial Temperament{colour_end}:
-	-]]></entry>
-	<!-- <entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_magician_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_maid_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_miko_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry> -->
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_magician_desk"><![CDATA[​{colour_start|afflicted}Magician Temperament{colour_end}:
-	-]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_maid_desk"><![CDATA[​{colour_start|afflicted}Maid Temperament{colour_end}:
-	-]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_miko_desk"><![CDATA[​{colour_start|afflicted}Miko Temperament{colour_end}:
-	-]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_swr_disclaimer_desk"><![CDATA[​{colour_start|skill_unselectable}Only buffs the following classes:
-	Celestial, Magician, Maid, Miko{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_scarf_cleaner_desk"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mallet_acc_desk"><![CDATA[+6 ACC {colour_start|move}Move{colour_end} Skills]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_heal_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|healhp}Heal{colour_end} 3 for each enemy]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_blight_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|blight}Blight{colour_end} for each enemy {colour_start|skill_unselectable}(900%%){colour_end}
-	1 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_fucking_truncation_desk"><![CDATA[+10.5%% CRT if HP below 72%%]]></entry>
+1 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_cc_set_desk"><![CDATA[+25%% {colour_start|notable}Trinket Effectiveness{colour_end} per missing 25%% HP]]></entry>
 
 	
 		<!-- Camp Skills -->
@@ -245,7 +230,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="tenshi+str_bark_bigwound_ally"><![CDATA[Pull yourself together.]]></entry>
 	<entry id="tenshi+str_bark_bigwound_ally"><![CDATA[You'll be fine, walk it off.]]></entry>
 	
-		<!-- On being moved. Leave this blank, or her Sunward trinket will make her annoying. Not like she's going anywhere with base 70% Move Res anyways. -->
+		<!-- On being moved. Leave this blank, or Sanae will make her annoying. Not like she's going anywhere with base 70% Move Res anyways. -->
 	<entry id="tenshi+str_combat_knockback"><![CDATA[]]></entry>
 	
 	<entry id="tenshi+str_combat_wastingtime"><![CDATA[This is boring. Finish them already!]]></entry>
@@ -414,6 +399,9 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="tenshi+str_block_combat_retreat_tenshivirtue"><![CDATA[Don't rush me!]]></entry>
 	<entry id="tenshi+str_block_combat_retreat_tenshivirtue"><![CDATA[Conceding early is rude.]]></entry>
 	
+			<!-- Block Effect -->
+	<entry id="tenshi+str_block_effect_tenshivirtue"><![CDATA[Are you done fooling around?]]></entry>
+	
 			<!-- Heart Attack -->
 	<entry id="tenshi+str_heart_attack_tenshivirtue"><![CDATA[Was I... still holding back?]]></entry>
 	<entry id="tenshi+str_heart_attack_tenshivirtue"><![CDATA[Impossible!]]></entry>
@@ -454,8 +442,8 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
     <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Finally, a sense of peace.]]></entry>
     <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[*stretches* What a perfect day!]]></entry>
 	
-	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Who is that, an imposter?]]></entry>
-	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Why do I feel deja vu...]]></entry>
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[I don't work with imposters.]]></entry>
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[You're not fooling anyone.]]></entry>
 	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Damn racoons.]]></entry>
 	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[I must be dreaming again.]]></entry>
 	
@@ -654,8 +642,6 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 		<!-- Compatibility -->
 	
 		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
-	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} duration received]]></entry> 
-    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} duration received]]></entry>
 	<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
 	
 

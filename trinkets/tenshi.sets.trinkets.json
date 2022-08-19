@@ -7,17 +7,45 @@
          [
          ]
       },
-      {
-         "id" : "tenshi_sunward_fluff_set",
-         "buffs" : 
-         [
-         ]
-      },
 	  {
          "id" : "cc_tenshi",
          "buffs" : 
          [
-			"tenshi_cc_set_prot"
+			"tenshi_cc_set_mhp",
+			"tenshi_cc_set_prot_75",
+			"tenshi_cc_set_bleedr_75",
+			"tenshi_cc_set_blightr_75",
+			"tenshi_cc_set_dodge_75",
+			"tenshi_cc_set_acc_75",
+			"tenshi_cc_set_crit_75",
+			"tenshi_cc_set_move_75",
+			"tenshi_cc_set_debuff_75",
+			"tenshi_cc_set_prot_50",
+			"tenshi_cc_set_bleedr_50",
+			"tenshi_cc_set_blightr_50",
+			"tenshi_cc_set_dodge_50",
+			"tenshi_cc_set_acc_50",
+			"tenshi_cc_set_crit_50",
+			"tenshi_cc_set_move_50",
+			"tenshi_cc_set_debuff_50",
+			"tenshi_cc_set_prot_25",
+			"tenshi_cc_set_bleedr_25",
+			"tenshi_cc_set_blightr_25",
+			"tenshi_cc_set_dodge_25",
+			"tenshi_cc_set_acc_25",
+			"tenshi_cc_set_crit_25",
+			"tenshi_cc_set_move_25",
+			"tenshi_cc_set_debuff_25",
+			"tenshi_cc_set_prot_0",
+			"tenshi_cc_set_bleedr_0",
+			"tenshi_cc_set_blightr_0",
+			"tenshi_cc_set_dodge_0",
+			"tenshi_cc_set_acc_0",
+			"tenshi_cc_set_crit_0",
+			"tenshi_cc_set_move_0",
+			"tenshi_cc_set_debuff_0",
+			"tenshi_cc_set_Desk",
+			"tenshi_cc_set_healrec"
          ]
       }
    ]

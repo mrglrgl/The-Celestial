@@ -1,12 +1,11 @@
 {
    "buffs":
    [
-      
 	  {
-         "id" : "tenshi_cc_first_mhp",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
-         "amount" : 0.15,
+         "id" : "tenshi_cc_first_prot",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -16,10 +15,49 @@
          }
       },
 	  {
-         "id" : "tenshi_cc_first_healing",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.33,
+         "id" : "tenshi_cc_first_bleedr",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_cc_first_blightr",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_cc_first_dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_cc_last_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -32,21 +70,7 @@
          "id" : "tenshi_cc_last_crit",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.105,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.72,
-            "string" : ""
-         },
-		 "has_description": false
-      },
-	  {
-         "id" : "tenshi_fucking_truncation_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "tenshi_fucking_truncation_desk",
-         "amount" : 0.01,
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -82,10 +106,10 @@
          }
       },
 	  {
-         "id" : "tenshi_cc_last_stun",
-         "stat_type" : "stun_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.2,
+         "id" : "tenshi_cc_set_mhp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -95,10 +119,471 @@
          }
       },
 	  {
-         "id" : "tenshi_cc_set_prot",
+         "id" : "tenshi_cc_set_healrec",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_cc_set_prot_75",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
-         "amount" : 0.2,
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_bleedr_75",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_blightr_75",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_dodge_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_acc_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_crit_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.0125,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_move_75",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_debuff_75",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_prot_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_bleedr_50",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_blightr_50",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_dodge_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_acc_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_crit_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.0125,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_move_50",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_debuff_50",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_prot_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_bleedr_25",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_blightr_25",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_dodge_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_acc_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_crit_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.0125,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_move_25",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_debuff_25",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_prot_0",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_bleedr_0",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_blightr_0",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_dodge_0",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_acc_0",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.025,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_crit_0",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.0125,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_move_0",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_debuff_0",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.01,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "tenshi_cc_set_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_cc_set_desk",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

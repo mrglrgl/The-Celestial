@@ -1,27 +1,34 @@
 
 tenshi.sprite.heroic.png
-size: 2042,1368
+size: 3994,1623
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Layer Group
+  rotate: true
+  xy: 1315, 232
+  size: 1389, 1311
+  orig: 1389, 1311
+  offset: 0, 0
+  index: -1
 Virtue Crown
   rotate: true
-  xy: 1130, 6
+  xy: 2628, 2
   size: 491, 489
   orig: 491, 489
   offset: 0, 0
   index: -1
-heroic syn (5)
-  rotate: false
-  xy: 2, 2
-  size: 1126, 1364
-  orig: 1126, 1364
+Virtue Edging
+  rotate: true
+  xy: 2, 232
+  size: 1389, 1311
+  orig: 1389, 1311
   offset: 0, 0
   index: -1
-virtue figure
+heroic syn (5)
   rotate: true
-  xy: 1130, 499
-  size: 867, 910
-  orig: 867, 910
+  xy: 2628, 495
+  size: 1126, 1364
+  orig: 1126, 1364
   offset: 0, 0
   index: -1

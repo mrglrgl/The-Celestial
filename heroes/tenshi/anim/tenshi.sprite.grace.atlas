@@ -1,20 +1,20 @@
 
 tenshi.sprite.grace.png
-size: 1024,512
+size: 769,474
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 shadow
-  rotate: false
-  xy: 508, 388
+  rotate: true
+  xy: 704, 115
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
-t_grace/t_grace/Eyes On Me!/Attack Grace
-  rotate: false
+t_grace/t_grace/Eyes On Me!/Layer Group
+  rotate: true
   xy: 2, 2
-  size: 504, 449
-  orig: 504, 449
+  size: 470, 700
+  orig: 470, 700
   offset: 0, 0
   index: -1
