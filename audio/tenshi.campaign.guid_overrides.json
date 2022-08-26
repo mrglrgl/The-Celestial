@@ -1,0 +1,74 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/char/ally/tenshi_t_earthquake_tenshimode0",                   			"guid_override":"{e60d3b47-2d7c-4bbc-8d38-fb2705e64e9a}"},
+		{"event_id": "event:/char/ally/tenshi_t_earthquake_miss_tenshimode0",                   		"guid_override":"{1b51c374-de48-4d81-adcc-2862662ac112}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_tenshimode0",                   				"guid_override":"{34fb2e4c-1af0-44fd-b61d-99ae783b7d20}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_miss_tenshimode0",                   		"guid_override":"{25cf9ac6-7b39-44b0-a540-66f48d0892c4}"},
+		{"event_id": "event:/char/ally/tenshi_t_grace_tenshimode0",                   				"guid_override":"{4ef95e7f-9e98-4e7e-94b9-54e8dfec8b32}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_tenshimode0",                   			"guid_override":"{82ea54ad-e48b-4689-9b0e-7332422b081d}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_miss_tenshimode0",                   		"guid_override":"{77069d3b-9608-4624-994a-b6c94b9088dd}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_tenshimode0",                   				"guid_override":"{49ca628e-a4ef-4ff5-bc6c-5236bc73f5c0}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_miss_tenshimode0",                   			"guid_override":"{a11ee1fe-dab2-45fc-b86e-d0ab13aa65c9}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_tenshimode0",                   				"guid_override":"{25c64fee-2827-4957-b6c4-64f212be2e7d}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_miss_tenshimode0",                   			"guid_override":"{5583019a-18a8-4c10-832a-744f03bc173b}"},
+		{"event_id": "event:/char/ally/tenshi_t_ward_tenshimode0",                   					"guid_override":"{50c5a583-9921-4fd1-8201-d16a45b15446}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_tenshimode0",                   				"guid_override":"{3e0005d2-7a50-4b63-9458-798f9dcf7911}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_miss_tenshimode0",                   		"guid_override":"{5b1a4883-9997-4bc7-a35f-2b924ac81f6f}"},
+		
+		{"event_id": "event:/char/ally/tenshi_t_earthquake_tenshimode1",                   			"guid_override":"{e60d3b47-2d7c-4bbc-8d38-fb2705e64e9a}"},
+		{"event_id": "event:/char/ally/tenshi_t_earthquake_miss_tenshimode1",                   		"guid_override":"{1b51c374-de48-4d81-adcc-2862662ac112}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_tenshimode1",                   				"guid_override":"{34fb2e4c-1af0-44fd-b61d-99ae783b7d20}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_miss_tenshimode1",                   		"guid_override":"{25cf9ac6-7b39-44b0-a540-66f48d0892c4}"},
+		{"event_id": "event:/char/ally/tenshi_t_grace_tenshimode1",                   				"guid_override":"{4ef95e7f-9e98-4e7e-94b9-54e8dfec8b32}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_tenshimode1",                   			"guid_override":"{82ea54ad-e48b-4689-9b0e-7332422b081d}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_miss_tenshimode1",                   		"guid_override":"{77069d3b-9608-4624-994a-b6c94b9088dd}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_tenshimode1",                   				"guid_override":"{49ca628e-a4ef-4ff5-bc6c-5236bc73f5c0}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_miss_tenshimode1",                   			"guid_override":"{a11ee1fe-dab2-45fc-b86e-d0ab13aa65c9}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_tenshimode1",                   				"guid_override":"{25c64fee-2827-4957-b6c4-64f212be2e7d}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_miss_tenshimode1",                   			"guid_override":"{5583019a-18a8-4c10-832a-744f03bc173b}"},
+		{"event_id": "event:/char/ally/tenshi_t_ward_tenshimode1",                   					"guid_override":"{50c5a583-9921-4fd1-8201-d16a45b15446}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_tenshimode1",                   				"guid_override":"{3e0005d2-7a50-4b63-9458-798f9dcf7911}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_miss_tenshimode1",                   		"guid_override":"{5b1a4883-9997-4bc7-a35f-2b924ac81f6f}"},
+		
+		{"event_id": "event:/char/ally/tenshi_t_earthquake_tenshimode2",                   			"guid_override":"{e60d3b47-2d7c-4bbc-8d38-fb2705e64e9a}"},
+		{"event_id": "event:/char/ally/tenshi_t_earthquake_miss_tenshimode2",                   		"guid_override":"{1b51c374-de48-4d81-adcc-2862662ac112}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_tenshimode2",                   				"guid_override":"{34fb2e4c-1af0-44fd-b61d-99ae783b7d20}"},
+		{"event_id": "event:/char/ally/tenshi_t_eruption_miss_tenshimode2",                   		"guid_override":"{25cf9ac6-7b39-44b0-a540-66f48d0892c4}"},
+		{"event_id": "event:/char/ally/tenshi_t_grace_tenshimode2",                   				"guid_override":"{4ef95e7f-9e98-4e7e-94b9-54e8dfec8b32}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_tenshimode2",                   			"guid_override":"{82ea54ad-e48b-4689-9b0e-7332422b081d}"},
+		{"event_id": "event:/char/ally/tenshi_t_heavenblade_miss_tenshimode2",                   		"guid_override":"{77069d3b-9608-4624-994a-b6c94b9088dd}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_tenshimode2",                   				"guid_override":"{49ca628e-a4ef-4ff5-bc6c-5236bc73f5c0}"},
+		{"event_id": "event:/char/ally/tenshi_t_hisou_miss_tenshimode2",                   			"guid_override":"{a11ee1fe-dab2-45fc-b86e-d0ab13aa65c9}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_tenshimode2",                   				"guid_override":"{25c64fee-2827-4957-b6c4-64f212be2e7d}"},
+		{"event_id": "event:/char/ally/tenshi_t_meteor_miss_tenshimode2",                   			"guid_override":"{5583019a-18a8-4c10-832a-744f03bc173b}"},
+		{"event_id": "event:/char/ally/tenshi_t_ward_tenshimode2",                   					"guid_override":"{50c5a583-9921-4fd1-8201-d16a45b15446}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_tenshimode2",                   				"guid_override":"{3e0005d2-7a50-4b63-9458-798f9dcf7911}"},
+		{"event_id": "event:/char/ally/tenshi_riposte1_miss_tenshimode2",                   		"guid_override":"{5b1a4883-9997-4bc7-a35f-2b924ac81f6f}"},
+		
+		{"event_id": "event:/camp/skill/t_slacktrance",                   							"guid_override":"{0f9abf36-2053-47f6-a6fa-091368e84cf3}"},
+		{"event_id": "event:/camp/skill/t_hisoueye",                   								"guid_override":"{c26f1fbb-6f15-4f6c-91e2-937da2aa6a49}"},
+		{"event_id": "event:/camp/skill/t_nompeach",                   								"guid_override":"{5ee2c526-3396-4fb9-9afe-ddee64757f70}"},
+		{"event_id": "event:/camp/skill/t_protectingstones",                   						"guid_override":"{b0f9ffb0-4e6e-4420-b024-33f75fe7c5b6}"},
+		{"event_id": "event:/camp/skill/t_nawitrance",                   							"guid_override":"{dad9f04e-609e-41ed-ac59-48a167e3adbc}"},
+		
+		
+		{"event_id": "event:/general/items/tenshi_bomb",                   							"guid_override":"{ea18fcac-27ba-46ec-9bb9-a05b2f90288b}"},
+		{"event_id": "event:/general/items/tenshi_bomb_camp",                   					"guid_override":"{e103e934-3408-4e95-b3db-a8fd86f524ca}"},
+
+		{"event_id": "event:/vo/town_event/bonus_recruit_tenshi",               				   	"guid_override":"{ec04e5b6-575a-4adf-99e6-c1d2d8fb1c16}"},
+		{"event_id": "event:/vo/town_event/first_tenshi",               				   			"guid_override":"{4314c8dd-27b2-4c10-873f-6188b9d2e3d1}"},
+		{"event_id": "event:/vo/town/recruit_tenshi",               				   				"guid_override":"{f4168bcd-0919-48bf-839d-97f77152e087}"},
+		{"event_id": "event:/vo/bad/afflicted_tenshiafflict",               				   		"guid_override":"{68183413-00e7-4736-b329-4b39999d9b2e}"},
+		{"event_id": "event:/vo/good/virtue_tenshivirtue",               				   			"guid_override":"{fdc5af07-b5d9-439b-abce-d4c526d9089b}"}
+       
+		
+		
+		
+		
+		
+		
+
+    ]
+}
+

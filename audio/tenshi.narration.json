@@ -1,0 +1,104 @@
+{
+    "filters": [],
+    "entries": [
+        {
+            "id": "recruit_hero",
+            "tone": "neutral",
+            "chance": 1,
+            "audio_events": [
+			    {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/town/recruit_tenshi",
+                    "chance": 1,
+                    "priority": 1,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "tenshi"
+                    ]
+                }
+				]
+		}, 
+		{
+            "id": "virtue",
+            "tone": "good",
+            "chance": 1,
+            "audio_events": [
+
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/good/virtue_tenshivirtue",
+                    "chance": 1,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "tenshivirtue"
+                    ]
+                }
+            ]
+        }, 
+		{
+            "id": "affliction",
+            "tone": "bad",
+            "chance": 1,
+            "audio_events": [
+
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/bad/afflicted_tenshiafflict",
+                    "chance": 1,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "tenshiafflict"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "town_visit_start",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/town_event/bonus_recruit_tenshi",
+                    "chance": 1.0,
+                    "priority": 2,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 1,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["bonus_recruit_tenshi"]
+                },
+                {
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/town_event/first_tenshi",
+                    "chance": 1.0,
+                    "priority": 2,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 1,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["first_tenshi"]
+                }
+            ]
+        }
+			]
+}

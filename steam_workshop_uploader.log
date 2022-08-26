@@ -297,6 +297,7 @@ raid/camping/skill_icons/camp_skill_t_nompeach.png
 raid/camping/skill_icons/camp_skill_t_protectingstones.png
 raid/camping/skill_icons/camp_skill_t_slacktrance.png
 raid/camping/skill_icons/camp_skill_t_unused.png
+audio/secondary_banks/tenshi.bank
 campaign/provision/tenshi.provision.json
 campaign/town_events/tenshi.town_events.events.json
 fx/tenshi_bomb/tenshi_bomb.sprite.atlas
@@ -327,6 +328,9 @@ shared/buffs/tenshisets.buffs.json
 shared/buffs/tenshitrinket.buffs.json
 shared/trait/tenshi.trait_library.json
 upgrades/heroes/tenshi.upgrades.json
+audio/tenshi.campaign.guid_overrides.json
+audio/tenshi.campaign.load_order.json
+audio/tenshi.narration.json
 colours/tenshi.colours.darkest
 effects/tenshi.effects.darkest
 inventory/tenshi.supply.inventory.items.darkest
