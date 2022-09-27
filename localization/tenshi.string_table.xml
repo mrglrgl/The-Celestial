@@ -641,12 +641,6 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 		<!-- Buff shit -->
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshiRanddesk"><![CDATA[Skills Target Randomly]]></entry>
-	
-		<!-- Compatibility -->
-	
-		<!-- make sure this is IDENTICAL to Sunward Isles when translating -->
-	<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
-	
 
   </language>
 

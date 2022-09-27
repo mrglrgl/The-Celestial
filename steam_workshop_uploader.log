@@ -9,6 +9,7 @@ Processing Map Files files...
 -------------------------------------------------------------------------------
 Running Localization...
 Parsing localization/tenshi.string_table.xml
+Parsing localization/tenshi_compatibility.string_table.xml
 
 Building Languages
 Exporting .loc2 files
@@ -370,8 +371,20 @@ audio/tenshi.narration.json
 colours/tenshi.colours.darkest
 effects/tenshi.effects.darkest
 inventory/tenshi.supply.inventory.items.darkest
+localization/0_brazilian.loc2
+localization/0_czech.loc2
 localization/0_english.loc2
+localization/0_french.loc2
+localization/0_german.loc2
+localization/0_italian.loc2
+localization/0_japanese.loc2
+localization/0_koreana.loc2
+localization/0_koreanb.loc2
+localization/0_polish.loc2
+localization/0_schinese.loc2
+localization/0_spanish.loc2
 localization/tenshi.string_table.xml
+localization/tenshi_compatibility.string_table.xml
 loot/tenshi.loot.json
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
