@@ -2,7 +2,7 @@
    "rarities":
    [
         {
-            "id": "tenshi_secret_rarity",
+            "id": "tenshisecret",
             "award_category": "trophy",
             "insert_before": "crow"
         }

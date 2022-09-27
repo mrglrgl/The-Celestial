@@ -2,13 +2,13 @@
     "events": [
         {
             "id": "first_tenshi",
-            "base_chance": 100.0,
+            "base_chance": 20.0,
             "per_not_rolled_additional_chance": 20.0,
             "cooldown": 0,
             "is_unique" : true,
             "priority":"higher",            
             "requirements": {
-                "minimum_week": 1,
+                "minimum_week": 2,
                 "dead_heroes": 0,
                 "hero_level_counts": [ ],
                 "upgrades_purchased": [ ],
@@ -28,8 +28,8 @@
         },
 		{
             "id": "bonus_recruit_tenshi",
-            "base_chance": 100.0,
-            "per_not_rolled_additional_chance": 20.0,
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
             "cooldown": 2,
             "requirements": {
                 "minimum_week": 6,

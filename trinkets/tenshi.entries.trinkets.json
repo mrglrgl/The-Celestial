@@ -120,13 +120,24 @@
          "id" : "tenshi_trinket_secret",
          "buffs" : 
          [
+			"tenshi_secret_dmg_Desk",
+			"tenshi_secret_s1_dmgl",
+			"tenshi_secret_s1_dmgh",
+			"tenshi_secret_s2_dmgl",
+			"tenshi_secret_s2_dmgh",
+			"tenshi_secret_s3_dmgl",
+			"tenshi_secret_s3_dmgh",
+			"tenshi_secret_s4_dmgl",
+			"tenshi_secret_s4_dmgh",
+			"tenshi_secret_virtue",
+			"tenshi_secret_stress"
          ],
          "hero_class_requirements":
          [
-            "tenshi"
          ],
-         "rarity" : "tenshi_secret_rarity",
-         "price" : 1,
+         "rarity" : "tenshisecret",
+		 "visual_rarity" : "ancestral",
+         "price" : 0,
          "limit" : 1,
          "origin_dungeon" : "darkestdungeon"
       }

@@ -1,0 +1,20 @@
+
+tenshi.sprite.THbombcountA3.png
+size: 50,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+count 3
+  rotate: false
+  xy: 2, 53
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+count 3 glow
+  rotate: false
+  xy: 2, 2
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1

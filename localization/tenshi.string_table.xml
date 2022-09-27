@@ -64,15 +64,15 @@
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Nawi Provisions]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Stonegrowth Hammer]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Impedimental Shawl]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Impeder's Shawl]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Shion's Blessing]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Land-Calming Stone]]></entry>
 	<entry id="str_inventory_title_trinkettenshi_trinket_komachi"><![CDATA[Hairpin of Grasping Spirit]]></entry>
 	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Paradoxical Reflection]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Initiate's Kosode]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Crumbled Facade]]></entry>
-	<entry id="str_inventory_title_trinkettenshi_trinket_secret"><![CDATA[Usurpation Keystone]]></entry>
-	<entry id="trinket_rarity_tenshi_secret_rarity"><![CDATA[Incidental]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_secret"><![CDATA[Ancestor's Enlightenment]]></entry>
+	<entry id="trinket_rarity_tenshisecret"><![CDATA[Incidental]]></entry>
 	
 	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Which truly lies above the clouds?"]]></entry>
 	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA["When you're told not to do something..."]]></entry>
@@ -84,6 +84,7 @@
 				<!-- Trinkets -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[After {colour_start|riposte}Riposte{colour_end}: Clear {colour_start|stress}Exhilaration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mallet_acc_desk"><![CDATA[+6 ACC {colour_start|move}Move{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_secret_dmg_desk"><![CDATA[+10%% DMG per Target Size]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_heal_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|healhp}Heal{colour_end} 3 for each enemy]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_blight_desk"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills: Self: {colour_start|blight}Blight{colour_end} for each enemy {colour_start|skill_unselectable}(900%%){colour_end}
 1 pts/rd for 3 rds]]></entry>
@@ -168,6 +169,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="str_skill_mode_info_tenshimode1"><![CDATA[]]></entry>
 	<entry id="str_skill_mode_info_tenshimode2"><![CDATA[]]></entry>
 	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[The Celestial]]></entry>	
+			<!-- Note: cooldown buff tooltips are not visible ingame due the the buff source used -->
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_first_cd"><![CDATA[{colour_start|attacktype}Spell Card A{colour_end} Recharging]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_second_cd"><![CDATA[{colour_start|attacktype}Spell Card B{colour_end} Recharging]]></entry>
 
@@ -638,6 +640,7 @@ Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
 	
 		<!-- Buff shit -->
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshiRanddesk"><![CDATA[Skills Target Randomly]]></entry>
 	
 		<!-- Compatibility -->
 	

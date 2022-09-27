@@ -1,5 +1,5 @@
 colour: .id "loretext"											        .rgba #84182d
 colour: .id "disorient"											        .rgba #ff53c1
 colour: .id "comet"                                    					.rgba #a3ffee
-colour: .id "tenshi_trinket_secret"										.rgba 224 39 0 255
+colour: .id "tenshisecret"												.rgba 194 69 0 255
 colour: .id "invisible" 												.rgba 0 0 0 0

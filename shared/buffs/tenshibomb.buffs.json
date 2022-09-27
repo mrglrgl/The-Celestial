@@ -16,8 +16,7 @@
             "string" : ""
          },
 		 "has_description" : false,
-		 "is_clear_debuff_valid" : false,
-		 "fx" : "TenshiFXUsed1"
+		 "is_clear_debuff_valid" : false
       },
 	  {
          "id" : "tenshi_bomb_use_first_cd5",
@@ -34,7 +33,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountA1"
       },
 	  {
          "id" : "tenshi_bomb_use_first_cd4",
@@ -50,7 +50,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountA2"
       },
 	  {
          "id" : "tenshi_bomb_use_first_cd3",
@@ -66,7 +67,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountA3"
       },
 	  {
          "id" : "tenshi_bomb_use_first_cd2",
@@ -82,7 +84,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountA4"
       },
 	  {
          "id" : "tenshi_bomb_use_first_cd1",
@@ -98,7 +101,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountA5"
       },
 	  {
          "id" : "tenshi_bomb_use_second",
@@ -115,8 +119,7 @@
             "string" : ""
          },
 		 "has_description" : false,
-		 "is_clear_debuff_valid" : false,
-		 "fx" : "TenshiFXUsed2"
+		 "is_clear_debuff_valid" : false
       },
 	  {
          "id" : "tenshi_bomb_use_second_cd5",
@@ -132,7 +135,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountB1"
       },
 	  {
          "id" : "tenshi_bomb_use_second_cd4",
@@ -148,7 +152,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountB2"
       },
 	  {
          "id" : "tenshi_bomb_use_second_cd3",
@@ -164,7 +169,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountB3"
       },
 	  {
          "id" : "tenshi_bomb_use_second_cd2",
@@ -180,7 +186,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountB4"
       },
 	  {
          "id" : "tenshi_bomb_use_second_cd1",
@@ -196,7 +203,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "is_clear_debuff_valid" : false
+		 "is_clear_debuff_valid" : false,
+		 "fx" : "THbombcountB5"
       },
 	  {
          "id" : "tenshi_bomb_item_A",
@@ -211,7 +219,7 @@
             "string" : "tenshimode1"
          },
 		 "has_description": false,
-		 "fx" : "TenshiFXBomb1"
+		 "fx" : "THbombbaseA"
       },
 	  {
          "id" : "tenshi_bomb_item_B",
@@ -226,7 +234,7 @@
             "string" : "tenshimode2"
          },
 		 "has_description": false,
-		 "fx" : "TenshiFXBomb2"
+		 "fx" : "THbombbaseB"
       }
    ]
 }
