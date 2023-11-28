@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - C:\Users\danaw167\Desktop\Tenshi mod\project.xml
+Parsing project file - C:\Users\danaw167\Desktop\Tenshi Mod\project.xml
 Mod Data Directory = c:/Users/danaw167/Desktop/Tenshi mod/
 
 -------------------------------------------------------------------------------
@@ -10,6 +10,7 @@ Processing Map Files files...
 Running Localization...
 Parsing localization/tenshi.string_table.xml
 Parsing localization/tenshi_compatibility.string_table.xml
+Parsing localization/tenshi_russian.string_table.xml
 
 Building Languages
 Exporting .loc2 files
@@ -156,6 +157,7 @@ heroes/tenshi/tenshi_H/anim/tenshi.sprite.meteor.png
 heroes/tenshi/tenshi_H/anim/tenshi.sprite.riposte.png
 heroes/tenshi/tenshi_H/anim/tenshi.sprite.walk.png
 heroes/tenshi/tenshi_H/anim/tenshi.sprite.ward.png
+modes/bloodmoon/upgrades/heroes/tenshi.upgrades.json
 modes/new_game_plus/upgrades/heroes/tenshi.upgrades.json
 modes/radiant/upgrades/heroes/tenshi.upgrades.json
 campaign/town/town_event/town_event.image_bonus_recruit_tenshi.png
@@ -381,10 +383,12 @@ localization/0_japanese.loc2
 localization/0_koreana.loc2
 localization/0_koreanb.loc2
 localization/0_polish.loc2
+localization/0_russian.loc2
 localization/0_schinese.loc2
 localization/0_spanish.loc2
 localization/tenshi.string_table.xml
 localization/tenshi_compatibility.string_table.xml
+localization/tenshi_russian.string_table.xml
 loot/tenshi.loot.json
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
@@ -413,5 +417,5 @@ project.xml
 *******************************************************************************
 WARNING MOD WILL NOT BE UPLOADED
 *******************************************************************************
-Saving project file C:\Users\danaw167\Desktop\Tenshi mod\project.xml
+Saving project file C:\Users\danaw167\Desktop\Tenshi Mod\project.xml
 

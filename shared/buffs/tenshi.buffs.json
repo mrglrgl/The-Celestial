@@ -21,7 +21,7 @@
          "id" : "tenshi_hype_DMGL",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
+         "amount" : 0.2,
          "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -36,7 +36,7 @@
          "id" : "tenshi_hype_DMGH",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
+         "amount" : 0.2,
          "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -63,25 +63,10 @@
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "tenshi_hype_crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.05,
-         "duration" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "remove_on_battle_complete" : true
-      },
-	  {
          "id" : "tenshi_hype_move",
          "stat_type" : "move_chance",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.2,
          "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -96,7 +81,7 @@
          "id" : "tenshi_hype_debuff",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.2,
          "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -111,7 +96,7 @@
          "id" : "tenshi_hype_stun",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.2,
          "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -197,7 +182,7 @@
          "id" : "hisou_ap_1",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.15,
+         "amount" : 0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -210,7 +195,7 @@
          "id" : "hisou_ap_2",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.17,
+         "amount" : 0.22,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -223,7 +208,7 @@
          "id" : "hisou_ap_3",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.2,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -236,7 +221,7 @@
          "id" : "hisou_ap_4",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.22,
+         "amount" : 0.27,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -246,10 +231,88 @@
          }
       },
 	  {
+		 "id" : "tenshi_tempest_dvr1",
+		 "stat_type" : "debuff_chance",
+		 "stat_sub_type" : "",
+		 "amount" : 50,
+		 "remove_if_not_active" : true,
+		 "rule_type" : "in_rank",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 0,
+			"string" : ""
+		 }
+	  },
+	  {
+		 "id" : "tenshi_tempest_dvr1_reverse",
+		 "stat_type" : "debuff_chance",
+		 "stat_sub_type" : "",
+		 "amount" : -50,
+		 "remove_if_not_active" : true,
+		 "rule_type" : "in_rank",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 0,
+			"string" : ""
+		 }
+	  },
+	  {
+		 "id" : "tenshi_tempest_dvr4",
+		 "stat_type" : "debuff_chance",
+		 "stat_sub_type" : "",
+		 "amount" : 50,
+		 "remove_if_not_active" : true,
+		 "rule_type" : "in_rank",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 3,
+			"string" : ""
+		 }
+	  },
+	  {
+		 "id" : "tenshi_tempest_dvr4_reverse",
+		 "stat_type" : "debuff_chance",
+		 "stat_sub_type" : "",
+		 "amount" : -50,
+		 "remove_if_not_active" : true,
+		 "rule_type" : "in_rank",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 3,
+			"string" : ""
+		 }
+	  },
+	  {
+		 "id" : "tenshi_tempest_movebuff",
+		 "stat_type" : "move_chance",
+		 "stat_sub_type" : "",
+		 "amount" : 4,
+		 "remove_if_not_active" : false,
+		 "rule_type" : "always",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 0,
+			"string" : ""
+		 }
+	  },
+	  {
+		 "id" : "tenshi_tempest_movebuff_reverse",
+		 "stat_type" : "move_chance",
+		 "stat_sub_type" : "",
+		 "amount" : -4,
+		 "remove_if_not_active" : false,
+		 "rule_type" : "always",
+		 "is_false_rule" : false,
+		 "rule_data" : {
+			"float" : 0,
+			"string" : ""
+		 }
+	  },
+	  {
          "id" : "hisou_ap_5",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.25,
+         "amount" : 0.30,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

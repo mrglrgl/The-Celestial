@@ -266,10 +266,23 @@
          }
       },
 	  {
-         "id" : "tenshi_komachi_critx",
+         "id" : "tenshi_komachi_nostealth",
+         "stat_type" : "ignore_stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "tenshi_komachi_protm",
          "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.5,
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -279,10 +292,23 @@
          }
       },
 	  {
-         "id" : "tenshi_komachi_dmgl",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "damage_low",
-         "amount" : -2,
+         "id" : "tenshi_komachi_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_komachi_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenshi_fake_skill"
+         }
+      },
+	  {
+         "id" : "tenshi_komachi_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_komachi_desk_2",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -292,10 +318,10 @@
          }
       },
 	  {
-         "id" : "tenshi_komachi_dmgh",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "damage_high",
-         "amount" : -2,
+         "id" : "tenshi_empty_space_Deleter",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tenshi_empty_space_deleter",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

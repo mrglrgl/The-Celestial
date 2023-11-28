@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="russian">
+	
+    <entry id="hero_class_name_tenshi"><![CDATA[Небожительница]]></entry>
+	
+
+		<!--Camp Skills-->
+	<entry id="camping_skill_name_t_slacktrance"><![CDATA[ЧРЕЗВЫЧАЙНАЯ УВЕРЕННОСТЬ]]></entry>
+	<entry id="camping_skill_name_t_nompeach"><![CDATA[БЕССМЕРТНЫЙ ПЛОД]]></entry>
+	<entry id="camping_skill_name_t_protectingstones"><![CDATA[ЗАЩИТНАЯ ЗЕМЛЯ]]></entry>
+	<entry id="camping_skill_name_t_nawitrance"><![CDATA[УСТОЙЧИВЫЙ ТРАНС]]></entry>
+	<entry id="camping_skill_name_t_hisoueye"><![CDATA[ХИСОТЭНСОКУ]]></entry>
+
+    <entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Это для меня как два пальца!]]></entry>
+	<entry id="tenshi+str_bark_t_slacktrance"><![CDATA[И это вы ещё ничего не видели!]]></entry>
+	<entry id="tenshi+str_bark_t_slacktrance"><![CDATA[Покажем им!]]></entry>
+	<entry id="tenshi+str_bark_t_nompeach"><![CDATA[Пища Бхаваагры скучна, но чрезвычайно эффективна...]]></entry>
+	<entry id="tenshi+str_bark_t_protectingstones"><![CDATA[Не стесняйтесь хвалить мои старания!]]></entry>
+	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<Состояние отрешённости от мирских забот...>]]></entry>
+	<entry id="tenshi+str_bark_t_nawitrance"><![CDATA[<Боль — всего лишь иллюзия. Я просто буду игнорировать её.>]]></entry>
+	<entry id="tenshi+str_bark_t_hisoueye"><![CDATA[Всего один кусочек, ехехехе...]]></entry>
+
+		<!--Combat Skills-->
+	<entry id="combat_skill_name_tenshi_t_hisou"><![CDATA[Меч Хисо]]></entry>
+	<entry id="combat_skill_name_tenshi_t_heavenblade"><![CDATA[Грань бури]]></entry>
+    <entry id="combat_skill_name_tenshi_t_eruption"><![CDATA[Жестокая матушка-земля]]></entry>
+    <entry id="combat_skill_name_tenshi_t_grace"><![CDATA[Смотрите на меня!]]></entry>
+	<entry id="combat_skill_name_tenshi_t_meteor"><![CDATA[Камень небесной кары]]></entry>
+    <entry id="combat_skill_name_tenshi_t_ward"><![CDATA[Катастрофический ультиматум]]></entry>
+	<entry id="combat_skill_name_tenshi_t_earthquake"><![CDATA[Меч ценящий землю]]></entry>
+    <entry id="combat_skill_name_tenshi_move"><![CDATA[Передвижение]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_hisou"><![CDATA[Меч Хисо]]></entry>
+	<entry id="upgrade_tree_name_tenshi.t_heavenblade"><![CDATA[Грань бури]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_eruption"><![CDATA[Жестокая матушка-земля]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_grace"><![CDATA[Смотрите на меня!]]></entry>
+	<entry id="upgrade_tree_name_tenshi.t_meteor"><![CDATA[Камень небесной кары]]></entry>
+	<entry id="upgrade_tree_name_tenshi.t_ward"><![CDATA[Катастрофический ультиматум]]></entry>
+    <entry id="upgrade_tree_name_tenshi.t_earthquake"><![CDATA[Меч ценящий землю]]></entry>
+	
+		<!-- Upgrades -->
+    <entry id="tenshi_weapon_0"><![CDATA[Треснувший камень]]></entry>
+    <entry id="tenshi_weapon_1"><![CDATA[Точеный камень]]></entry>
+    <entry id="tenshi_weapon_2"><![CDATA[Священный камень]]></entry>
+    <entry id="tenshi_weapon_3"><![CDATA[Зачарованный камень]]></entry>
+    <entry id="tenshi_weapon_4"><![CDATA["Небесная катастрофа"]]></entry>
+    <entry id="upgrade_tree_name_tenshi.weapon"><![CDATA[Краеугольный камень]]></entry>
+    <entry id="tenshi_armour_0"><![CDATA[Рваное платье]]></entry>
+    <entry id="tenshi_armour_1"><![CDATA[Потертое платье]]></entry>
+    <entry id="tenshi_armour_2"><![CDATA[Респектабельное платье]]></entry>
+    <entry id="tenshi_armour_3"><![CDATA[Безупречное платье]]></entry>
+    <entry id="tenshi_armour_4"><![CDATA["Безупречное одеяние небожителя"]]></entry>
+    <entry id="upgrade_tree_name_tenshi.armour"><![CDATA[Платье]]></entry>
+    <entry id="action_verbose_body_guild_tenshi"><![CDATA[Ищущая острых ощущений «Хулиганка», Небожительница абсолютно уверена в своих силах. Её божественный клинок безошибочно бьет по телу и духу, в то время как её власть над самой землей оставляет формации ошеломленными и разбитыми. Её рёв вызова невозможно игнорировать — и любой, кто ответит, будет раздавлен разрушительными контратаками.]]></entry>
+    <entry id="action_verbose_body_blacksmith_tenshi"><![CDATA[Элегантное платье Небожительницы, благоприятная шляпа и самодовольная походка скрывают ее истинную силу: выкованное небесами тело, более прочное, чем любая броня. Если удар наносит ей вред, самоуспокоенность уступает место Воодушевлению, демонстрируя большую силу и ловкость, но оставляя себя уязвимой. К счастью, такой восторг быстро проходит, особенно если её раны залечены.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_tenshi"><![CDATA[У каждой бури есть моменты затишья. В лагере Небожительница готовится снова вырваться на рассвете, взывая к древним ритуалам, чтобы стабилизировать разум и тело. У неё сильная эгоистичная жилка, и она не будет предлагать благотворительность своим товарищам, если только они не потешат её эго.]]></entry>
+	
+		<!-- Event -->
+    <entry id="town_event_title_first_tenshi"><![CDATA[Падение метеорита]]></entry>
+    <entry id="town_event_description_first_tenshi"><![CDATA[Когда пыль осела, прорицатели уныло вернулись в свои норы. Но прошло совсем немного времени, прежде чем ее подвиги возобновили свое рвение.]]></entry>
+	<entry id="town_event_title_bonus_recruit_tenshi"><![CDATA[Загадочное раздвоение]]></entry>
+    <entry id="town_event_description_bonus_recruit_tenshi"><![CDATA[Эти двое явно знают друг друга, но отказываются вдаваться в подробности. Молитесь, чтобы это не добавило нам проблем...]]></entry>
+
+		<!-- Trinkets and Bobbles -->
+	<entry id="str_inventory_title_trinkettenshi_trinket_peachbox"><![CDATA[Припасы Нави]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_mallet"><![CDATA[Камнерезный молоток]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_scarf"><![CDATA[Шаль Импедера]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_shion"><![CDATA[Благословение Шион]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_hakureikeystone"><![CDATA[Землеуспокаивающий Камень]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_komachi"><![CDATA[Шпилька Цепкого Духа]]></entry>
+	<entry id="str_inventory_title_trinketcom_tenshi_dualedge"><![CDATA[Парадоксальное Отражение]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_first"><![CDATA[Косодэ Посвященного]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_tenshi_last"><![CDATA[Разрушенный Фасад]]></entry>
+	<entry id="str_inventory_title_trinkettenshi_trinket_secret"><![CDATA[Просветление Предка]]></entry>
+	<entry id="trinket_rarity_tenshisecret"><![CDATA[Случайный]]></entry>
+	
+	<entry id="str_inventory_set_title_tenshi_com_fluff_set"><![CDATA["Что на самом деле таиться выше облаков?"]]></entry>
+	<entry id="str_inventory_set_title_cc_tenshi"><![CDATA["Когда тебе говорят чего-то не делать..."]]></entry>
+
+	
+
+		<!-- Random Tooltips Desk -->
+	
+				<!-- Trinkets -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk"><![CDATA[После {colour_start|riposte}Парирования{colour_end}: Убрать {colour_start|stress}Возбуждение{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mallet_acc_desk"><![CDATA[+6 ТОЧН {colour_start|move}Двигающие{colour_end} навыки]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_tenshi_fake_skill"><![CDATA[При атаке {colour_start|notable}Мечом{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_komachi_desk_1"><![CDATA[{colour_start|stealth}Раскрыть;{colour_end} / {colour_start|debuff}Ослабить цель:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_komachi_desk_2"><![CDATA[-15 УКЛ на 1 битву {colour_start|skill_unselectable}(140%% шанс){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_empty_space_deleter"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_secret_dmg_desk"><![CDATA[+10%% УРН за каждую единицу Размера цели]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_heal_desk"><![CDATA[Дружественные навыки: Герой: {colour_start|healhp}Исцеление{colour_end} 3 за каждого врага]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_dualedge_blight_desk"><![CDATA[Дружественные навыки: Герой: {colour_start|blight}Отрава{colour_end} по 1 ед. за каждого врага]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_cc_set_desk"><![CDATA[+25%% к {colour_start|notable}Эффективности Украшения{colour_end} за каждые недостающие 25%% ОЗ]]></entry>
+
+	
+		<!-- Camp Skills -->
+	<entry id="camping_skill_effect_loot_tenshi_camp_mark_desc"><![CDATA[{colour_start|mark}Отмечает{colour_end} (4 Битвы)]]></entry>
+	
+		<!-- Combat Skills -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_fake_debuff_desk"><![CDATA[{colour_start|debuff}Ослабить цель:{colour_end}]]></entry>
+				<!-- Sword of Hisou -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_1"><![CDATA[ -20%% ЗАЩ {colour_start|skill_unselectable}(110%% база) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_2"><![CDATA[ -22%% ЗАЩ {colour_start|skill_unselectable}(120%% база) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_3"><![CDATA[ -25%% ЗАЩ {colour_start|skill_unselectable}(130%% база) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_4"><![CDATA[ -27%% ЗАЩ {colour_start|skill_unselectable}(140%% база) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mprot_desk_5"><![CDATA[ -30%% ЗАЩ {colour_start|skill_unselectable}(150%% база) {colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+				<!-- Banish -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_1A"><![CDATA[Против позиции 1: {colour_start|move}Толкнуть{colour_end} 3 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_2A"><![CDATA[Против позиции 1: {colour_start|move}Толкнуть{colour_end} 3 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_3A"><![CDATA[Против позиции 1: {colour_start|move}Толкнуть{colour_end} 3 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_4A"><![CDATA[Против позиции 1: {colour_start|move}Толкнуть{colour_end} 3 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_5A"><![CDATA[Против позиции 1: {colour_start|move}Толкнуть{colour_end} 3 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_1B"><![CDATA[Против позиции 4: {colour_start|move}Притянуть{colour_end} 3 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_2B"><![CDATA[Против позиции 4: {colour_start|move}Притянуть{colour_end} 3 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_3B"><![CDATA[Против позиции 4: {colour_start|move}Притянуть{colour_end} 3 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_4B"><![CDATA[Против позиции 4: {colour_start|move}Притянуть{colour_end} 3 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_tempest_desk_5B"><![CDATA[Против позиции 4: {colour_start|move}Притянуть{colour_end} 3 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_1"><![CDATA[-5 СКР {colour_start|skill_unselectable}(100%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_2"><![CDATA[-5 СКР {colour_start|skill_unselectable}(110%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_3"><![CDATA[-6 СКР {colour_start|skill_unselectable}(120%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_4"><![CDATA[ -6 СКР {colour_start|skill_unselectable}(130%% база){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_mspd_desk_5"><![CDATA[ -7 СКР {colour_start|skill_unselectable}(140%% база){colour_end} {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+
+	
+				<!-- Violent Land -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1A"><![CDATA[Против позиции 2: {colour_start|move}Притянуть{colour_end} 1 {colour_start|skill_unselectable}(100%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2A"><![CDATA[Против позиции 2: {colour_start|move}Притянуть{colour_end} 1 {colour_start|skill_unselectable}(110%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3A"><![CDATA[Против позиции 2: {colour_start|move}Притянуть{colour_end} 1 {colour_start|skill_unselectable}(120%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4A"><![CDATA[Против позиции 2: {colour_start|move}Притянуть{colour_end} 1 {colour_start|skill_unselectable}(130%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5A"><![CDATA[Против позиции 2: {colour_start|move}Притянуть{colour_end} 1 {colour_start|skill_unselectable}(140%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_1B"><![CDATA[Против позиции 3: {colour_start|move}Толкнуть{colour_end} 1 {colour_start|skill_unselectable}(100%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_2B"><![CDATA[Против позиции 3: {colour_start|move}Толкнуть{colour_end} 1 {colour_start|skill_unselectable}(110%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_3B"><![CDATA[Против позиции 3: {colour_start|move}Толкнуть{colour_end} 1 {colour_start|skill_unselectable}(120%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_4B"><![CDATA[Против позиции 3: {colour_start|move}Толкнуть{colour_end} 1 {colour_start|skill_unselectable}(130%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_split_desk_5B"><![CDATA[Против позиции 3: {colour_start|move}Толкнуть{colour_end} 1 {colour_start|skill_unselectable}(140%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+				<!-- Eyes on Me! -->
+					<!-- Riposte -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ripostestart_desk"><![CDATA[Активирует {colour_start|riposte}Парирование:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_1_desk"><![CDATA[ТОЧН: 95 / УРН: -15%% / КРИТ: +6%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_2_desk"><![CDATA[ТОЧН: 100 / УРН: -15%% / КРИТ: +7%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_3_desk"><![CDATA[ТОЧН: 105 / УРН: -15%% / КРИТ: +8%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_4_desk"><![CDATA[ТОЧН: 110 / УРН: -15%% / КРИТ: +9%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_grace_riposte_5_desk"><![CDATA[ТОЧН: 115 / УРН: -15%% / КРИТ: +10%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_basicriposte_limit_desk"><![CDATA[ Зарядов {colour_start|riposte}Парирования{colour_end}: 2 {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+				<!-- Judgement Keystone -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_meteor_desk"><![CDATA[ Цель: 1 Блок {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+				<!-- Calamitous Ultimatum -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_start_desk"><![CDATA[{colour_start|guard}Охрана{colour_end} группы]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_1_desk"><![CDATA[ТОЧН: 105 / УРН: -15%% / КРИТ: +16%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_2_desk"><![CDATA[ТОЧН: 110 / УРН: -15%% / КРИТ: +17%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_3_desk"><![CDATA[ТОЧН: 115 / УРН: -15%% / КРИТ: +18%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_4_desk"><![CDATA[ТОЧН: 120 / УРН: -15%% / КРИТ: +19%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_riposte_5_desk"><![CDATA[ТОЧН: 125 / УРН: -15%% / КРИТ: +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_ripbreak_desk"><![CDATA[При последнем {colour_start|riposte}Парировании{colour_end}: Герой: Сбивает Охрану]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_ult_limit_desk"><![CDATA[ Зарядов {colour_start|riposte}Парирования{colour_end}: 3 {colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+				<!-- Sword of Unletting Soil -->
+    <entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_A"><![CDATA[{colour_start|harmful}Не критует{colour_end}
+Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B1"><![CDATA[{colour_start|move}Переворот{colour_end} порядка вражеской группы {colour_start|skill_unselectable}(110%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B2"><![CDATA[{colour_start|move}Переворот{colour_end} порядка вражеской группы {colour_start|skill_unselectable}(120%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B3"><![CDATA[{colour_start|move}Переворот{colour_end} порядка вражеской группы {colour_start|skill_unselectable}(130%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B4"><![CDATA[{colour_start|move}Переворот{colour_end} порядка вражеской группы {colour_start|skill_unselectable}(140%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_B5"><![CDATA[{colour_start|move}Переворот{colour_end} порядка вражеской группы {colour_start|skill_unselectable}(150%% база){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_fakedebuff_desk"><![CDATA[{colour_start|debuff}Ослабить цель:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C1"><![CDATA[-99 СКР на 1 рд. {colour_start|skill_unselectable}(110%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C2"><![CDATA[-99 СКР на 1 рд.{colour_start|skill_unselectable}(120%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C3"><![CDATA[-99 СКР на 1 рд. {colour_start|skill_unselectable}(130%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C4"><![CDATA[-99 СКР на 1 рд. {colour_start|skill_unselectable}(140%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_earthquake_desk_C5"><![CDATA[-99 СКР на 1 рд. {colour_start|skill_unselectable}(150%% база){colour_end}{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+	
+		<!-- Bomb Stuff -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_deleter1"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_tenshimode0"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_tenshimode1"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_tenshimode2"><![CDATA[]]></entry>
+	<entry id="buff_rule_data_tooltip_tenshi_rule_mode"><![CDATA[Небожительница]]></entry>	
+			<!-- Note: cooldown buff tooltips are not visible ingame due the the buff source used -->
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_first_cd"><![CDATA[{colour_start|attacktype}Спелл-карта А{colour_end} перезаряжается]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_bomb_use_second_cd"><![CDATA[{colour_start|attacktype}Спелл-карта Б{colour_end} перезаряжается]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshi_is_bomb_desk"><![CDATA[{colour_start|attacktype}Спелл-карта{colour_end}]]></entry>
+	<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Спелл-карта{colour_end}]]></entry>
+				
+				<!-- Provisions -->
+	<entry id="str_inventory_title_supplytenshi_bomb"><![CDATA[Бомбический элексир Небожительницы]]></entry>
+	<entry id="str_inventory_description_supplytenshi_bomb"><![CDATA[Выпейте, чтобы активировать {colour_start|attacktype}Спелл-карты{colour_end} и получить {colour_start|notable}2{colour_end} использования!
+	Каждое использование восстанавливается после 5 битв.
+{colour_start|skill_unselectable}Внимание: Работает только на Небожительницу.{colour_end}]]></entry>
+	<entry id="str_inventory_title_supplytenshi_bomb_camp"><![CDATA[Бомбическая настойка Небожительницы]]></entry>
+	<entry id="str_inventory_description_supplytenshi_bomb_camp"><![CDATA[{colour_start|notable}Увеличивает{colour_end} лимит использований ваших {colour_start|attacktype}Спелл-карт{colour_end} на {colour_start|notable}1{colour_end}!
+{colour_start|skill_unselectable}Внимание: Работает только на Небожительницу.{colour_end}]]></entry>
+	<entry id="camping_skill_effect_loot_tenshi_camp_bomb_find"><![CDATA[Создаёт 1 бомбическую настойку]]></entry>
+	
+	
+		<!-- Crit -->
+	<entry id="tenshi+str_critbyhero"><![CDATA[Кьяхаха~!]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[Когда вы долетите до ада, передайте им привет!]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[Буря неба и земли!]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[Попробуй уклоняться в следующий раз ~]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[Склонись пред моей силой!]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[Знай своё место!]]></entry>
+    <entry id="tenshi+str_critbyhero"><![CDATA[И это я ещё с тобой по мягкому обошлась.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Думал, что самый сильный тут? Глупец.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Не стесняйтесь хвалить меня ~!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Игра в «Истребление» никогда не надоедает.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Ха, легче лёгкого!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Ох, кажется я забыла сдерживаться?]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Приведите мне кого-то покруче!]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Даже не могу сказать, что больше разбито, твоё тело или дух.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Ещё один глупец был раздавлен и сломлён.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Вот что ты получаешь за неуважение ко мне.]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Чтож, у тебя были яйца. Акцент на слове "Были".]]></entry>
+	<entry id="tenshi+str_critbyhero"><![CDATA[Элегантность и сила в одном стакане!]]></entry>
+	
+		<!-- Death's Door -->
+    <entry id="tenshi+str_bark_deathsdoor"><![CDATA[Я что... Слишком долго сдерживалась?]]></entry>
+    <entry id="tenshi+str_bark_deathsdoor"><![CDATA[А ты дерзкий...!]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Этого не достаточно, чтобы меня замочить.]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Хочешь повторим?]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive"><![CDATA[Уфуфу, удивлены?]]></entry>
+	<entry id="tenshi+str_bark_deathsdoorsurvive_ally"><![CDATA[Соберись уже!]]></entry>
+	
+		<!-- When being hit -->
+	<entry id="tenshi+str_bark_bigwound"><![CDATA[И это всё?]]></entry>
+	<entry id="tenshi+str_bark_bigwound"><![CDATA[*Хмпф* И это всё?]]></entry>
+	<entry id="tenshi+str_bark_bigwound"><![CDATA[Ну надо же, я почти-что почувствовала этот удар.]]></entry>
+	
+	<entry id="tenshi+str_bark_bleeddot"><![CDATA[Капелька крови не остановит меня!]]></entry>
+	<entry id="tenshi+str_bark_bleeddot"><![CDATA[Да ерунда, просто царапина.]]></entry>
+	<entry id="tenshi+str_bark_bleeddot"><![CDATA[Хватит уже так париться из за мелочей.]]></entry>
+	
+	<entry id="tenshi+str_bark_poisondot"><![CDATA[Боль только усиливает мое внимание.]]></entry>
+    <entry id="tenshi+str_bark_poisondot"><![CDATA[Вы ожидали, что я буду корчиться от боли?]]></entry>
+    <entry id="tenshi+str_bark_poisondot"><![CDATA[Яд вредит только тем, кто в него верит!]]></entry>
+	
+	<entry id="tenshi+str_bark_bigwound_ally"><![CDATA[Pull yourself together.]]></entry>
+	<entry id="tenshi+str_bark_bigwound_ally"><![CDATA[You'll be fine, walk it off.]]></entry>
+	
+		<!-- On being moved. Leave this blank, or Sanae will make her annoying. Not like she's going anywhere with base 70% Move Res anyways. -->
+	<entry id="tenshi+str_combat_knockback"><![CDATA[]]></entry>
+	
+	<entry id="tenshi+str_combat_wastingtime"><![CDATA[Да убейте вы их уже! Это так скучно!]]></entry>
+	
+		<!-- Light -->
+	<entry id="tenshi+str_bark_torch_0"><![CDATA[Они деруться сильнее когда темно? Замечательно.]]></entry>
+	<entry id="tenshi+str_bark_torch_0"><![CDATA[Оставайтесь в моей тени.]]></entry>
+    <entry id="tenshi+str_bark_torch_1"><![CDATA[Какие ужасы преследуют за угасающим пламенем?]]></entry>
+    <entry id="tenshi+str_bark_torch_1"><![CDATA[Выходите, подлые трусы, где бы вы ни были...]]></entry>
+    <entry id="tenshi+str_bark_torch_2"><![CDATA[Да начнётся веселье!]]></entry>
+	<entry id="tenshi+str_bark_torch_2"><![CDATA[Не все то золото, что блестит.]]></entry>
+	
+		<!-- Moving -->
+	<entry id="tenshi+str_bark_stopmoving"><![CDATA[Что за задержка?]]></entry>
+	<entry id="tenshi+str_bark_stopmoving"><![CDATA[Давайте только по быстрому.]]></entry>
+	<entry id="tenshi+str_bark_startmoving"><![CDATA[Самое время начать двигаться дальше.]]></entry>
+	<entry id="tenshi+str_bark_startmoving"><![CDATA[Вперёд, народ!]]></entry>
+	
+		<!-- Stress Increases -->
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Я должна реагировать на ЭТО серьёзно?]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Как банально.]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[Оо! Что-то новенькое.]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[О, нет. Мне так НЕ страшно.]]></entry>
+	<entry id="tenshi+str_bark_increasingstress"><![CDATA[А слабо что-то пооригинальнее придумать?]]></entry>
+
+		<!-- Horror Stress -->
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Очередной трюк бога смерти?]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Какие дивные видения!]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Как невпечатляюще.]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Хаос и разрушение!]]></entry>
+	<entry id="tenshi+str_bark_stressdot"><![CDATA[Покажи мне больше!]]></entry>
+	
+		<!-- Camping Barks Misc -->
+    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Хоть я знала, что вы ненадежный сброд болванов, но всё-же я разочарована.]]></entry>
+    <entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Вы все слабы телом и духом.]]></entry>
+	<entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Да у крыс больше мужества, чем у вас.]]></entry>
+	<entry id="tenshi+str_bark_stress_partyhigh"><![CDATA[Почему вы все так перепуганы?]]></entry>
+
+    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[Ещё раз, зачем вы взяли меня с собой?]]></entry>
+    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[Знаете, это приключение могло быть более интересным...]]></entry>
+	<entry id="tenshi+str_bark_stress_partylow"><![CDATA[Наши враги вообще и не пытаются.]]></entry>
+    <entry id="tenshi+str_bark_stress_partylow"><![CDATA[Вот бы что-то интересное произошло.]]></entry>
+	
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Почему люди такие хрупкие? *Ээх*]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Раз не любите получать в морду, так научитесь уклоняться.]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Я что, реально должна с вами няньчится?]]></entry>
+    <entry id="tenshi+str_bark_hp_partylow"><![CDATA[Вы что, не способны постоять за себя хоть единожды?]]></entry>
+	
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[По крайней мере, вы можете постоять за себя.]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[Признаю, вы можете постоять за себя.]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[И всё лишь благодаря моим усилиям, разумеется!]]></entry>
+    <entry id="tenshi+str_bark_hp_partyhigh"><![CDATA[Вы все знаете, кого надо благодарить за такую удачу!]]></entry>
+
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Хах, а вот это уже серьёзно.]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Чтобы избавиться от меня, потребуется нечто большее чем это.]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[*Фьюх* Не парьтесь, я в порядке.]]></entry>
+    <entry id="tenshi+str_bark_hp_selflow"><![CDATA[Сейчас-сейчас, дайте только отдышаться.]]></entry>
+
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[Видите? Ни единой царапины.]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[Знаете, вы могли хотя бы ПОПЫТАТЬСЯ причинить мне боль.]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[По сравнению с тем, через что я прошла, всё это мелочи жизни.]]></entry>
+    <entry id="tenshi+str_bark_hp_selfhigh"><![CDATA[*Выпендривается* У меня всё ништяк, как и всегда.]]></entry>
+
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[*Зевает*]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[Разбудите, если случится что-то интересное.]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[*Хрррр*]]></entry>
+    <entry id="tenshi+str_bark_stress_selflow"><![CDATA[Я планирую устроить маааленький инцидентик. Кто со мной?]]></entry>
+
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Если всё это так и продолжится... Эхехехе...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Дело начинает пахнуть керосином...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Уже близко... Я чувствую это...]]></entry>
+    <entry id="tenshi+str_bark_stress_selfhigh"><![CDATA[Давай. Подтолкни меня к безумию ещё сильней... Посмотрим что из этого получится...]]></entry>
+
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Конец близок... Какая жалость.]]></entry>
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Я не собираюсь останавливаться!]]></entry>
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Это было крайне легко.]]></entry>
+    <entry id="tenshi+str_bark_party_great_condition"><![CDATA[Напомните мне, что я тут забыла?]]></entry>
+
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Если вы и дальше планируете просто обременять меня, то мы немедленно возвращаемся.]]></entry>
+	<entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Будете продолжать в том же духе - не доживёте до пенсии.]]></entry>
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Я устала быть единственным тащером этой команды инвалидов!]]></entry>
+    <entry id="tenshi+str_bark_party_poor_condition"><![CDATA[Если вы так сильно хотите сдохнуть, я могу помочь.]]></entry>
+
+    <entry id="tenshi+str_bark_firewood_low"><![CDATA[Дрова кончились! Ну зато теперь хрени меньше таскать.]]></entry>
+    <entry id="tenshi+str_bark_firewood_low"><![CDATA[Нет, мой мечь НЕ создаёт огонь.]]></entry>
+	
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Я слышала, что ночные воробьи очень вкусны, если их зажарить.]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Кто сожрал мою жрачку?]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Руки прочь от моей шляпы.]]></entry>
+    <entry id="tenshi+str_bark_provisions_low"><![CDATA[Это был последний консервированный сом?... Ну и, впрочем, скатертью ему дорога.]]></entry>
+
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Ну, по крайней мере, это более интересная еда, чем дома.]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Да у нас тут, прям, целый пир!]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Гора еды и посредственная компания... Ну, в принципе, нормально, жить можно.]]></entry>
+    <entry id="tenshi+str_bark_provisions_high"><![CDATA[Эта еда, хоть и посредственная, но, по крайней мере, её гора.]]></entry>
+	
+    <entry id="tenshi+str_bark_firewood_high"><![CDATA[Столько дров! Хватит, чтобы сжечь целый город!]]></entry>
+    <entry id="tenshi+str_bark_firewood_high"><![CDATA[Из всех этих дров можно устроить не просто костёр, а кострище!]]></entry>
+	
+	<entry id="tenshi+str_bark_companionship"><![CDATA[Этот камень может поглощать землетрясения. Хотите покажу как?]]></entry>
+	
+	<entry id="tenshi+str_bark_hobby"><![CDATA[Этот камень умеет поглощать землетрясения. Показать как?]]></entry>
+
+	
+		<!-- Solo Virtue -->
+	<entry id="str_virtue_name_tenshivirtue"><![CDATA[Хулиганка]]></entry>
+	
+			<!-- Entry -->
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Вы заслужили право лицезреть мою ИСТИННУЮ мощь!]]></entry>
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Оох, как же долго я этого ждала!]]></entry>
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Ахахаха... Наконец-то!]]></entry>
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Устроим дестрой!]]></entry>
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Да начнётся мясо!]]></entry>
+	<entry id="tenshi+str_virtued_tenshivirtue"><![CDATA[Охохо, мы только начали!]]></entry>
+	
+			<!-- Party Stress -->
+	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Нет, это вовсе не Я заперта здесь с ВАМИ. Хехехе...]]></entry>
+	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Уфуфу, теперь ходите и оглядывайтесь!]]></entry>
+	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Бегите, я в край конченная!]]></entry>
+	<entry id="tenshi+str_bark_stress_tenshivirtue"><![CDATA[Я хочу сыграть с вами в одну игру на вымирание!]]></entry>
+	
+			<!-- ST Stress -->
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Почему вы не аплодируете, разве вы не благодарны?]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Скольких-скольких вы убили? ...Пффф!]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Вам нравится дрожать, как крысам?]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Да, узрите совершенство~]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[Не находите ли вы смертность обременительной?]]></entry>
+	<entry id="tenshi+str_buff_random_party_member_tenshivirtue"><![CDATA[И вы зовёте это оружием? Ха!]]></entry>
+	
+			<!-- FFire -->
+	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Упс, не заметила тебя!]]></entry>
+	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[Лови!]]></entry>
+	<entry id="tenshi+str_attack_friendly_tenshivirtue"><![CDATA[На, сувенир от божества!]]></entry>
+	
+			<!-- Random Target -->
+	<entry id="tenshi+str_buff_party_tenshivirtue"><![CDATA[Смотрите как надо!]]></entry>
+	<entry id="tenshi+str_buff_party_tenshivirtue"><![CDATA[Узрите же!]]></entry>
+	<entry id="tenshi+str_buff_party_tenshivirtue"><![CDATA[Вам меня не остановить!]]></entry>
+	<entry id="tenshi+str_buff_party_tenshivirtue"><![CDATA[Без задней мысли!]]></entry>
+	
+			<!-- Add Spell Card -->
+	<entry id="tenshi+str_mark_self_tenshivirtue"><![CDATA[И больше никаких ограничений!]]></entry>
+	<entry id="tenshi+str_mark_self_tenshivirtue"><![CDATA[Всё равно мне никогда не нравились эти "правила".]]></entry>
+	
+			<!-- Ally is Hit -->
+	<entry id="tenshi+str_comment_ally_hit_tenshivirtue"><![CDATA[Аллё, я прямо тут стою.]]></entry>
+	<entry id="tenshi+str_comment_ally_hit_tenshivirtue"><![CDATA[НЕ СМЕЙ игнорировать меня!]]></entry>
+	<entry id="tenshi+str_comment_ally_hit_tenshivirtue"><![CDATA[Вот, я облегчу тебе задачу.]]></entry>
+	<entry id="tenshi+str_comment_ally_hit_tenshivirtue"><![CDATA[Постарайся не промазать в этот раз.]]></entry>
+	
+			<!-- Ally is Missed -->
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[Боишься синяков? Жалкое зрелище.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[На небесах нет места для трусов.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[Какая пустая трата энергии.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[*Хмпф* Ссыкло.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[Ох уж эти смертные. Так боятся за свою жизнь.]]></entry>
+	<entry id="tenshi+str_comment_ally_missed_tenshivirtue"><![CDATA[Как безвольно.]]></entry>
+	
+			<!-- Self Missed -->
+	<entry id="tenshi+str_comment_self_missed_tenshivirtue"><![CDATA[Что, боишься?]]></entry>
+	<entry id="tenshi+str_comment_self_missed_tenshivirtue"><![CDATA[Как мило, ты дрожишь!]]></entry>
+	<entry id="tenshi+str_comment_self_missed_tenshivirtue"><![CDATA[А ты пробовал встать на колени?]]></entry>
+	<entry id="tenshi+str_comment_self_missed_tenshivirtue"><![CDATA[Охо, крыса тоже хочет поиграть?]]></entry>
+	
+			<!-- Block Retreat -->
+	<entry id="tenshi+str_block_combat_retreat_tenshivirtue"><![CDATA[Не торопите меня!]]></entry>
+	<entry id="tenshi+str_block_combat_retreat_tenshivirtue"><![CDATA[Отступать раньше времени - признак дурного тона.]]></entry>
+	
+			<!-- Block Effect -->
+	<entry id="tenshi+str_block_effect_tenshivirtue"><![CDATA[Вы закончили дурака валять?]]></entry>
+	
+			<!-- Heart Attack -->
+	<entry id="tenshi+str_heart_attack_tenshivirtue"><![CDATA[Я что... всё ещё сдерживаюсь?]]></entry>
+	<entry id="tenshi+str_heart_attack_tenshivirtue"><![CDATA[Невозможно!]]></entry>
+	<entry id="tenshi+str_heart_attack_tenshivirtue"><![CDATA[Нда-а, бедаа...]]></entry>
+	
+			<!-- Yoink -->
+				<!-- interact -->
+	<entry id="trigger_curio_virtued_tenshivirtue"><![CDATA[Я как раз хотела сувенир.]]></entry>
+	<entry id="tenshi+trigger_curio_virtued_tenshivirtue"><![CDATA[Я как раз хотела сувенир.]]></entry>
+				<!-- Take -->
+	<entry id="tenshi+str_keep_loot_string"><![CDATA[Вот это достойный гостинец.]]></entry>
+	
+	
+		<!-- Roster Barks -->
+	<entry id="tenshi+str_stagecoach_idle"><![CDATA[Я тоже преуспеваю в разрушении.]]></entry>
+    <entry id="tenshi+str_stagecoach_idle"><![CDATA[Ого, это напоминает мне тот случай, когда одной мико построили сужающийся храм и...]]></entry>
+    <entry id="tenshi+str_stagecoach_idle"><![CDATA[Надеюсь, вы не ожидаете, что я стану плотником.]]></entry>
+	<entry id="tenshi+str_stagecoach_idle"><![CDATA[Чего, землетрясение? Если что, это не я! Меня подставили.]]></entry>
+	<entry id="tenshi+str_stagecoach_idle"><![CDATA[Итак, кому мне сегодня морду набить?]]></entry>
+	<entry id="tenshi+str_stagecoach_idle"><![CDATA[Я слышала, у вас тут демоническое заражение?]]></entry>
+	
+	<entry id="tenshi+str_roster_list_low_stress_bark"><![CDATA[Мне скучно, дайте мне какую-нибудь работёнку.]]></entry>
+	<entry id="tenshi+str_roster_list_low_stress_bark"><![CDATA[Я пришла сюда драться, а не лысого пинать.]]></entry>
+	<entry id="tenshi+str_roster_list_low_stress_bark"><![CDATA[Если вам, вдруг, понадобиться разхреначить гору, позовите меня.]]></entry>
+    <entry id="tenshi+str_roster_list_low_stress_bark"><![CDATA[Здесь прямо как на небесах. Не в хорошем смысле слова.]]></entry>
+	
+    <entry id="tenshi+str_roster_list_medium_stress_bark"><![CDATA[Чего такие серьёзные?]]></entry>
+    <entry id="tenshi+str_roster_list_medium_stress_bark"><![CDATA[Что? Храм рухнул? Эт не я!]]></entry>
+    <entry id="tenshi+str_roster_list_medium_stress_bark"><![CDATA[Я пока ещё не увидела ничего достаточно ужасного.]]></entry>
+	<entry id="tenshi+str_roster_list_medium_stress_bark"><![CDATA[Я слышала, что у вас здесь были демоны, но я видела только свиней.]]></entry>
+	
+    <entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Отправьте меня снова... хехехе...]]></entry>
+    <entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Ладно, попробуй остановить меня. Посмотрити, что произойдёт.]]></entry>
+	<entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Уфуфу...]]></entry>
+	<entry id="tenshi+str_roster_list_high_stress_bark"><![CDATA[Хорошая ярость прочистит мою голову.]]></entry>
+		
+    <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Из всех ужасов ВОТ ЭТО было самым мерзким.]]></entry>
+    <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Наконец-то, чувство покоя.]]></entry>
+    <entry id="tenshi+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[*Йеееех* Что за чудесный денёк!]]></entry>
+	
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Я не работаю с самозванками.]]></entry>
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Да кого ты тут пытаешься одурачить.]]></entry>
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Чёртовы еноты.]]></entry>
+	<entry id="str_incompatible_party_member_tenshi_limit"><![CDATA[Я должно быть снова уснула.]]></entry>
+	
+		<!-- Destress Activites -->
+	<entry id="tenshi+str_override_invalid_rejection"><![CDATA[Может, вместо этого, ты мне покажешь где здесь таверна?]]></entry>
+	<entry id="tenshi+str_override_invalid_rejection"><![CDATA[Больно многого хочешь.]]></entry>
+    <entry id="tenshi+str_override_invalid_rejection"><![CDATA[Кому я буду молился? Себе что-ли?]]></entry>
+    <entry id="tenshi+str_override_invalid_rejection"><![CDATA[Я могу снести это здание, если ты об этом.]]></entry>
+	
+				<!-- Bar -->
+	<entry id="tenshi+str_bar_committed"><![CDATA[Приведите мне сильнейшего!]]></entry>
+    <entry id="tenshi+str_bar_committed"><![CDATA[Притащи мне кружку побольше.]]></entry>
+    <entry id="tenshi+str_bar_committed"><![CDATA[Есть какие-нибудь местные спецпредложения?]]></entry>
+    <entry id="tenshi+str_bar_committed"><![CDATA[Ты думаешь, я опьянею от этого пойла?]]></entry>
+	
+	<entry id="tenshi+str_roster_list_bar_bark"><![CDATA[Ещё одна "Бетонная" шутка, и я отправлю тебя в ад.]]></entry>
+    <entry id="tenshi+str_roster_list_bar_bark"><![CDATA[Э, мужик! Спорим, я могу перепить тебя?]]></entry>
+    <entry id="tenshi+str_roster_list_bar_bark"><![CDATA[Учти, если это бухло окажется палённым, тебе крышка!]]></entry>
+	
+				<!-- Gambling -->
+    <entry id="tenshi+str_gambling_committed"><![CDATA[О, что-то новенькое, и как в это играть?]]></entry>
+    <entry id="tenshi+str_gambling_committed"><![CDATA[Одна фишка. Это всё, что мне понадобится сегодня вечером.]]></entry>
+    <entry id="tenshi+str_gambling_committed"><![CDATA[Ставлю на этот кошелек, я смогу- Чё, ты мне не доверяешь?]]></entry>
+	<entry id="tenshi+str_gambling_committed"><![CDATA[Я предпочитаю ставить жизни, но этого будет достаточно.]]></entry>
+	
+	<entry id="tenshi+str_roster_list_gambling_bark"><![CDATA[Новичкам везёт.]]></entry>
+    <entry id="tenshi+str_roster_list_gambling_bark"><![CDATA[Я распознала твой блёф.]]></entry>
+    <entry id="tenshi+str_roster_list_gambling_bark"><![CDATA[Эта игра выглядит простой.]]></entry>
+	
+				<!-- Brothel -->
+    <entry id="tenshi+str_brothel_committed"><![CDATA[Не, мужики мне не нужны.]]></entry>
+    <entry id="tenshi+str_brothel_committed"><![CDATA[Надеюсь вы сможете удовлетворить меня.]]></entry>
+	<entry id="tenshi+str_brothel_committed"><![CDATA[Я постараюсь не сломать пол на этот раз.]]></entry>
+	<entry id="tenshi+str_brothel_committed"><![CDATA[А есть кто-нибудь... Дерзкий?]]></entry>
+	
+	<entry id="tenshi+str_roster_list_brothel_bark"><![CDATA[*Прижимается* Так мягко~]]></entry>
+    <entry id="tenshi+str_roster_list_brothel_bark"><![CDATA[Оо, ты такая милашка~]]></entry>
+	
+		<!-- Boss Barks -->
+				<!-- Hag -->
+	<entry id="tenshi+str_prisoner_damage_cauldron_full"><![CDATA[Ты же знаешь, что моя плоть токсична, да?]]></entry>
+    <entry id="tenshi+str_prisoner_damage_cauldron_full"><![CDATA[Вытащите меня из этого адского котла!]]></entry>
+    <entry id="tenshi+str_prisoner_damage_cauldron_full"><![CDATA[Хватит угарать и вытащите меня!]]></entry>
+    <entry id="tenshi+str_prisoner_damage_cauldron_full"><![CDATA[Да трахните вы уже по этой кастрюле как следует, ну ё-моё!]]></entry>
+	
+				<!-- Siren -->
+    <entry id="tenshi+str_control_before_turn_siren"><![CDATA[Почему бы и нет? Мне больше нечего делать.]]></entry>
+    <entry id="tenshi+str_control_before_turn_siren"><![CDATA[Хмхмхм~]]></entry>
+    <entry id="tenshi+str_control_before_turn_siren"><![CDATA[Мне все равно они уже надоели.]]></entry>
+    <entry id="tenshi+str_control_before_turn_siren"><![CDATA[Предложение, говоришь?]]></entry>
+	
+    <entry id="tenshi+str_control_return_siren"><![CDATA[Извиняюсь. Ты милая, но ОЧЕНЬ прилипчивая.]]></entry>
+    <entry id="tenshi+str_control_return_siren"><![CDATA[Пардон, немного увлеклась.]]></entry>
+	<entry id="tenshi+str_control_return_siren"><![CDATA[Прости, ты не в моём вкусе.]]></entry>
+    <entry id="tenshi+str_control_return_siren"><![CDATA[Без обид, лады?]]></entry>
+	
+				<!-- Drowned Crew -->
+    <entry id="tenshi+str_prisoner_damage_drowned_anchored"><![CDATA[Твою ж мать, я же плаваю как валун!]]></entry>
+    <entry id="tenshi+str_prisoner_damage_drowned_anchored"><![CDATA[Э-Э! Я тебе чё, грузило?]]></entry>
+    <entry id="tenshi+str_prisoner_damage_drowned_anchored"><![CDATA[Да отцепите меня уже от этого чёртового якоря!]]></entry>
+	
+				<!-- Wilbur -->
+	<entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Справедливо.]]></entry>
+    <entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Защищаешь своего маленького дружка, да?]]></entry>
+    <entry id="tenshi+str_monster_attack_obliterate_enraged"><![CDATA[Ой! Ладно, с малым разберёмся попозже!]]></entry>
+	
+				<!-- Cannon -->
+    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[ЛОЖИСЬ!!!]]></entry>
+    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Ёп.....!]]></entry>
+    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Чтож, похоже, нам кирдык.]]></entry>
+    <entry id="tenshi+str_monster_attack_light_fuse"><![CDATA[Ну давай!]]></entry>
+	
+				<!-- Prophet -->
+    <entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Разойдись, сейчас как придавит!]]></entry>
+    <entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Эй, это же МОЯ фишка!]]></entry>
+	<entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Как оригинально...]]></entry>
+	<entry id="tenshi+str_monster_attack_prophet_mark"><![CDATA[Позёр.]]></entry>
+	
+				<!-- Necromancer -->
+    <entry id="tenshi+str_monster_attack_unholy_smite"><![CDATA[Эй, руки убрал!]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_smite"><![CDATA[Убери свои кривые грабли от меня.]]></entry>
+    <entry id="tenshi+str_monster_attack_unholy_judgement"><![CDATA[Ну типа жутко.]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_judgement"><![CDATA[Ну типа страшно.]]></entry>
+    <entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[Милая попытка.]]></entry>
+	<entry id="tenshi+str_monster_attack_unholy_curse"><![CDATA[Мне что, ещё и учить тебя как это правильно делать?]]></entry>
+	
+				<!-- Heart of Darkness -->
+	<entry id="tenshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Ну и отлично - помирать так вместе!]]></entry>
+	
+		<!-- Crimson Court -->
+			<!-- Stumble -->
+	<entry id="tenshi+str_bark_shuffled"><![CDATA[Очень хорошо, я побалую тебя.]]></entry>
+	
+			<!-- Fanatic -->
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Святотатство! Богохульство!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Отпусти меня, быдло невежественное!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Думаешь меня спалить? Да я сама тебя спалю, дед!]]></entry>
+	<entry id="tenshi+str_prisoner_damage_pyre_full"><![CDATA[Вытащите меня, пока моя шляпа не сгорела!]]></entry>
+	
+			<!-- Prisoner -->
+	<entry id="tenshi+str_prisoner_help_me"><![CDATA[Отвечаю, это не то, чем кажется.]]></entry>
+    <entry id="tenshi+str_prisoner_rescue_thanks"><![CDATA[Если будете молчать об этом, я помогу вам.]]></entry>
+	
+		<!-- Colors of Madness -->
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[Больше шелухи, чтобы закопать!]]></entry>
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[А они всё прут и прут!]]></entry>
+	<entry id="tenshi+str_wave_spawn_mash"><![CDATA[Угх, да откуда ж вы все берётесь?]]></entry>
+    <entry id="tenshi+str_wave_curio_room"><![CDATA[Всё чисто... ну, пока что.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_weald"><![CDATA[Порча в порче... невероятно...]]></entry>
+    <entry id="tenshi+str_wave_dungeon_warrens"><![CDATA[По крайней мере, не так ужасно пахнет.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_crypts"><![CDATA[Ещё лезут? Сами с ними разбирайтесь!]]></entry>
+    <entry id="tenshi+str_wave_dungeon_cove"><![CDATA[Что бы вы ни делали - не прикасайтесь к воде!]]></entry>
+    <entry id="tenshi+str_wave_dungeon_farm"><![CDATA[Н-нет, я вовсе не заблудилась!]]></entry>
+    <entry id="tenshi+str_wave_dungeon_darkestdungeon"><![CDATA[Пустая имитация, но столь же смертоносная.]]></entry>
+    <entry id="tenshi+str_wave_dungeon_town"><![CDATA[Не ослабляйте бдительность!]]></entry>
+	
+			<!-- Miller -->
+	<entry id="tenshi+str_boss_miller_grind"><![CDATA[Ещё раз так сделаешь и я тебя-]]></entry>
+	<entry id="tenshi+str_boss_miller_grind"><![CDATA[Пожалуй, откажусь.]]></entry>
+	<entry id="tenshi+str_boss_miller_grind"><![CDATA[Ты такой же грубый, как этот Хиган.]]></entry>
+    <entry id="tenshi+str_boss_miller_harvest"><![CDATA[Нужна передышка? Ха-ха!]]></entry>
+    <entry id="tenshi+str_boss_miller_sadness"><![CDATA[Да, ты тебе грустно. Теперь мы можем продолжить?]]></entry>
+	<entry id="tenshi+str_boss_miller_sadness"><![CDATA[Ну ты, блин, всё настроение испортил.]]></entry>
+	
+				<!-- Sunward Mod -->
+	<entry id="tenshi+str_monster_attack_bozu_nothing"><![CDATA[Ну, и чего ты ждёшь?]]></entry>
+    <entry id="tenshi+str_monster_attack_bozu_nothing"><![CDATA[Иди сюда, я не собираюсь здесь ждать до скончания времён!]]></entry>
+	<entry id="tenshi+str_monster_attack_catfish_wave"><![CDATA[Не испытывай мое терпение.]]></entry>
+	<entry id="tenshi+str_monster_attack_catfish_wave"><![CDATA[Хватит ерундой страдать. Твой противник прямо здесь.]]></entry>
+	<entry id="tenshi+str_monster_attack_catfish_lunge"><![CDATA[Предлагаешь мне прокатиться?]]></entry>
+    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[Сносный поединок.]]></entry>
+    <entry id="tenshi+str_monster_attack_yurei_free"><![CDATA[Возможно, мы встретимся снова.]]></entry>
+	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[Тссс. Ты тоже скоро упокоишься вместе с ним.]]></entry>
+	<entry id="tenshi+str_monster_attack_lion_cry"><![CDATA[...из всех дней, чтобы на самом деле делать мою работу...]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[Как ты смеешь возражать мне!]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[Заткнись, пока я не воткнула это тебе в задницу!]]></entry>
+	<entry id="tenshi+str_monster_user_selected_targets_lion_roar"><![CDATA[МОЛЧАТЬ!]]></entry>
+	
+		<!-- Skill Barks -->
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Ударь меня - если сможешь!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Всё, вам бежать больше некуда!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Вы совершили серьезную ошибку, недооценив меня.]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Финита ля комедия!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Я разорву ваш мир на части!]]></entry>
+	<entry id="str_tenshi_ult_spellcard_bark"><![CDATA[Я сотру вас в пыль своими руками]]></entry>
+	
+	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Дрожите и трепещите!]]></entry>
+	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Я применила на вас Спелл-Карту, считайте это честью!]]></entry>
+	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Я впечатлена, что вы не улетели на луну.]]></entry>
+	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Земля дрожит, крысы летят!]]></entry>
+	<entry id="str_tenshi_earthquake_spellcard_bark"><![CDATA[Вот такие, вот, у меня приколы~]]></entry>
+	
+		<!-- Crossmod Skill Reactions -->
+			<!-- Tenshi - intentionally left blank for other mods to use -->
+	<entry id="str_tenshi_ult_spellcard_react"><![CDATA[]]></entry>
+	<entry id="str_tenshi_earthquake_spellcard_react"><![CDATA[]]></entry>
+	
+			<!-- Miko by The Necromancer -->
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Пффф, и ты зовёшь это Спелл Картой?]]></entry>
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[...это, типа, должно было меня восхитить?]]></entry>
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Менее яркое, чем я помню.]]></entry>
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Ты ж ведь даже не стараешься, да?]]></entry>
+	<entry id="tenshi+str_miko_spellcard_react"><![CDATA[Пытаешься заставить их умереть от смеха?]]></entry>
+	
+			<!-- Maid by The Necromancer -->
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Они реально не стоят того, чтобы использовать это...)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Ла-адно, главное оставь мне кого-нибудь.)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Тебе не помешало бы притормозить и расслабиться.)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Ну, по крайней мере, мне не нужно ждать.)]]></entry>
+	<entry id="tenshi+str_the_world_react"><![CDATA[(Душнила.)]]></entry>
+	
+			<!-- Magician by Necro -->
+	<entry id="tenshi+str_master_spark_react"><![CDATA[Я тоже так умею, но пока не хочу.]]></entry>
+	<entry id="tenshi+str_master_spark_react"><![CDATA[Чё, ты не можешь этим спамить?]]></entry>
+	<entry id="tenshi+str_master_spark_react"><![CDATA[Эффективно, хоть и не элегантно.]]></entry>
+	<entry id="tenshi+str_master_spark_react"><![CDATA[И ты зовёшь ЭТО лазером?]]></entry>
+	
+			<!-- Ringmaster -->
+	
+				<!-- Fan Favourite Barks, said by OTHERS when the fan favourite kills an enemy -->
+	<entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Видела и получше.]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Пойдёт.]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Давай ещё раз!]]></entry>
+    <entry id="tenshi+React_To_Kill_By_Fan_Favourite"><![CDATA[Не дурно.]]></entry>
+
+	
+				<!-- Fan Favourite Barks, said by the fan favourite when the ability expires -->
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[*Тьфу* Неблагодарные.]]></entry>
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[Неуважительные дворняги!]]></entry>
+    <entry id="tenshi+Fan_Favourite_Bark_On_End"><![CDATA[Погодите, я ещё не закончила!]]></entry>
+	
+			<!-- Arcane Scholar -->
+	<entry id="tenshi+str_healstressbark"><![CDATA[Не плохо вышло, малая.]]></entry>
+	<entry id="tenshi+str_healstressbark"><![CDATA[Ооох, вот так намного лучше.]]></entry>
+	<entry id="tenshi+str_healstressbark"><![CDATA[А можешь повторить? Я почти это почувствовала.]]></entry>
+	<entry id="tenshi+str_healstressbark"><![CDATA[Ахххх, божественное чувство!]]></entry>
+	
+		<!-- Subtitles -->
+	<entry id="str_vo_good_virtue_tenshivirtue_0"><![CDATA[Даже древний дуб падет перед ветрами урагана.]]></entry>
+    <entry id="str_vo_town_event_first_tenshi_0"><![CDATA[Момент ясности в сердце бури...]]></entry>
+    <entry id="str_vo_town_event_bonus_recruit_tenshi_0"><![CDATA[Раньше это было мило. А теперь уже хлопотно.]]></entry>
+    <entry id="str_vo_town_recruit_tenshi_0"><![CDATA[Небесная сила может преодолеть то, чего не может отточенный меч.]]></entry> 
+	
+		<!-- Buff shit -->
+	<entry id="buff_bsrc_vampire"><![CDATA[Особое]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tenshiRanddesk"><![CDATA[Навык выбирает случайную цель]]></entry>
+	
+  </language>
+
+</root>
+

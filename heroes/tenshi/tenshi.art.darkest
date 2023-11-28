@@ -12,8 +12,8 @@ armour: .name "tenshi_armour_2" .icon "eqp_armour_2.png"
 armour: .name "tenshi_armour_3" .icon "eqp_armour_3.png"
 armour: .name "tenshi_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "t_hisou" .icon "one" .anim "hisou" .fx "hisoufx" .targchestfx "blood_splatter"  .condensed_tooltip_stats true
-combat_skill: .id "t_heavenblade" .icon "two" .anim "heavenblade" .fx "heavenbladefx" .targchestfx "blood_splatter"  .condensed_tooltip_stats true
+combat_skill: .id "t_hisou" .icon "one" .anim "hisou" .fx "hisoufx" .targchestfx "blood_splatter"
+combat_skill: .id "t_heavenblade" .icon "two" .anim "heavenblade" .fx "heavenbladefx" .targchestfx "blood_splatter"
 combat_skill: .id "t_eruption" .icon "three" .anim "eruption" .fx "" .targfx "eruptionfx"  .condensed_tooltip_stats true
 combat_skill: .id "t_grace" .icon "four" .anim "grace" .fx "gracefx" .targchestfx "gracetarfx" .can_display_performer_selection_after_turn false
 combat_skill: .id "t_meteor" .icon "five" .anim "meteor" .fx "meteorfx" .targfx "meteortarfx" .misstargfx "meteortarfx"  .condensed_tooltip_stats true .target_area_pos_offset 150 0

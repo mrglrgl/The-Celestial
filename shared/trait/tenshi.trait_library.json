@@ -64,7 +64,7 @@
             { "id": "comment_move", "data":{ "effect": "BarkStress" }, "chance": 0},
             { "id": "comment_curio_interaction", "data":{ "effect": "BarkStress" }, "chance": 0},
             { "id": "comment_trap_triggered", "data":{ "effect": "BarkStress" }, "chance": 0},
-            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 1},
             { "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0},
             { "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0},
             { "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0}
@@ -133,7 +133,7 @@
             { "id": "comment_move", "data":{ "effect": "BarkStress" }, "chance": 0},
             { "id": "comment_curio_interaction", "data":{ "effect": "BarkStress" }, "chance": 0},
             { "id": "comment_trap_triggered", "data":{ "effect": "BarkStress" }, "chance": 0},
-            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 1},
             { "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0},
             { "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0},
             { "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0}

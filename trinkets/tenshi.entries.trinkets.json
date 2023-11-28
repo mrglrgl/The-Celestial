@@ -99,9 +99,11 @@
          "id" : "tenshi_trinket_komachi",
          "buffs" : 
          [
-			"tenshi_komachi_critx",
-			"tenshi_komachi_dmgl",
-			"tenshi_komachi_dmgh"
+			"tenshi_komachi_nostealth",
+			"tenshi_komachi_protm",
+			"tenshi_komachi_Desk_1",
+			"tenshi_komachi_Desk_2",
+			"tenshi_empty_space_Deleter"
          ],
          "hero_class_requirements":
          [
@@ -111,8 +113,14 @@
          "price" : 30000,
          "limit" : 1,
          "origin_dungeon" : "ship",
-		 "attack_crit_additional_effects":
+		 "melee_attack_skill_additional_effects":
          [
+			 "Fumo Spotlight",
+			 "Fumo Swagger"
+         ],
+		 "riposte_skill_additional_effects":
+         [
+			 "Fumo Spotlight",
 			 "Fumo Swagger"
          ]
       },

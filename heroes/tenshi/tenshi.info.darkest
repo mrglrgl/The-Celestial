@@ -2,11 +2,11 @@ resistances: .stun 60% .poison 15% .bleed 15% .disease 40% .move 70% .debuff 50%
 crit: .effects "on_crit_tenshi"
 
 //Weapon
-weapon: .name "tenshi_weapon_0" .atk 0% .dmg 5 9 .crit 2% .spd 0
-weapon: .name "tenshi_weapon_1" .atk 0% .dmg 6 10 .crit 3% .spd 0 .upgradeRequirementCode 0
-weapon: .name "tenshi_weapon_2" .atk 0% .dmg 7 12 .crit 4% .spd 1 .upgradeRequirementCode 1
-weapon: .name "tenshi_weapon_3" .atk 0% .dmg 8 13 .crit 5% .spd 1 .upgradeRequirementCode 2
-weapon: .name "tenshi_weapon_4" .atk 0% .dmg 9 14 .crit 6% .spd 2 .upgradeRequirementCode 3
+weapon: .name "tenshi_weapon_0" .atk 0% .dmg 5 9 .crit 4.5% .spd 0
+weapon: .name "tenshi_weapon_1" .atk 0% .dmg 6 10 .crit 5.5% .spd 0 .upgradeRequirementCode 0
+weapon: .name "tenshi_weapon_2" .atk 0% .dmg 7 12 .crit 6.5% .spd 1 .upgradeRequirementCode 1
+weapon: .name "tenshi_weapon_3" .atk 0% .dmg 8 13 .crit 7.5% .spd 1 .upgradeRequirementCode 2
+weapon: .name "tenshi_weapon_4" .atk 0% .dmg 9 14 .crit 8.5% .spd 2 .upgradeRequirementCode 3
 
 //Armor
 armour: .name "tenshi_armour_0" .def -5% .prot 30% .hp 37 .spd 0
@@ -23,11 +23,26 @@ combat_skill: .id "t_hisou" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .l
 combat_skill: .id "t_hisou" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 21 .target 12 .is_crit_valid True .effect "Hisou AP 5" "Hisou Shred 5" "Tenshi Hisou Desk 5" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
 
 //Heavensplitter
-combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 85% .dmg -20% .crit -2% .launch 21 .target 1 .is_crit_valid True .effect "Push 3A" "Heaven MSPD 1" "Tenshi Banish Desk 1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
-combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 90% .dmg -20% .crit -1% .launch 21 .target 1 .is_crit_valid True .effect "Push 3B" "Heaven MSPD 2" "Tenshi Banish Desk 2" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
-combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 1 .is_crit_valid True .effect "Push 3C" "Heaven MSPD 3" "Tenshi Banish Desk 3" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
-combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 100% .dmg -20% .crit 1% .launch 21 .target 1 .is_crit_valid True .effect "Push 3D" "Heaven MSPD 4" "Tenshi Banish Desk 4" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
-combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 105% .dmg -20% .crit 2% .launch 21 .target 1 .is_crit_valid True .effect "Push 3E" "Heaven MSPD 5" "Tenshi Banish Desk 5" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv1" "Tenshi Tempest Movebuff" "Tenshi Tempest Push R1A" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv1 Reverse"
+combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv4" "Tenshi Tempest Movebuff" "Tenshi Tempest Pull R4A" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv4 Reverse"
+combat_skill: .id "t_heavenblade" .level 0 .type "melee" .atk 95% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Heaven MSPD 1" "Tenshi Tempest Desk 1A" "Tenshi Tempest Desk 1B" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+
+combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 100% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv1" "Tenshi Tempest Movebuff" "Tenshi Tempest Push R1B" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv1 Reverse"
+combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 100% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv4" "Tenshi Tempest Movebuff" "Tenshi Tempest Pull R4B" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv4 Reverse"
+combat_skill: .id "t_heavenblade" .level 1 .type "melee" .atk 100% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Heaven MSPD 2" "Tenshi Tempest Desk 2A" "Tenshi Tempest Desk 2B" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+
+combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 105% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv1" "Tenshi Tempest Movebuff" "Tenshi Tempest Push R1C" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv1 Reverse"
+combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 105% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv4" "Tenshi Tempest Movebuff" "Tenshi Tempest Pull R4C" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv4 Reverse"
+combat_skill: .id "t_heavenblade" .level 2 .type "melee" .atk 105% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Heaven MSPD 3" "Tenshi Tempest Desk 3A" "Tenshi Tempest Desk 3B" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+
+combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 110% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv1" "Tenshi Tempest Movebuff" "Tenshi Tempest Push R1D" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv1 Reverse"
+combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 110% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv4" "Tenshi Tempest Movebuff" "Tenshi Tempest Pull R4D" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv4 Reverse"
+combat_skill: .id "t_heavenblade" .level 3 .type "melee" .atk 110% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Heaven MSPD 4" "Tenshi Tempest Desk 4A" "Tenshi Tempest Desk 4B" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+
+combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 115% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv1" "Tenshi Tempest Movebuff" "Tenshi Tempest Push R1E" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv1 Reverse"
+combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 115% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Tenshi Tempest Dv4" "Tenshi Tempest Movebuff" "Tenshi Tempest Pull R4E" "Tenshi Tempest Movebuff Reverse" "Tenshi Tempest Dv4 Reverse"
+combat_skill: .id "t_heavenblade" .level 4 .type "melee" .atk 115% .dmg -20% .crit 0% .launch 21 .target 14 .is_crit_valid True .effect "Heaven MSPD 5" "Tenshi Tempest Desk 5A" "Tenshi Tempest Desk 5B" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1" "Tenshi Delete1"
+
 
 //Violent Land
 combat_skill: .id "t_eruption" .level 0 .type "ranged" .atk 90% .dmg -45% .crit 0% .launch 321 .target ~23 .is_crit_valid True	.effect "Tenshi Split Guardbreak" "Tenshi Split Forward 1" "Tenshi Split R2 Check" "Tenshi Split Back 1" "Tenshi Split Cleanup" "Tenshi Split Desk 1"
@@ -161,7 +176,7 @@ tag: .id "touhou"
 
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 1
-id_index: .index 56734
+id_index: .index 18068
 
 mode: .id tenshimode0 .is_raid_default true
 mode: .id tenshimode1 .is_raid_default true
