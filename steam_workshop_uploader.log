@@ -11,8 +11,57 @@ Running Localization...
 Parsing localization/tenshi.string_table.xml
 Parsing localization/tenshi_compatibility.string_table.xml
 Parsing localization/tenshi_russian.string_table.xml
+Parsing localization/tenshi_spanish.string_table.xml
 
 Building Languages
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_harurei_desk
+----------
+Couldn't find colour riposta in {colour_start|riposta}Estocada{colour_end}: Elimina {colour_start|stress}Exhilaración{colour_end}
+----------
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_dualedge_heal_desk
+----------
+Couldn't find colour tipo_de_ataque in {colour_start|tipo_de_ataque}Habilidades amistosas{colour_end}: Uno mismo:: {colour_start|curar_hp}Curar{colour_end} 3 por cada enemigo
+----------
+----------
+Couldn't find colour curar_hp in {colour_start|curar_hp}Curar{colour_end} 3 por cada enemigo
+----------
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_komachi_desk_1
+----------
+Couldn't find colour sigilo in {colour_start|sigilo}Desactivar sigilo{colour_end} / {colour_start|debuff}Objetivo debilitado:{colour_end}
+----------
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_komachi_desk_2
+----------
+Couldn't find colour habilidad_no_seleccionable in {colour_start|habilidad_no_seleccionable}(140%% base){colour_end}
+----------
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_dualedge_blight_desk
+----------
+Couldn't find colour tipo_de_ataque in {colour_start|tipo_de_ataque}Habilidades amistosas{colour_end}: Uno mismo:: {colour_start|maldición}Maldición{colour_end} por cada enemigo {colour_start|habilidad_no_seleccionable}(900%%){colour_end}
+1 pts/rnd durante 3 rds
+----------
+----------
+Couldn't find colour maldición in {colour_start|maldición}Maldición{colour_end} por cada enemigo {colour_start|habilidad_no_seleccionable}(900%%){colour_end}
+1 pts/rnd durante 3 rds
+----------
+----------
+Couldn't find colour habilidad_no_seleccionable in {colour_start|habilidad_no_seleccionable}(900%%){colour_end}
+1 pts/rnd durante 3 rds
+----------
+
++++++++++++++++++++++++++++++++++++++++++
+Error spanish - buff_stat_tooltip_upgrade_discount_tenshi_mallet_acc_desk
+----------
+Couldn't find colour mover in {colour_start|mover}Mover{colour_end}
+----------
 Exporting .loc2 files
 
 -------------------------------------------------------------------------------
@@ -389,6 +438,7 @@ localization/0_spanish.loc2
 localization/tenshi.string_table.xml
 localization/tenshi_compatibility.string_table.xml
 localization/tenshi_russian.string_table.xml
+localization/tenshi_spanish.string_table.xml
 loot/tenshi.loot.json
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
